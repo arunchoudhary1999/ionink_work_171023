@@ -1,0 +1,47 @@
+.airplaneContainer02 {
+    /* position: absolute; */
+    overflow: hidden;
+    animation: bg-color 5s infinite;
+    width: 99.9%;
+    height: 92.1%;
+}
+
+.airplane02 {
+    /* background-color: blue; */
+    position: relative;
+    width: 20%;
+    left: -100%;
+    animation: fly02 10s linear infinite;
+}
+
+/* @keyframes bg-color {
+    0% {
+        background-color: #6666ff;
+    }
+
+    25% {
+        background-color: #3398db;
+    }
+
+    50% {
+        background-color: skyblue;
+    }
+
+    75% {
+        background-color: #3398db;
+    }
+
+    100% {
+        background-color: #6666ff;
+    }
+} */
+
+@keyframes fly02 {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -80%;
+    }
+}

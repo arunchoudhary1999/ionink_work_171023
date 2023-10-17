@@ -1,0 +1,155 @@
+/* .rotating-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #007BFF;
+}
+
+.circle {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    transform-origin: center;
+    animation: rotateText 4s infinite linear;
+    background-color: red;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text:nth-child(1) {
+    transform: rotate(0deg);
+    padding: 0px 0px 0px 22px;
+    width: 0px;
+}
+
+.text:nth-child(2) {
+    transform: rotate(-55deg);
+    background-color: blue;
+    padding: 0px 0px 0px 0px;
+    width: 0px;
+}
+
+.text:nth-child(3) {
+    transform: rotate(-70deg);
+    background-color: blue;
+    padding: 0px 0px 30px 0px;
+    width: 0px;
+}
+
+.text:nth-child(4) {
+    transform: rotate(-75deg);
+    background-color: blue;
+    margin: -10px 0px 0px -20px;
+    width: 0px;
+}
+
+.text:nth-child(5) {
+    transform: rotate(-95deg);
+    background-color: blue;
+    margin: 10px 0px 0px -16px;
+    width: 0px;
+}
+
+.text:nth-child(6) {
+    transform: rotate(-112deg);
+    background-color: blue;
+    margin: 10px 0px 0px -2px;
+    width: 0px;
+}
+
+.text:nth-child(7) {
+    transform: rotate(-125deg);
+    background-color: blue;
+    margin: 2px 0px 0px 15px;
+    width: 0px;
+}
+
+.text:nth-child(8) {
+    transform: rotate(0deg);
+    background-color: blue;
+    margin: -10px 0px 0px 35px;
+    width: 0px;
+} */
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: url("logo.png");
+    /* Update the URL to your image file */
+    background-size: cover;
+    border-radius: 50%;
+    filter: brightness(1.5) contrast(1.5);
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+    animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.text span {
+    position: absolute;
+    left: 50%;
+    font-size: 0.8rem;
+    transform-origin: 0 100px;
+}
+
+.updown-animation {
+    animation-name: infiniteupdown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+}
+
+@keyframes infiniteupdown {
+    0% {
+        transform: translateY(5px)
+    }
+
+    50% {
+        transform: translateY(-5px)
+    }
+
+    100% {
+        transform: translateY(5px)
+    }
+}

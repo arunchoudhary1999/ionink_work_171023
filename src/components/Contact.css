@@ -1,0 +1,139 @@
+.airplaneContainer {
+    position: absolute;
+    overflow: hidden;
+    animation: bg-color 5s infinite;
+    width: 99.9%;
+    height: 92.1%;
+}
+
+.airplane {
+    /* background-color: blue; */
+    position: relative;
+    width: 20%;
+    left: 100%;
+    animation: fly 10s linear infinite;
+}
+
+/* @keyframes bg-color {
+    0% {
+        background-color: #6666ff;
+    }
+
+    25% {
+        background-color: #3398db;
+    }
+
+    50% {
+        background-color: skyblue;
+    }
+
+    75% {
+        background-color: #3398db;
+    }
+
+    100% {
+        background-color: #6666ff;
+    }
+} */
+
+@keyframes fly {
+    0% {
+        left: -30%;
+        top: 400px;
+    }
+
+    20% {
+        top: 200px;
+    }
+
+    40% {
+        top: 380px;
+    }
+
+    55% {
+        top: 300px;
+    }
+
+    70% {
+        top: 400px;
+    }
+
+    100% {
+        top: 200px;
+    }
+
+    /* 70% {
+        right: -100px;
+        top: 0px;
+    } */
+}
+
+
+.airplaneContainer01 {
+    /* background-color: yellow; */
+    position: absolute;
+    overflow: hidden;
+    animation: bg-color01 5s infinite;
+    width: 99.9%;
+    height: 92.1%;
+}
+
+.airplane01 {
+    /* background-color: blue; */
+    position: relative;
+    width: 20%;
+    right: 100%;
+    animation: fly01 10s linear infinite;
+    animation-duration: 20s;
+}
+
+/* @keyframes bg-color {
+    0% {
+        background-color: #6666ff;
+    }
+
+    25% {
+        background-color: #3398db;
+    }
+
+    50% {
+        background-color: skyblue;
+    }
+
+    75% {
+        background-color: #3398db;
+    }
+
+    100% {
+        background-color: #6666ff;
+    }
+} */
+
+@keyframes fly01 {
+    0% {
+        right: -100%;
+        top: 450px;
+    }
+
+    25% {
+        top: 100px;
+    }
+
+    45% {
+        top: 450px;
+    }
+
+    70% {
+        top: 500px;
+    }
+
+    100% {
+        /* left: -100px; */
+        top: 100px;
+    }
+
+    /* 70% {
+        right: -100px;
+        top: 0px;
+    } */
+}
