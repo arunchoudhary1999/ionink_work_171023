@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Experience.css"
 
 const Experience1 = () => {
   const [expandedRows, setExpandedRows] = useState([]);
@@ -107,19 +108,13 @@ const Experience1 = () => {
       style={{
         height: "auto",
         width: "100%",
-        border: "2px solid black",
+        // border: "1px solid black",
       }}
     >
       <div className="container">
         <table
-          className="table"
-          style={{
-            border: "1px solid black",
-            fontSize: "35px",
-            marginBottom: "0px",
-            width: "100%",
-            minHeight: "737px",
-          }}
+          className="table  "
+         
         >
           <tbody style={{ verticalAlign: "middle", direction: "flex" }}>
             {data.map((row) => (
@@ -132,7 +127,7 @@ const Experience1 = () => {
                   <th
                     style={{
                       fontWeight: "900",
-                      fontSize: "55px",
+                      // fontSize: "1rem",
                     }}
                     onClick={() => toggleRow(row.id)}
                     className={`clickable ${

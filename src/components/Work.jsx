@@ -16,10 +16,10 @@ const Work = () => {
       }}
     >
       <div
-        class="card"
+        class="card card-get-in-touch"
         style={{
           display: "flex",
-          flexDirection: "row",
+           
           alignItems: "center",
           width: "80%",
           background: "#0d0d0d",
@@ -28,15 +28,15 @@ const Work = () => {
           borderRadius: "35px",
         }}
       >
-        <div class="card-body" style={{ width: "75%", margin: "30px 40px" }}>
+        <div class="card-body" style={{ width: "100%", margin: "0px 0px", padding:"2%" }}>
           <h5 class="card-title">
             Due to NDA limitations, a selection of case studies is available,
             upon request, to recruiters and hiring managers only. Let’s talk!
           </h5>
         </div>
-        <div style={{ width: "30%" }}>
+        <div style={{ padding:'1%' }}>
           <button type="button" class="btn btn-success">
-            <h4 style={{ padding: "5px 30px 0px 30px" }}>GET IN TOUCH</h4>
+            <h4 style={{ padding: "1% 5px" }}>GET IN TOUCH</h4>
           </button>
         </div>
       </div>

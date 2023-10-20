@@ -1,4 +1,5 @@
 import React from "react";
+import './Award.css';
 
 const Awards = () => {
   return (
@@ -6,7 +7,7 @@ const Awards = () => {
       style={{
         height: "auto",
         width: "100%",
-        border: "2px solid black",
+        // border: "2px solid black",
         background: "#d661ff",
         display: "flex",
         justifyContent: "center",
@@ -16,7 +17,7 @@ const Awards = () => {
     >
       <div className="row">
         <div
-          className="col-12"
+          className="col-6"
           style={{
             textAlign: "center",
             display: "flex",
@@ -25,15 +26,15 @@ const Awards = () => {
           <img
             src="/assets/images/medal.png"
             alt="Contact Us"
-            height="250px"
-            width="350px"
+            className="award"
+            
           />
           <h1
             style={{
-              fontSize: "110px",
+              fontSize: "8vw",
               fontWeight: "900",
               color: "black",
-              paddingTop: "95px",
+              paddingTop: "25%",
             }}
           >
             {" "}
@@ -41,103 +42,83 @@ const Awards = () => {
           </h1>
         </div>
       </div>
-      <div style={{ width: "80%" }}>
+      <div className="award-part-1" >
         <br />
 
-        <div
-          style={{
-            border: "2px solid black",
-            borderRadius: "35px",
-            background: "white",
-            padding: "35px 100px 15px 100px",
-          }}
-        >
+         
           <table
-            class="table"
-            style={{
-              background: "white",
-              fontSize: "28px",
-              fontWeight: "400",
-            }}
+            class="table-1"
+             
           >
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   CSSDA Website Of The Day
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>This website</td>
+                <td  >This website</td>
               </tr>
             </thead>
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Awwwards Honorable Mention
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>This website</td>
+                <td  >This website</td>
               </tr>
             </thead>
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   CSSDA UI + UX + Innovation Awards
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>This website</td>
+                <td  >This website</td>
               </tr>
             </thead>
           </table>
-        </div>
+        
 
         <br />
-        <div
-          style={{
-            border: "2px solid black",
-            borderRadius: "35px",
-            background: "white",
-            padding: "35px 100px 15px 100px",
-          }}
+        <div 
+        className="award-part-1"
         >
           <table
-            class="table"
-            style={{
-              background: "white",
-              fontSize: "28px",
-              fontWeight: "400",
-            }}
+            class="table-1"
+            
           >
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Emmy Award for “Outstanding Interactive”
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+                <td  >
                   Storybots apps and web
                 </td>
               </tr>
             </thead>
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Webby Award honoree
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>storybots.com</td>
+                <td  >storybots.com</td>
               </tr>
             </thead>
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Teachers' Choice Award
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+                <td  >
                   Storybots Classroom
                 </td>
               </tr>
             </thead>
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Parents' Choice Award
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+                <td  >
                   Storybots Classroom
                 </td>
               </tr>
@@ -147,37 +128,29 @@ const Awards = () => {
 
         <br />
         <div
-          style={{
-            border: "2px solid black",
-            borderRadius: "35px",
-            background: "white",
-            padding: "35px 100px 15px 100px",
-          }}
+        className="award-part-1"
+          
         >
           <table
-            class="table"
-            style={{
-              background: "white",
-              fontSize: "28px",
-              fontWeight: "400",
-            }}
+            class="table-1"
+            
           >
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Parents' Choice Award
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+                <td  >
                   Ely Flying Explorer app
                 </td>
               </tr>
             </thead>
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   ECGBL: first prize
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+                <td  >
                   Ely Flying Explorer app
                 </td>
               </tr>
@@ -187,27 +160,18 @@ const Awards = () => {
 
         <br />
         <div
-          style={{
-            border: "2px solid black",
-            borderRadius: "35px",
-            background: "white",
-            padding: "35px 100px 15px 100px",
-          }}
+          className="award-part-1"
         >
           <table
-            class="table"
-            style={{
-              background: "white",
-              fontSize: "28px",
-              fontWeight: "400",
-            }}
+            class="table-1"
+            
           >
             <thead>
-              <tr style={{ borderColor: "black" }}>
-                <td style={{ padding: "10px 0px 20px 0px" }}>
+              <tr  >
+                <td  >
                   Unicredit Appathon: First Prize
                 </td>
-                <td style={{ padding: "10px 0px 20px 0px" }}>Hatly app</td>
+                <td  >Hatly app</td>
               </tr>
             </thead>
           </table>

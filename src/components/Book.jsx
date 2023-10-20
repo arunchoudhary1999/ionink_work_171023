@@ -4,9 +4,9 @@ const Book = () => {
   return (
     <div
       style={{
-        height: "900px",
+        // height: "900px",
         width: "100%",
-        border: "2px solid black",
+        border: "1px solid black",
         background: "#ffcb46",
         display: "flex",
         justifyContent: "center",
@@ -35,15 +35,15 @@ const Book = () => {
               width="100%"
               style={{
                 borderRadius: "35px",
-                border: "2px solid black",
-                margin: "25px 5px 25px 30px ",
+                border: "1px solid black",
+                // margin: "25px 5px 25px 30px ",
               }}
             />
           </div>
           <div
             class="text-white mb-3"
             style={{
-              width: "55%",
+              // width: "55%",
               //   padding: "0",
               marginRight: "20px",
               padding: "0px 25px 0px 50px ",

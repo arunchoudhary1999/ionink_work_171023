@@ -1,0 +1,18 @@
+.card-get-in-touch{
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .card-get-in-touch{
+        width: 80%;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .card-columns
+    {
+
+    }
+    
+}
+    

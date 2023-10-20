@@ -45,3 +45,26 @@
         left: -80%;
     }
 }
+
+.card{
+    width: 50%;
+}
+.table{
+    width: 100%;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+    .table{
+        width: 80%;
+        display: flex;
+        /* flex-direc/tion: column; */
+        font-size: .7rem;
+    }
+}
+    

@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div style={{ border: "2px solid black", height: "auto" }}>
+    <div style={{ border: "1px solid black", height: "auto" }}>
       <div className="airplaneContainer">
         <img src="/assets/images/airplane.gif" className="airplane" alt="" />
       </div>
@@ -17,7 +17,7 @@ const Contact = () => {
       <div className="fluid-container mb-5">
         <div className="row" style={{ width: "100%" }}>
           <div className="col-12 py-4 my-4" style={{ textAlign: "center" }}>
-            <h1 style={{ fontSize: "110px", fontWeight: "900" }}>
+            <h1 style={{ fontSize: "6rem", fontWeight: "900" }}>
               LET'S TALK!
             </h1>
           </div>
@@ -29,21 +29,21 @@ const Contact = () => {
               width: "50%",
             }}
           >
-            <form
+            <div
               style={{
-                padding: "45px",
-                border: "4px solid black",
+                padding: "5%",
+                border: "1px solid black",
                 borderRadius: "15px",
-                height: "400px",
+                // height: "400px",
               }}
             >
               <form>
-                <div class="row">
+                <div class="">
                   <div class="col">
                     <label for="exampleFormControlTextarea1">Name</label>
                     <input
                       style={{
-                        border: "3px solid black",
+                        border: "1px solid black",
                         borderRadius: "15px",
                         margin: "10px 0",
                       }}
@@ -57,7 +57,7 @@ const Contact = () => {
                     </label>
                     <input
                       style={{
-                        border: "3px solid black",
+                        border: "1px solid black",
                         borderRadius: "15px",
                         margin: "10px 0",
                       }}
@@ -70,7 +70,7 @@ const Contact = () => {
               <div class="form-group">
                 <textarea
                   style={{
-                    border: "3px solid black",
+                    border: "1px solid black",
                     borderRadius: "15px",
                     margin: "10px 0",
                   }}
@@ -84,8 +84,8 @@ const Contact = () => {
                 <button
                   type="button"
                   style={{
-                    padding: "5px 30px 0px 30px",
-                    border: "3px solid black",
+                    padding: "1% 1%",
+                    border: "1px solid black",
                     borderRadius: "15px",
                     width: "100%",
                     margin: "10px 0",
@@ -94,14 +94,14 @@ const Contact = () => {
                 >
                   <h4
                     style={{
-                      padding: "5px 30px 0px 30px",
+                      // padding: "5px 30px 0px 30px",
                     }}
                   >
                     LEARN MORE
                   </h4>
                 </button>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>

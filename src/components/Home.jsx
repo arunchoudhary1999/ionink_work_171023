@@ -30,7 +30,7 @@ const Home = () => {
         <div className="carousel-inner">
           <div
             className="carousel-item active"
-            style={{ height: "644px", width: "100%", background: "#d661ff" }}
+            style={{ height: "100%", width: "100%", background: "#d661ff" }}
           >
             <div style={{ width: "90%", float: "right" }}>
               <div
@@ -40,35 +40,38 @@ const Home = () => {
               >
                 <h1
                   style={{
-                    fontSize: "320px",
+                    marginTop:"8vh",
+                    fontSize: "18vw",
                     fontWeight: "900",
-                    letterSpacing: "8px",
+                    letterSpacing: "1vw",
                     color: "white",
                   }}
+                  // className="bol"
                 >
                   BOL
                 </h1>
               </div>
-              <div style={{ display: "flex" }}>
+              <div className="rotate-scroll" style={{ display: "flex" }}>
                 <div
                   style={{
                     width: "80%",
+                    
                   }}
                 >
                   <div style={{ paddingBottom: "10px" }}>
                     <h1
                       style={{
-                        fontSize: "120px",
+                        fontSize: "13vw",
                         fontWeight: "600",
-                        letterSpacing: "5px",
-                        lineHeight: "110px",
+                        letterSpacing: "1vw",
+                        lineHeight: "10vw",
                       }}
                     >
                       I'm Rubens Cantuni
                     </h1>
                   </div>
                   <div>
-                    <h1 style={{ fontWeight: "200" }}>
+                    <h1 style={{ fontWeight: "200",fontSize:"5vw" }}>
                       Award-winning design lead
                     </h1>
                   </div>
