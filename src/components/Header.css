@@ -1,10 +1,25 @@
-.fa-apple:hover{
-    color: black; 
+.fa-apple:hover {
+    color: black;
 }
-.fa-apple{
+
+.fa-apple {
     color: #8b9735;
     font-size: 40px;
 }
-.click_hover:hover{
+
+.click_hover:hover {
     color: #d6caca;
+}
+
+@media screen and (max-width: 768px) {
+    .headerLock {
+        text-align: start;
+        padding: 0;
+    }
+
+    .headerLockLink {
+        /* background-color: red; */
+        margin: 0px 0px 0px 10px;
+        font-size: 32px;
+    }
 }

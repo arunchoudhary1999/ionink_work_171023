@@ -66,8 +66,8 @@ const Header = () => {
                   Portfolio
                 </NavLink>
               </li>
-              <button type="button" className="btn fs-5 mx-0 px-0">
-                <NavLink to="/portfolio">
+              <button type="button" className="btn fs-5 mx-0 px-0 headerLock">
+                <NavLink to="/portfolio" className="headerLockLink">
                   <span class="fa fa-lock" style={{ color: "#c4c4c4" }}></span>
                 </NavLink>
               </button>

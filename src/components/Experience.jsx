@@ -6,26 +6,12 @@ const Exprience = () => {
   return (
     <>
       <div style={{ border: "1px solid black", height: "100%" }}>
-        <div className="fluid-container mb-5">
-          {/* <div
-            className="row scrolling-text-container"
-            style={{ width: "100%" }}
-          >
-            <div
-              className="col-12 scrolling-text"
-              style={{ textAlign: "center" }}
-            >
-              <h1 style={{ fontSize: "110px", fontWeight: "900" }}>
-                Exper<span style={{ color: "gray" }}>ience</span> Exper
-                <span style={{ color: "gray" }}>ience</span>
-              </h1>
-            </div>
-          </div> */}
+        <div className="fluid-container mb-5 experienceSlider">
           <div className="row airplaneContainer02" style={{ width: "100%" }}>
             <div className="col-12 airplane02" style={{ textAlign: "center" }}>
               <h1
                 style={{
-                  fontSize: "12vw",
+                  fontSize: "8vw",
                   fontWeight: "900",
                   display: "flex",
                   flexDirection: "row",
@@ -40,19 +26,20 @@ const Exprience = () => {
           <hr style={{ border: "1px solid black" }} />
           <hr style={{ border: "1px solid black", marginTop: "-18px" }} />
           <div
-            className="row d-flex justify-content-center"
+            className="row d-flex justify-content-center experienceDiv"
             style={{
               width: "90%",
               marginTop: "90px",
               alignItems: "center",
             }}
           >
-            <div className="col-md d-flex   justify-content-center  ">
+            <div className="col-md d-flex justify-content-center">
               <img
                 src="/assets/images/experience.gif"
                 alt="Contact Us"
                 height="300px"
                 width="400px"
+                className="experienceImg"
               />
             </div>
             <div

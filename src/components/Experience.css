@@ -1,5 +1,4 @@
 .airplaneContainer02 {
-    /* position: absolute; */
     overflow: hidden;
     animation: bg-color 5s infinite;
     width: 99.9%;
@@ -7,7 +6,6 @@
 }
 
 .airplane02 {
-    /* background-color: blue; */
     position: relative;
     width: 20%;
     left: -100%;
@@ -46,25 +44,72 @@
     }
 }
 
-.card{
+.card {
     width: 50%;
 }
-.table{
+
+.table {
     width: 100%;
     font-size: 1rem;
 }
 
+.experienceSlider {
+    min-height: 690px;
+}
+
+.experience01LookTable {
+    min-height: 740px;
+}
+
+.table {
+    font-size: 2.4rem;
+    border: 2px solid black;
+    min-height: 740px;
+    margin: 0;
+}
+
 @media screen and (max-width: 768px) {
-    .card{
-        width: 80%;
+    .card {
+        width: 85% !important;
         margin: auto;
         padding: 0;
+        margin: 20px 0 0 0 !important;
     }
-    .table{
-        width: 80%;
+
+    .table {
+        width: 90% !important;
+        margin: auto;
         display: flex;
         /* flex-direc/tion: column; */
         font-size: .7rem;
+        min-height: auto;
+    }
+
+    .experienceDiv {
+        /* background-color: red; */
+        display: flex !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        justify-content: center !important;
+    }
+
+    .experienceImg {
+        min-width: 40% !important;
+        min-height: 40% !important;
+        margin: 30px 0;
+    }
+
+    .experience01TableCol {
+        padding: 10px 20px !important;
+        margin: 0 !important;
+        font-size: 15px !important;
+        font-weight: 200 !important;
+        text-align: justify;
+
+    }
+
+    .experience01LookTable {
+        min-height: auto;
     }
 }
-    

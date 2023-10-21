@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Experience.css"
+import "./Experience.css";
 
 const Experience1 = () => {
   const [expandedRows, setExpandedRows] = useState([]);
@@ -106,16 +106,13 @@ const Experience1 = () => {
   return (
     <div
       style={{
-        height: "auto",
         width: "100%",
         // border: "1px solid black",
       }}
+      className="experience01LookTable"
     >
       <div className="container">
-        <table
-          className="table  "
-         
-        >
+        <table className="table">
           <tbody style={{ verticalAlign: "middle", direction: "flex" }}>
             {data.map((row) => (
               <React.Fragment key={row.id}>
@@ -154,6 +151,7 @@ const Experience1 = () => {
                           fontSize: "25px",
                           margin: "0px",
                         }}
+                        className="experience01TableCol"
                       >
                         <li>{row.content}</li>
                         <li>{row.content01}</li>

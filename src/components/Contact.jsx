@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div style={{ border: "1px solid black", height: "auto" }}>
+    <div style={{ border: "1px solid black" }} className="contactPage">
       <div className="airplaneContainer">
         <img src="/assets/images/airplane.gif" className="airplane" alt="" />
       </div>
@@ -11,20 +11,24 @@ const Contact = () => {
         <img
           src="/assets/images/airplane01.gif"
           className="airplane01"
+          style={{ zIndex: "-1" }}
           alt=""
         />
       </div>
-      <div className="fluid-container mb-5">
+      <div className="fluid-container mb-5 contactPage">
         <div className="row" style={{ width: "100%" }}>
           <div className="col-12 py-4 my-4" style={{ textAlign: "center" }}>
-            <h1 style={{ fontSize: "6rem", fontWeight: "900" }}>
-              LET'S TALK!
+            <h1
+              style={{ fontSize: "6rem", fontWeight: "900" }}
+              className="contactPageHeading"
+            >
+              LET'S TALK !
             </h1>
           </div>
         </div>
         <div>
           <div
-            className="container mb-5"
+            className="container mb-5 contactPageHeadingForm"
             style={{
               width: "50%",
             }}
@@ -43,6 +47,7 @@ const Contact = () => {
                     <label for="exampleFormControlTextarea1">Name</label>
                     <input
                       style={{
+                        cursor: "text",
                         border: "1px solid black",
                         borderRadius: "15px",
                         margin: "10px 0",
@@ -93,9 +98,11 @@ const Contact = () => {
                   class="btn btn-success"
                 >
                   <h4
-                    style={{
-                      // padding: "5px 30px 0px 30px",
-                    }}
+                    style={
+                      {
+                        // padding: "5px 30px 0px 30px",
+                      }
+                    }
                   >
                     LEARN MORE
                   </h4>

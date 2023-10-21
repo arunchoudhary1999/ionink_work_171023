@@ -1,91 +1,3 @@
-/* .rotating-circle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.circle {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 2px solid #007BFF;
-}
-
-.circle {
-    position: absolute;
-    font-size: 15px;
-    font-weight: bold;
-    transform-origin: center;
-    animation: rotateText 4s infinite linear;
-    background-color: red;
-}
-
-@keyframes rotateText {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.text:nth-child(1) {
-    transform: rotate(0deg);
-    padding: 0px 0px 0px 22px;
-    width: 0px;
-}
-
-.text:nth-child(2) {
-    transform: rotate(-55deg);
-    background-color: blue;
-    padding: 0px 0px 0px 0px;
-    width: 0px;
-}
-
-.text:nth-child(3) {
-    transform: rotate(-70deg);
-    background-color: blue;
-    padding: 0px 0px 30px 0px;
-    width: 0px;
-}
-
-.text:nth-child(4) {
-    transform: rotate(-75deg);
-    background-color: blue;
-    margin: -10px 0px 0px -20px;
-    width: 0px;
-}
-
-.text:nth-child(5) {
-    transform: rotate(-95deg);
-    background-color: blue;
-    margin: 10px 0px 0px -16px;
-    width: 0px;
-}
-
-.text:nth-child(6) {
-    transform: rotate(-112deg);
-    background-color: blue;
-    margin: 10px 0px 0px -2px;
-    width: 0px;
-}
-
-.text:nth-child(7) {
-    transform: rotate(-125deg);
-    background-color: blue;
-    margin: 2px 0px 0px 15px;
-    width: 0px;
-}
-
-.text:nth-child(8) {
-    transform: rotate(0deg);
-    background-color: blue;
-    margin: -10px 0px 0px 35px;
-    width: 0px;
-} */
-
 .circle {
     position: relative;
     width: 200px;
@@ -154,9 +66,56 @@
     }
 }
 
- @media screen and (max-width: 768px) {
-    .rotate-scroll{
+@media screen and (max-width: 768px) {
+
+    /* .rotate-scroll {
         flex-direction: column;
+    } */
+
+    .homePageText {
+        width: 100% !important;
     }
-     
- }
+
+    .homeBolText {
+        font-size: 40vw !important;
+        text-align: center;
+    }
+
+    .rotate-scroll {
+        margin: auto;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .logo {
+        width: 50px !important;
+        height: 50px !important;
+        filter: brightness(1.1) contrast(1.1) !important;
+    }
+
+    .text {
+        width: 50% !important;
+        height: 50% !important;
+    }
+
+    .text span {
+        left: 50%;
+        font-size: 0.5rem;
+        transform-origin: 0 50px;
+    }
+
+    .homePageParaDiv {
+        /* background-color: yellow; */
+        text-align: center;
+        width: 85% !important;
+        margin-left: 35px;
+    }
+
+    .homePageParaHeading {
+        font-size: 9vw !important;
+    }
+
+    .homePageParaParagraph {
+        font-size: 5vw !important;
+    }
+}

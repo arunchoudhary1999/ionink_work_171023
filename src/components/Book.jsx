@@ -1,4 +1,5 @@
 import React from "react";
+import "./Book.css";
 
 const Book = () => {
   return (
@@ -11,7 +12,9 @@ const Book = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        padding: "20px 0",
       }}
+      className="bookTop"
     >
       <div
         style={{
@@ -25,8 +28,9 @@ const Book = () => {
           borderRadius: "35px",
           padding: "15px",
         }}
+        className="bookPage"
       >
-        <div className="row">
+        <div className="row ">
           <div className="col-md 5 d-flex justify-content-center">
             <img
               src="/assets/images/book.png"
@@ -41,9 +45,9 @@ const Book = () => {
             />
           </div>
           <div
-            class="text-white mb-3"
+            class="text-white mb-3 bookPageDiv"
             style={{
-              // width: "55%",
+              width: "55%",
               //   padding: "0",
               marginRight: "20px",
               padding: "0px 25px 0px 50px ",
@@ -51,7 +55,7 @@ const Book = () => {
           >
             <div class="card-body text-black">
               <h1
-                class="card-title"
+                class="card-title bookPageHeading"
                 style={{
                   fontSize: "95px",
                   fontWeight: "900",
@@ -62,7 +66,7 @@ const Book = () => {
                 <br />
               </h1>
               <h3
-                class="card-title"
+                class="card-title bookPageSmallHeading"
                 style={{
                   fontSize: "33px",
                   fontWeight: "400",
@@ -74,7 +78,7 @@ const Book = () => {
                 <br />
               </h3>
               <p
-                class="card-text"
+                class="card-text bookPageParagraph"
                 style={{
                   fontSize: "18px",
                   fontWeight: "400",
@@ -111,12 +115,25 @@ const Book = () => {
                   </li>
                 </ul>
               </p>
-              <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                <button type="button" class="btn btn-outline-dark">
-                  <h4 style={{ padding: "5px 30px 0px 30px" }}>LEARN MORE</h4>
+              <div
+                style={{ display: "flex", justifyContent: "space-evenly" }}
+                className="bookPageButton"
+              >
+                <button type="button" class="btn btn-outline-dark ">
+                  <h4
+                    style={{ padding: "5px 30px 0px 30px" }}
+                    className="bookPageButtonOne"
+                  >
+                    LEARN MORE
+                  </h4>
                 </button>
                 <button type="button" class="btn btn-success">
-                  <h4 style={{ padding: "5px 30px 0px 30px" }}>BUY NOW</h4>
+                  <h4
+                    style={{ padding: "5px 30px 0px 30px" }}
+                    className="bookPageButtonTwo"
+                  >
+                    BUY NOW
+                  </h4>
                 </button>
               </div>
             </div>

@@ -6,6 +6,7 @@
     height: 92.1%;
 }
 
+
 .airplane {
     /* background-color: blue; */
     position: relative;
@@ -70,7 +71,6 @@
 
 
 .airplaneContainer01 {
-    /* background-color: yellow; */
     position: absolute;
     overflow: hidden;
     animation: bg-color01 5s infinite;
@@ -79,35 +79,12 @@
 }
 
 .airplane01 {
-    /* background-color: blue; */
     position: relative;
     width: 20%;
     right: 100%;
     animation: fly01 10s linear infinite;
     animation-duration: 20s;
 }
-
-/* @keyframes bg-color {
-    0% {
-        background-color: #6666ff;
-    }
-
-    25% {
-        background-color: #3398db;
-    }
-
-    50% {
-        background-color: skyblue;
-    }
-
-    75% {
-        background-color: #3398db;
-    }
-
-    100% {
-        background-color: #6666ff;
-    }
-} */
 
 @keyframes fly01 {
     0% {
@@ -128,12 +105,37 @@
     }
 
     100% {
-        /* left: -100px; */
         top: 100px;
     }
+}
 
-    /* 70% {
-        right: -100px;
-        top: 0px;
-    } */
+.contactPage {
+    min-height: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .contactPageHeading {
+        font-size: 3rem !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .contactPageHeadingForm {
+        width: 85% !important;
+        padding: 0 !important;
+        margin: auto !important;
+    }
+
+    .contactPage {
+        padding: 0 0 25px 0 !important;
+        margin: 0 !important;
+    }
+
+    .airplane {
+        width: 40%;
+    }
+
+    .airplane01 {
+        width: 40%;
+    }
 }

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-// import { NavLink } from "react-router-dom";
-import Book from "./Experience";
+import Book from "./Book";
+import Experience from "./Experience";
 import Awards from "./Awards";
 import Work from "./Work";
 import Contact from "./Contact";
@@ -32,7 +32,10 @@ const Home = () => {
             className="carousel-item active"
             style={{ height: "100%", width: "100%", background: "#d661ff" }}
           >
-            <div style={{ width: "90%", float: "right" }}>
+            <div
+              style={{ width: "90%", float: "right" }}
+              className="homePageText"
+            >
               <div
                 style={{
                   marginTop: "-40px",
@@ -40,13 +43,13 @@ const Home = () => {
               >
                 <h1
                   style={{
-                    marginTop:"8vh",
+                    marginTop: "8vh",
                     fontSize: "18vw",
                     fontWeight: "900",
                     letterSpacing: "1vw",
                     color: "white",
                   }}
-                  // className="bol"
+                  className="homeBolText"
                 >
                   BOL
                 </h1>
@@ -55,23 +58,27 @@ const Home = () => {
                 <div
                   style={{
                     width: "80%",
-                    
                   }}
+                  className="homePageParaDiv"
                 >
                   <div style={{ paddingBottom: "10px" }}>
                     <h1
+                      className="homePageParaHeading"
                       style={{
-                        fontSize: "13vw",
+                        fontSize: "10vw",
                         fontWeight: "600",
                         letterSpacing: "1vw",
-                        lineHeight: "10vw",
+                        lineHeight: "8vw",
                       }}
                     >
                       I'm Rubens Cantuni
                     </h1>
                   </div>
                   <div>
-                    <h1 style={{ fontWeight: "200",fontSize:"5vw" }}>
+                    <h1
+                      style={{ fontWeight: "200", fontSize: "2.4vw" }}
+                      className="homePageParaParagraph"
+                    >
                       Award-winning design lead
                     </h1>
                   </div>
@@ -111,6 +118,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Experience />
       <Book />
       <Awards />
       <Work />

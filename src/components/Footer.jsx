@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -9,8 +10,9 @@ const Footer = () => {
         height: "auto",
         padding: "0px 10px 0px 22px",
       }}
+      className="footerPage"
     >
-      <nav class="navbar">
+      <nav class="navbar ">
         <div>
           <NavLink class="navbar-brand" to="/">
             <img
