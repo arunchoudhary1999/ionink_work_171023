@@ -129,6 +129,8 @@
     .contactPage {
         padding: 0 0 25px 0 !important;
         margin: 0 !important;
+        min-height: auto;
+
     }
 
     .airplane {

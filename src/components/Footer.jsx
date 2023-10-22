@@ -12,8 +12,8 @@ const Footer = () => {
       }}
       className="footerPage"
     >
-      <nav class="navbar ">
-        <div>
+      <nav class="navbar footerPageDiv">
+        <div className="footerLogo">
           <NavLink class="navbar-brand" to="/">
             <img
               src="/assets/images/BOL - Black.png"
@@ -24,40 +24,48 @@ const Footer = () => {
             />
           </NavLink>
         </div>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+        <nav class="navbar navbar-expand footerMenu">
+          <div class="container-fluid ">
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+              <ul class="navbar-nav footerMenuUl">
                 <li class="nav-item">
-                  <NavLink class="nav-link text-dark" to="/">
+                  <a class="nav-link text-dark" href="/">
                     Google
-                  </NavLink>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-link text-dark" to="/">
+                  <a class="nav-link text-dark" href="/">
                     Privacy
-                  </NavLink>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-link text-dark" to="/">
+                  <a class="nav-link text-dark" href="/">
                     Terms
-                  </NavLink>
+                  </a>
                 </li>
                 <li class="nav-item">
-                  <NavLink class="nav-link text-dark" to="/">
+                  <a class="nav-link text-dark" href="/">
                     Transparency
-                  </NavLink>
-                </li>
-                <li class="nav-item">
-                  <NavLink class="nav-link text-dark" to="/">
-                    Center
-                  </NavLink>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </nav>
+
+      <div className="footerLastBottom">
+        <p className="footerLastPara">Owned & Operated By&nbsp;</p>
+        <li className="footerLastLink">
+          <a
+            class="nav-link text-dark "
+            href="https://suflexmedia.com/"
+            target="_parent"
+          >
+            <p className="footerLastPara footerLastLink">Suflex Media</p>
+          </a>
+        </li>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,87 @@
 @media screen and (max-width: 768px) {
     .footerPage {
-        /* min-height: 400px; */
+        width: 100% !important;
+        height: auto;
+        padding: 0 !important;
     }
+
+    .footerPageDiv {
+        width: 85% !important;
+        /* background-color: aqua; */
+        margin: auto;
+    }
+
+    .footerLogo {
+        /* width: 50% !important; */
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .footerMenu {
+        width: 40% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        height: auto;
+
+    }
+
+    .footerMenuDiv {
+        display: flex;
+    }
+
+    .footerMenuUl {
+        display: inline-block;
+    }
+
+    .footerLastBottom {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        color: white !important;
+        list-style: none;
+        padding: 20px 0;
+    }
+
+    .footerLastPara {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .footerLastLink {
+        font-weight: 900;
+        color: #fff;
+    }
+}
+
+.footerLastBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white !important;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.footerLastPara {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.footerLastLink {
+    font-weight: 900;
+    color: #fff;
+}
+
+.footerPage {
+    width: 100% !important;
+    height: auto;
+    padding: 0 !important;
+}
+
+.footerPageDiv {
+    width: 98%;
+    /* background-color: aqua; */
+    margin: auto;
 }
