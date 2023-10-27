@@ -1,3 +1,79 @@
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    background-color: #0d0d0d;
+}
+
+section .scroll {
+    width: 100%;
+    display: flex;
+
+}
+
+section .scroll div {
+    background-color: #ffcb46;
+    font-size: 7vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    word-spacing: 15px;
+    padding: 0 2rem;
+    font-weight: 800;
+    animation: move-all 10s linear infinite;
+    border-color: #ffcb46;
+    line-height: 100%;
+}
+
+
+
+@keyframes move-all {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+section .scroll.text1 {
+    transform: rotate(-3deg) translateY(-200px) translateY(200px);
+}
+
+/* .text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-wrapper h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 5rem;
+    font-weight: 800;
+    animation: move-all 8s linear infinite;
+}
+
+.text-wrapper-stoke {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+@keyframes move-all {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+} */
+
+
 .card-get-in-touch {
     flex-direction: row;
 }
@@ -7,9 +83,10 @@
 }
 
 .workPageDivButton {
-    padding: 0 25px !important;
+    padding: 0 20px !important;
     margin: 0 !important;
-    font-size: 18px;
+    font-size: 15px;
+
 }
 
 .card-img-top {
@@ -65,5 +142,23 @@
     .cardGroup {
         width: 100%;
         height: 100%;
+    }
+
+    /* .text-wrapper {
+        margin-top: 4px !important;
+        padding-top: 10px !important;
+        margin-bottom: -10px;
+    }
+
+    .text-wrapper h1 {
+        padding: 0 2rem;
+    }
+
+    .text-wrapper-stoke {
+        -webkit-text-stroke-width: 1.2px;
+    } */
+
+    section .scroll div {
+        padding: 0 1rem !important;
     }
 }

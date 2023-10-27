@@ -6,8 +6,8 @@ const Exprience = () => {
   return (
     <>
       <div style={{ border: "1px solid black", height: "100%" }}>
-        <div className="fluid-container mb-5 experienceSlider">
-          <div className="row airplaneContainer02" style={{ width: "100%" }}>
+        <div className="fluid-container experienceSlider">
+          {/* <div className="row airplaneContainer02" style={{ width: "100%" }}>
             <div className="col-12 airplane02" style={{ textAlign: "center" }}>
               <h1
                 style={{
@@ -20,14 +20,24 @@ const Exprience = () => {
                 className="experienceH1Tag"
                 data-text="Experience"
               >
-                EXPER<span>IENCE&nbsp;&nbsp;</span>
-                <h1 className="experienceH1InnerTag">
-                  EXPER
-                  <span>IENCE</span>
-                </h1>
+                STARTUPS&nbsp;
+                <h1 className="experienceH1InnerTag">PEOPLE&nbsp;</h1>
+                INNOVATION&nbsp;
+                <h1 className="experienceH1InnerTag">CURIOSITY</h1>
               </h1>
             </div>
+          </div> */}
+          <div className="text-wrapper">
+            <h1>
+              Startups <span className="text-wrapper-stoke">| People</span> |
+              Innovation <span className="text-wrapper-stoke">| Curiosity</span>
+            </h1>
+            <h1>
+              Startups <span className="text-wrapper-stoke">| People</span> |
+              Innovation <span className="text-wrapper-stoke">| Curiosity</span>
+            </h1>
           </div>
+
           <hr style={{ border: "1px solid black" }} />
           <hr style={{ border: "1px solid black", marginTop: "-18px" }} />
           <div

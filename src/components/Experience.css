@@ -1,27 +1,27 @@
-.experienceH1Tag {
+/* .experienceH1Tag {
     color: #fff !important;
     -webkit-text-stroke: 0.2vw #000;
-}
+} */
 
-.experienceH1InnerTag {
+/* .experienceH1InnerTag {
     font-size: 8vw;
     font-weight: 900;
     color: #000;
-}
+} */
 
-.airplaneContainer02 {
+/* .airplaneContainer02 {
     overflow: hidden;
     animation: bg-color 5s infinite;
     width: 99.9%;
     height: 92.1%;
-}
+} */
 
-.airplane02 {
+/* .airplane02 {
     position: relative;
     width: 20%;
     left: -100%;
     animation: fly02 10s linear infinite;
-}
+} */
 
 /* @keyframes bg-color {
     0% {
@@ -77,6 +77,39 @@
     border: 2px solid black;
     min-height: 740px;
     margin: 0;
+}
+
+.text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-wrapper h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 5rem;
+    font-weight: 800;
+    /* margin-top: 10px; */
+    animation: move-all 8s linear infinite;
+}
+
+.text-wrapper-stoke {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+}
+
+@keyframes move-all {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -144,16 +177,34 @@
         border-bottom: 52px solid grey !important;
     }
 
+    .text-wrapper {
+        margin-top: 4px !important;
+        padding-top: 10px !important;
+        margin-bottom: -10px;
+    }
+
+    .text-wrapper h1 {
+        padding: 0 2rem;
+        /* margin-top: 10px; */
+    }
+
+    .text-wrapper-stoke {
+        -webkit-text-stroke-width: 1.2px;
+    }
+
+    .experienceSlider {
+        margin-bottom: 50px;
+    }
 }
 
-.experienceH1InnerTag {
+/* .experienceH1InnerTag {
     margin: 0 !important;
 
-}
+} */
 
-.experienceH1Tag {
+/* .experienceH1Tag {
     padding-top: 15px;
-}
+} */
 
 .c {
     display: flex;

@@ -21,9 +21,9 @@ const Experience1 = () => {
       company: "Metafy",
       title: "Design Lead",
       location: "Remote",
-      content:
-        "★ Designing an educational platform for gamers from gamers, with particular focus on the content streaming features.",
-      content01: "★ Leading a distributed team of designers.1",
+      content: "★ Magazines",
+      content01:
+        "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
     },
     {
       id: 2,
@@ -31,17 +31,9 @@ const Experience1 = () => {
       company: "MetaLab",
       title: "Design Lead",
       location: "Remote",
-      content:
-        "★ Leading design teams during the creation of digital experiences for startups and industry leaders.",
-      content01: "★ Estimating team efforts and roadmaps.",
-      content02:
-        "★ Coordinating design team efforts with Research and Engineering teams.",
-      content03:
-        "★ Supporting the Research team in shaping testing and interviews and summarizing findings to clients.",
-      content04:
-        "★ Presenting design solutions to clients, articulating the team's decisions.",
-      content05: "★ Mentoring and coaching product designers.",
-      content06: "★ Interviewing design candidates.",
+      content: "★ Merchandise",
+      content01:
+        "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
     },
     {
       id: 3,
@@ -49,14 +41,9 @@ const Experience1 = () => {
       company: "Huawei",
       title: "UX Design Manager",
       location: "Milan, Italy",
-      content:
-        "★ Design, concept, envisioning and research for all the digital components of Huawei consumer products on a global level. Including automotive HMI solutions.",
+      content: "★ Get Social",
       content01:
-        "★ Lead designer for Milan's R&D studio in Huawei's efforts in in-car experiences, collaborating remotely and on-site with Shanghai's lab.",
-      content02:
-        "★ R&D for Huawei's new proprietary cross-device operating system 'Harmony'.",
-      content03:
-        "★ Collaborating with Industrial Designers to envision new devices with a holistic software/hardware approach.",
+        "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
     },
     {
       id: 4,
@@ -64,10 +51,9 @@ const Experience1 = () => {
       company: "Alkemy",
       title: "Senior Product Designer",
       location: "Milan, Italy",
-      content:
-        "★ Design of complex digital products, desktop, and mobile, for big companies pursuing digital transformation processes.",
-      content01: "★ Conducting co-design workshops with clients.",
-      content02: "★ Mentoring junior designers.",
+      content: "★ Upcoming Events, Webinars, and Podcasts",
+      content01:
+        "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
     },
     {
       id: 5,
@@ -75,32 +61,10 @@ const Experience1 = () => {
       company: "JibJab",
       title: "Senior Product Designer",
       location: "Los Angles, California",
-      content: "★ Design of digital products for kids.",
+      content: "★ Advertise With Us",
       content01:
-        "★ Mobile video player apps, educational platforms, games, websites.",
-      content02: "★ Team leader for the content team.",
+        "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
     },
-    {
-      id: 6,
-      attendance: "2018-2020",
-      company: "Huawei",
-      title: "Senior Product Designer",
-      location: "Milan, Italy",
-      content:
-        "★ Design of digital products, desktop and mobile for major national and international brands.",
-      content01: "★ Social apps, mobile games, web applications.",
-    },
-    {
-      id: 7,
-      attendance: "2007-2013",
-      company: "Pbcom",
-      title: "Digital Art Director",
-      location: "Genoa, Tlaly",
-      content: "★ Web design.",
-      content01: "★ Digital campaign.",
-      content02: "★ Branding.",
-    },
-    // Add more data as needed
   ];
 
   return (

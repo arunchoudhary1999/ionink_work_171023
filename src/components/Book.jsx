@@ -2,6 +2,9 @@ import React from "react";
 import "./Book.css";
 
 const Book = () => {
+  const sendButton = () => {
+    alert("Can't call any page at present");
+  };
   return (
     <div
       style={{
@@ -73,7 +76,8 @@ const Book = () => {
                   letterSpacing: "2px",
                 }}
               >
-                Learn how to design successful digital products for kids!
+                Explore our Literary Treasure– Where Facts Inspire, One Page at
+                a Time
                 <br />
                 <br />
               </h3>
@@ -84,10 +88,9 @@ const Book = () => {
                   fontWeight: "400",
                 }}
               >
-                All the secrets to design successful digital products for
-                children. You'll find answers to all your questions regarding
-                the industry, and its peculiarities in UX design, UI design,
-                user testing, business strategies and much more. <br />
+                This is one section you don't want to miss—explore our
+                collection of captivating realities that fuel your curiosity and
+                broaden your knowledge horizons. Get inspired! <br />
                 <br />
                 <ul
                   style={{
@@ -95,21 +98,12 @@ const Book = () => {
                     fontWeight: "500",
                   }}
                 >
-                  <li>
-                    250+ pages of best practices, tips, guidelines and
-                    information, based on scientific studies and decades of
-                    experience.
-                  </li>
+                  <li>Indian Red Flag</li>
+                  <br />
+                  <li>The Burnout</li>
                   <br />
                   <li>
-                    Interviews with industry experts, including people from
-                    Netflix, PBS Kids, Toca Boca, and more.
-                  </li>
-                  <br />
-                  <li>
-                    Usability and accessibility information that will make you a
-                    better, more inclusive designer on any kind of product, not
-                    just for kids
+                    The C-Suite Branding
                     <br />
                     <br />
                   </li>
@@ -119,7 +113,11 @@ const Book = () => {
                 style={{ display: "flex", justifyContent: "space-evenly" }}
                 className="bookPageButton"
               >
-                <button type="button" class="btn btn-outline-dark ">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark"
+                  onClick={sendButton}
+                >
                   <h4
                     style={{ padding: "5px 30px 0px 30px" }}
                     className="bookPageButtonOne"
@@ -127,7 +125,11 @@ const Book = () => {
                     LEARN MORE
                   </h4>
                 </button>
-                <button type="button" class="btn btn-success">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  onClick={sendButton}
+                >
                   <h4
                     style={{ padding: "5px 30px 0px 30px" }}
                     className="bookPageButtonTwo"

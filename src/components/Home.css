@@ -94,7 +94,7 @@
     }
 
     .homeBolText {
-        font-size: 40vw !important;
+        font-size: 33vw !important;
         text-align: center;
     }
 
@@ -131,8 +131,9 @@
     }
 
     .homePageParaHeading {
-        font-size: 8vw !important;
+        font-size: 4.8vw !important;
         text-align: start;
+        font-weight: 600 !important;
     }
 
     .homePageParaParagraph {

@@ -52,7 +52,7 @@ const Home = () => {
                   data-text="BOL"
                   className="homeBolText homeBolH1"
                 >
-                  BOL
+                  BOL!
                 </h1>
               </div>
               <div
@@ -73,13 +73,13 @@ const Home = () => {
                     <h1
                       className="homePageParaHeading"
                       style={{
-                        fontSize: "10vw",
+                        fontSize: "6.2vw",
                         fontWeight: "600",
-                        letterSpacing: "1vw",
+                        letterSpacing: "0.1vw",
                         lineHeight: "8vw",
                       }}
                     >
-                      I'm Rubens Cantuni
+                      Step into the cosmos of <br /> Brands Out Loud
                     </h1>
                   </div>
                   <div>
@@ -87,7 +87,7 @@ const Home = () => {
                       style={{ fontWeight: "200", fontSize: "2.4vw" }}
                       className="homePageParaParagraph"
                     >
-                      Award-winning design lead
+                      Where “extraordinaire” is the way of life.
                     </h1>
                   </div>
                 </div>

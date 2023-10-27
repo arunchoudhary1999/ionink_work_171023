@@ -3,7 +3,6 @@
     width: 300px;
 }
 
-
 .award-part-1 {
     /* width: 0%; */
     width: 100% !important;
@@ -52,8 +51,8 @@
     .awardHeadingTop {
         padding: 0 !important;
         margin: 0 auto !important;
-        font-size: 18vw !important;
-        font-weight: 600 !important;
+        font-size: 8vw !important;
+        font-weight: 700 !important;
     }
 
     .table-award {
