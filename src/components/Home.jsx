@@ -38,7 +38,7 @@ const Home = () => {
             >
               <div
                 style={{
-                  marginTop: "-40px",
+                  marginTop: "-50px",
                 }}
               >
                 <h1

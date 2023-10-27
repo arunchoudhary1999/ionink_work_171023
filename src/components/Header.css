@@ -11,15 +11,44 @@
     color: #d6caca;
 }
 
+.headerLockLink {
+    color: black;
+}
+
+.headerDivTag {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 @media screen and (max-width: 768px) {
-    .headerLock {
+
+    .headerLock,
+    .linkedinIcon,
+    .instagramIcon {
         text-align: start;
         padding: 0;
     }
 
-    .headerLockLink {
+    .headerDivTag {
+        /* flex-direction: column; */
+        display: block;
+        /* justify-content: center !important; */
+        /* width: 50% !important; */
+    }
+
+    .headerLockLink,
+    .linkedinIconInner,
+    .instagramIconInner {
         /* background-color: red; */
         margin: 0px 0px 0px 10px;
         font-size: 32px;
     }
+
+    /* .linkedinIcon {
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: start;
+
+    } */
 }

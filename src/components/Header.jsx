@@ -2,9 +2,7 @@ import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
 import Linkedin from "./buttons/Linkedin";
-import Twitter from "./buttons/Twitter";
-import Medium from "./buttons/Medium";
-import Globe from "./buttons/Globe";
+import Instagram from "./buttons/Instagram";
 
 const Header = () => {
   return (
@@ -25,57 +23,62 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon avbar-toggler"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              {/* <li className="nav-item mx-4">
-                <NavLink
-                  className="nav-link text-dark fs-5"
-                  aria-current="page"
-                  to="/home"
-                >
-                  Home
-                </NavLink>
-              </li> */}
-              <li className="nav-item mx-2">
-                <NavLink className="nav-link text-dark fs-5" to="/experience">
-                  Experience
-                </NavLink>
-              </li>
-              <li className="nav-item mx-2">
-                <NavLink className="nav-link text-dark fs-5" to="/book">
-                  Book
-                </NavLink>
-              </li>
-              <li className="nav-item mx-2">
-                <NavLink className="nav-link text-dark fs-5" to="/awards">
-                  Awards
-                </NavLink>
-              </li>
-              <li className="nav-item mx-2">
-                <NavLink className="nav-link text-dark fs-5" to="/work">
-                  Work
-                </NavLink>
-              </li>
-              <li className="nav-item mx-2">
-                <NavLink className="nav-link text-dark fs-5" to="/contact">
-                  Contact
-                </NavLink>
-              </li>
-              <li className="nav-item mx-2">
-                <NavLink className="nav-link text-dark fs-5" to="/">
-                  Portfolio
-                </NavLink>
-              </li>
-              <button type="button" className="btn fs-5 mx-0 px-0 headerLock">
-                <NavLink to="/portfolio" className="headerLockLink">
-                  <span class="fa fa-lock" style={{ color: "#c4c4c4" }}></span>
-                </NavLink>
-              </button>
-            </ul>
-            <Linkedin />
-            <Medium />
-            <Twitter />
-            <Globe />
+          <div
+            className="collapse navbar-collapse headerDivTag"
+            id="navbarSupportedContent"
+          >
+            <div>
+              <NavLink class="navbar-brand" to="/">
+                <img
+                  src="/assets/images/BOL - Black.png"
+                  alt="Logo"
+                  width="90"
+                  height="54"
+                  // class="d-inline-block align-text-top"
+                />
+              </NavLink>
+            </div>
+            <div>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/experience">
+                    Experience
+                  </NavLink>
+                </li>
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/book">
+                    Book
+                  </NavLink>
+                </li>
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/awards">
+                    Awards
+                  </NavLink>
+                </li>
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/work">
+                    Work
+                  </NavLink>
+                </li>
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/contact">
+                    Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/">
+                    Portfolio
+                  </NavLink>
+                </li>
+                <button type="button" className="btn fs-5 headerLock">
+                  <NavLink to="/portfolio" className="headerLockLink">
+                    <span class="fa fa-lock"></span>
+                  </NavLink>
+                </button>
+                <Linkedin />
+                <Instagram />
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
