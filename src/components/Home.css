@@ -81,6 +81,14 @@
         flex-direction: column;
     } */
 
+    .homeBolH1 {
+        -webkit-text-stroke: 0.5vw #000;
+    }
+
+    .homeBolH1:hover {
+        -webkit-text-stroke: 0.5vw #1cdbc1;
+    }
+
     .homePageText {
         width: 100% !important;
     }
