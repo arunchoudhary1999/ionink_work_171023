@@ -16,9 +16,9 @@ const Awards = () => {
       }}
       className="awardDiv"
     >
-      <div className="row">
+      <div className="row awardTopDivRes">
         <div
-          className="col-6"
+          className="col-6 awardTopDivResInner"
           style={{
             textAlign: "center",
             display: "flex",
@@ -34,8 +34,9 @@ const Awards = () => {
               fontSize: "8vw",
               fontWeight: "900",
               color: "black",
-              paddingTop: "25%",
+              paddingTop: "10%",
             }}
+            className="awardHeadingTop"
           >
             {" "}
             AWARDS
@@ -44,89 +45,92 @@ const Awards = () => {
       </div>
       <div className="award-part-1">
         <br />
+        <div className="awardC01">
+          <div className="awardSpeechb01">
+            <div
+              class="card-body awardSpeechb01Btw"
+              style={{ padding: "4% 5%" }}
+            >
+              <h5 class="card-title awardTableRow01">
+                <td className="awardTableTd011">CSSDA Website Of The Day</td>
+                <td className="awardTableTd012">This website</td>
+              </h5>
+              <hr style={{ border: "2px solid black" }} />
+              <h5 class="card-title awardTableRow01">
+                <td className="awardTableTd011">Awwwards Honorable Mention</td>
+                <td className="awardTableTd012">This website</td>
+              </h5>
+              <hr style={{ border: "2px solid black" }} />
+              <h5 class="card-title awardTableRow01">
+                <td className="awardTableTd011">
+                  CSSDA UI + UX + Innovation Awards
+                </td>
+                <td className="awardTableTd012">This website</td>
+              </h5>
+            </div>
+          </div>
+        </div>
 
-        <table class="table-1">
-          <thead>
-            <tr>
-              <td>CSSDA Website Of The Day</td>
-              <td>This website</td>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <td>Awwwards Honorable Mention</td>
-              <td>This website</td>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <td>CSSDA UI + UX + Innovation Awards</td>
-              <td>This website</td>
-            </tr>
-          </thead>
-        </table>
+        <br />
+        <div className="awardC02">
+          <div className="awardSpeechb02">
+            <div class="card-body" style={{ padding: "4% 5%" }}>
+              <h5 class="card-title awardTableRow02">
+                <td className="awardTableTd021">
+                  Emmy Award for “Outstanding Interactive”
+                </td>
+                <td className="awardTableTd022">Storybots apps and web</td>
+              </h5>
+              <hr style={{ border: "2px solid black" }} />
+              <h5 class="card-title awardTableRow02">
+                <td className="awardTableTd021">Webby Award honoree</td>
+                <td className="awardTableTd022">storybots.com</td>
+              </h5>
+              <hr style={{ border: "2px solid black" }} />
+              <h5 class="card-title awardTableRow02">
+                <td className="awardTableTd021">Teachers' Choice Award</td>
+                <td className="awardTableTd022">Storybots Classroom</td>
+              </h5>
+              <hr style={{ border: "2px solid black" }} />
+              <h5 class="card-title awardTableRow02">
+                <td className="awardTableTd021">Parents' Choice Award</td>
+                <td className="awardTableTd022">Storybots Classroom</td>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <div className="awardC03">
+          <div className="awardSpeechb03">
+            <div class="card-body" style={{ padding: "4% 5%" }}>
+              <h5 class="card-title awardTableRow03">
+                <td className="awardTableTd031">Parents' Choice Award</td>
+                <td className="awardTableTd032">Ely Flying Explorer app</td>
+              </h5>
+              <hr style={{ border: "2px solid black" }} />
+              <h5 class="card-title awardTableRow03">
+                <td className="awardTableTd031">ECGBL: first prize</td>
+                <td className="awardTableTd032">Ely Flying Explorer app</td>
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <div className="awardC04">
+          <div className="awardSpeechb04">
+            <div class="card-body" style={{ padding: "4% 5%" }}>
+              <h5 class="card-title awardTableRow04">
+                <td className="awardTableTd041">
+                  Unicredit Appathon: First Prize
+                </td>
+                <td className="awardTableTd042">Hatly app</td>
+              </h5>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <br />
-      <div className="award-part-1">
-        <table class="table-1">
-          <thead>
-            <tr>
-              <td>Emmy Award for “Outstanding Interactive”</td>
-              <td>Storybots apps and web</td>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <td>Webby Award honoree</td>
-              <td>storybots.com</td>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <td>Teachers' Choice Award</td>
-              <td>Storybots Classroom</td>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <td>Parents' Choice Award</td>
-              <td>Storybots Classroom</td>
-            </tr>
-          </thead>
-        </table>
-      </div>
-
-      <br />
-      <div className="award-part-1">
-        <table class="table-1">
-          <thead>
-            <tr>
-              <td>Parents' Choice Award</td>
-              <td>Ely Flying Explorer app</td>
-            </tr>
-          </thead>
-          <thead>
-            <tr>
-              <td>ECGBL: first prize</td>
-              <td>Ely Flying Explorer app</td>
-            </tr>
-          </thead>
-        </table>
-      </div>
-
-      <br />
-      <div className="award-part-1">
-        <table class="table-1">
-          <thead>
-            <tr>
-              <td>Unicredit Appathon: First Prize</td>
-              <td>Hatly app</td>
-            </tr>
-          </thead>
-        </table>
-      </div>
-
       <br />
       <br />
       <br />

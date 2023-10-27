@@ -140,8 +140,8 @@ const Work = () => {
               display: "flex",
               width: "100%",
               flexFlow: "wrap",
-              justifyContent: "space-around",
-              margin: "50px 0 0px 0",
+              justifyContent: "center",
+              margin: "50px 0 0 0",
             }}
           >
             <div class="">
@@ -150,9 +150,9 @@ const Work = () => {
                 src="/assets/images/logo01.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -163,9 +163,9 @@ const Work = () => {
                 src="/assets/images/logo02.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -176,9 +176,9 @@ const Work = () => {
                 src="/assets/images/logo03.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -189,9 +189,9 @@ const Work = () => {
                 src="/assets/images/logo04.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -202,9 +202,9 @@ const Work = () => {
                 src="/assets/images/logo05.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -215,9 +215,9 @@ const Work = () => {
                 src="/assets/images/logo06.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -228,9 +228,9 @@ const Work = () => {
                 src="/assets/images/logo07.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -241,9 +241,9 @@ const Work = () => {
                 src="/assets/images/logo08.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -254,9 +254,9 @@ const Work = () => {
                 src="/assets/images/logo09.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -267,9 +267,9 @@ const Work = () => {
                 src="/assets/images/logo10.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -280,9 +280,9 @@ const Work = () => {
                 src="/assets/images/logo11.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -293,9 +293,9 @@ const Work = () => {
                 src="/assets/images/logo12.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>
@@ -306,9 +306,9 @@ const Work = () => {
                 src="/assets/images/logo13.svg"
                 alt="Contact Us"
                 height="100px"
-                width="200px"
+                width="173px"
                 style={{
-                  margin: "20px 18px",
+                  margin: "20px 0px",
                 }}
               />
             </div>

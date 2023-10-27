@@ -1,5 +1,6 @@
 .airplaneContainer {
     position: absolute;
+    z-index: -1;
     overflow: hidden;
     animation: bg-color 5s infinite;
     width: 99.9%;
@@ -8,34 +9,11 @@
 
 
 .airplane {
-    /* background-color: blue; */
     position: relative;
     width: 20%;
     left: 100%;
     animation: fly 10s linear infinite;
 }
-
-/* @keyframes bg-color {
-    0% {
-        background-color: #6666ff;
-    }
-
-    25% {
-        background-color: #3398db;
-    }
-
-    50% {
-        background-color: skyblue;
-    }
-
-    75% {
-        background-color: #3398db;
-    }
-
-    100% {
-        background-color: #6666ff;
-    }
-} */
 
 @keyframes fly {
     0% {
@@ -62,16 +40,12 @@
     100% {
         top: 200px;
     }
-
-    /* 70% {
-        right: -100px;
-        top: 0px;
-    } */
 }
 
 
 .airplaneContainer01 {
     position: absolute;
+    z-index: -1;
     overflow: hidden;
     animation: bg-color01 5s infinite;
     width: 99.9%;
@@ -113,9 +87,25 @@
     min-height: 690px;
 }
 
+.contactPageDivHeading {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 @media screen and (max-width: 768px) {
     .contactPageHeading {
-        font-size: 3rem !important;
+        font-size: 2.5rem !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .contactPageHeading01 {
+        font-size: 1.8rem !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .contactPageDivHeading {
         padding: 0 !important;
         margin: 0 !important;
     }

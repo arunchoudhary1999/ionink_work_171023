@@ -14,12 +14,17 @@ const Exprience = () => {
                   fontSize: "8vw",
                   fontWeight: "900",
                   display: "flex",
+                  margin: "auto",
                   flexDirection: "row",
                 }}
+                className="experienceH1Tag"
+                data-text="Experience"
               >
-                Exper<span style={{ color: "gray" }}>ience&nbsp;</span>
-                Exper
-                <span style={{ color: "gray" }}>ience</span>
+                EXPER<span>IENCE&nbsp;&nbsp;</span>
+                <h1 className="experienceH1InnerTag">
+                  EXPER
+                  <span>IENCE</span>
+                </h1>
               </h1>
             </div>
           </div>
@@ -28,7 +33,7 @@ const Exprience = () => {
           <div
             className="row d-flex justify-content-center experienceDiv"
             style={{
-              width: "90%",
+              width: "80%",
               marginTop: "90px",
               alignItems: "center",
             }}
@@ -42,25 +47,31 @@ const Exprience = () => {
                 className="experienceImg"
               />
             </div>
-            <div
-              class="card text-white bg-primary mb-3"
-              style={{ borderRadius: "20px" }}
-            >
-              <div class="card-body" style={{ padding: "5% 5%" }}>
-                <h5 class="card-title">
-                  16 years of experience in design, between agencies, startups
-                  and big corporations. <br />
-                  <br />
-                </h5>
-                <p class="card-text">
-                  I don't just push pixels: design strategy, vision and
-                  forward-thinking are some of my most appreciated skills.{" "}
-                  <br />
-                  <br />I have experience on a variety of digital products, with
-                  awards winning titles in my portfolio. I lead remote design
-                  teams, distributed across different time zones, using an
-                  approach made of mentoring, coaching and leading by example..
-                </p>
+            <div className="c">
+              <div className="speechb">
+                <div class="card-body" style={{ padding: "5% 5%" }}>
+                  <h5 class="card-title">
+                    A team of designers, writers, and creators connecting
+                    brilliant minds. <br />
+                    <br />
+                  </h5>
+                  <p class="card-text">
+                    We ignite stories, celebrate entrepreneurship, and thrive on
+                    the sparks of imagination. From startups to trailblazers,
+                    we're the cosmic cheerleaders propelling dreams to galaxies
+                    of success. <br />
+                    <br />
+                    We craft a confetti-filled carnival where every brand can
+                    unmute their imagination and creativity, every
+                    entrepreneur's journey and success is shared and celebrated,
+                    and innovation takes centerstage fueled by curiosity and
+                    collective brilliance.
+                    <br />
+                    <br />
+                    We are Brands Out Loud—where stories, collaboration, and
+                    innovation merge.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

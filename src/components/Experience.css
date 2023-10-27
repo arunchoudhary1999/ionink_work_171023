@@ -1,3 +1,14 @@
+.experienceH1Tag {
+    color: #fff !important;
+    -webkit-text-stroke: 0.2vw #000;
+}
+
+.experienceH1InnerTag {
+    font-size: 8vw;
+    font-weight: 900;
+    color: #000;
+}
+
 .airplaneContainer02 {
     overflow: hidden;
     animation: bg-color 5s infinite;
@@ -40,7 +51,7 @@
     }
 
     100% {
-        left: -80%;
+        left: -100%;
     }
 }
 
@@ -112,4 +123,66 @@
     .experience01LookTable {
         min-height: auto;
     }
+
+    .c {
+        width: 85% !important;
+        margin: auto !important;
+    }
+
+    .speechb {
+        border: 2px solid black !important;
+    }
+
+    .speechb:before {
+        right: 43% !important;
+        top: -9% !important;
+        width: 0;
+        height: 0;
+        border-top: 0px solid transparent !important;
+        border-right: 18px solid transparent !important;
+        border-left: 18px solid transparent !important;
+        border-bottom: 52px solid grey !important;
+    }
+
+}
+
+.experienceH1InnerTag {
+    margin: 0 !important;
+
+}
+
+.experienceH1Tag {
+    padding-top: 15px;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+}
+
+.speechb {
+    background: white;
+    position: relative;
+    border-radius: 22px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 4px 0 black;
+}
+
+.speechb:before {
+    content: '';
+    position: absolute;
+    right: 100.2%;
+    top: 45%;
+    width: 0;
+    height: 0;
+    border-top: 18px solid transparent;
+    border-right: 46px solid grey;
+    border-bottom: 18px solid transparent;
+}
+
+.experienceDiv {
+    margin: auto;
 }

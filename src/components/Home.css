@@ -8,6 +8,15 @@
     align-items: center;
 }
 
+.homeBolH1 {
+    color: #d661ff !important;
+    -webkit-text-stroke: 0.2vw #000;
+}
+
+.homeBolH1:hover {
+    -webkit-text-stroke: 0.2vw #1cdbc1;
+}
+
 .logo {
     position: absolute;
     width: 80px;
@@ -82,9 +91,11 @@
     }
 
     .rotate-scroll {
-        margin: auto;
-        align-items: center;
+        /* margin: auto;
+        align-items: center; */
         /* background-color: red; */
+        display: flex;
+        align-items: center !important;
     }
 
     .logo {
@@ -112,10 +123,12 @@
     }
 
     .homePageParaHeading {
-        font-size: 9vw !important;
+        font-size: 8vw !important;
+        text-align: start;
     }
 
     .homePageParaParagraph {
         font-size: 5vw !important;
+        text-align: start;
     }
 }

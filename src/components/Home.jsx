@@ -49,12 +49,20 @@ const Home = () => {
                     letterSpacing: "1vw",
                     color: "white",
                   }}
-                  className="homeBolText"
+                  data-text="BOL"
+                  className="homeBolText homeBolH1"
                 >
                   BOL
                 </h1>
               </div>
-              <div className="rotate-scroll" style={{ display: "flex" }}>
+              <div
+                className="rotate-scroll"
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "end",
+                }}
+              >
                 <div
                   style={{
                     width: "80%",
