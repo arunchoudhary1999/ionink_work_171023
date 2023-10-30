@@ -17,54 +17,148 @@ const Experience1 = () => {
   const data = [
     {
       id: 1,
-      attendance: "Current",
-      company: "Metafy",
-      title: "Design Lead",
-      location: "Remote",
-      content: "★ Magazines",
-      content01:
+      attendance: "Magazines",
+      company: "Merchandise",
+      title: "Get Social",
+      location: "Upcoming Events",
+      content:
         "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
-    },
-    {
-      id: 2,
-      attendance: "2020-2022",
-      company: "MetaLab",
-      title: "Design Lead",
-      location: "Remote",
-      content: "★ Merchandise",
       content01:
         "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
-    },
-    {
-      id: 3,
-      attendance: "2018-2020",
-      company: "Huawei",
-      title: "UX Design Manager",
-      location: "Milan, Italy",
-      content: "★ Get Social",
-      content01:
+      content02:
         "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
-    },
-    {
-      id: 4,
-      attendance: "2018",
-      company: "Alkemy",
-      title: "Senior Product Designer",
-      location: "Milan, Italy",
-      content: "★ Upcoming Events, Webinars, and Podcasts",
-      content01:
+      content03:
         "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
-    },
-    {
-      id: 5,
-      attendance: "2020-2022",
-      company: "JibJab",
-      title: "Senior Product Designer",
-      location: "Los Angles, California",
-      content: "★ Advertise With Us",
-      content01:
+      content04:
         "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
     },
+
+    {
+      id: 1,
+      attendance: "Magazines",
+      company: "Merchandise",
+      title: "Get Social",
+      location: "Upcoming Events",
+      content:
+        "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
+      content01:
+        "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
+      content02:
+        "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
+      content03:
+        "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
+      content04:
+        "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
+    },
+    {
+      id: 1,
+      attendance: "Magazines",
+      company: "Merchandise",
+      title: "Get Social",
+      location: "Upcoming Events",
+      content:
+        "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
+      content01:
+        "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
+      content02:
+        "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
+      content03:
+        "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
+      content04:
+        "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
+    },
+    {
+      id: 1,
+      attendance: "Magazines",
+      company: "Merchandise",
+      title: "Get Social",
+      location: "Upcoming Events",
+      content:
+        "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
+      content01:
+        "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
+      content02:
+        "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
+      content03:
+        "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
+      content04:
+        "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
+    },
+    {
+      id: 1,
+      attendance: "Magazines",
+      company: "Merchandise",
+      title: "Get Social",
+      location: "Upcoming Events",
+      content:
+        "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
+      content01:
+        "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
+      content02:
+        "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
+      content03:
+        "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
+      content04:
+        "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
+    },
+    {
+      id: 1,
+      attendance: "Magazines",
+      company: "Merchandise",
+      title: "Get Social",
+      location: "Upcoming Events",
+      content:
+        "★ Our magazine unveils the journeys of daring dreamers who transformed ideas into legends. Stories that inspire, empower, and redefine success.",
+      content01:
+        "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
+      content02:
+        "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
+      content03:
+        "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
+      content04:
+        "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
+    },
+
+    // {
+    //   id: 2,
+    //   attendance: "2020-2022",
+    //   company: "MetaLab",
+    //   title: "Design Lead",
+    //   location: "Remote",
+    //   content: "★ Merchandise",
+    //   content01:
+    //     "★ Elevate your gifting with our unique merchandise. Get personalised mementoes, creative surprises, and engagement treasures that redefine team bonding.",
+    // },
+    // {
+    //   id: 3,
+    //   attendance: "2018-2020",
+    //   company: "Huawei",
+    //   title: "UX Design Manager",
+    //   location: "Milan, Italy",
+    //   content: "★ Get Social",
+    //   content01:
+    //     "★ Join our dynamic social community, where brands, startups, and visionaries collaborate seamlessly. Foster global connections and influence across platforms.",
+    // },
+    // {
+    //   id: 4,
+    //   attendance: "2018",
+    //   company: "Alkemy",
+    //   title: "Senior Product Designer",
+    //   location: "Milan, Italy",
+    //   content: "★ Upcoming Events, Webinars, and Podcasts",
+    //   content01:
+    //     "★ Embark on a journey of intellectual prowess. Uncover insights, challenge norms, and ignite innovation through our immersive events, webinars, and thought-provoking podcasts.",
+    // },
+    // {
+    //   id: 5,
+    //   attendance: "2020-2022",
+    //   company: "JibJab",
+    //   title: "Senior Product Designer",
+    //   location: "Los Angles, California",
+    //   content: "★ Advertise With Us",
+    //   content01:
+    //     "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
+    // },
   ];
 
   return (
@@ -101,11 +195,11 @@ const Experience1 = () => {
                 {isRowExpanded(row.id) && (
                   <tr className="container">
                     <td
-                      colSpan="5"
+                      colSpan="6"
                       style={{
                         background: "#ffcb46",
-                        padding: "0px",
-                        margin: "0px",
+                        // padding: "0px",
+                        // margin: "0px",
                       }}
                     >
                       <ul
@@ -113,7 +207,7 @@ const Experience1 = () => {
                           listStyleType: "none",
                           color: "black",
                           fontSize: "25px",
-                          margin: "0px",
+                          // margin: "0px",
                         }}
                         className="experience01TableCol"
                       >
@@ -122,8 +216,8 @@ const Experience1 = () => {
                         <li>{row.content02}</li>
                         <li>{row.content03}</li>
                         <li>{row.content04}</li>
-                        <li>{row.content05}</li>
-                        <li>{row.content06}</li>
+                        {/* <li>{row.content05}</li>
+                        <li>{row.content06}</li> */}
                       </ul>
                     </td>
                   </tr>

@@ -30,7 +30,12 @@ const Home = () => {
         <div className="carousel-inner">
           <div
             className="carousel-item active"
-            style={{ height: "100%", width: "100%", background: "#d661ff" }}
+            style={{
+              height: "100%",
+              width: "100%",
+              // background: "rgb(135,206,250)",
+              background: "linear-Gradient(#72eca5, #54b8d8)",
+            }}
           >
             <div
               style={{ width: "90%", float: "right" }}
@@ -47,12 +52,15 @@ const Home = () => {
                     fontSize: "18vw",
                     fontWeight: "900",
                     letterSpacing: "1vw",
-                    color: "white",
+                    // color: "white",
+                    color: "linear-Gradient(#72eca5, #54b8d8)",
                   }}
                   data-text="BOL"
                   className="homeBolText homeBolH1"
                 >
-                  BOL!
+                  <span className="textGradient">B</span>
+                  <span className="textGradientC">O</span>
+                  <span className="textGradient">L!</span>
                 </h1>
               </div>
               <div

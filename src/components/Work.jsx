@@ -163,9 +163,9 @@ const Work = () => {
                 margin: "50px 0 0 0",
               }}
             >
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo01.svg"
                   alt="Contact Us"
                   height="100px"
@@ -178,7 +178,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo02.svg"
                   alt="Contact Us"
                   height="100px"
@@ -191,7 +191,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo03.svg"
                   alt="Contact Us"
                   height="100px"
@@ -204,7 +204,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo04.svg"
                   alt="Contact Us"
                   height="100px"
@@ -217,7 +217,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo05.svg"
                   alt="Contact Us"
                   height="100px"
@@ -230,7 +230,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo06.svg"
                   alt="Contact Us"
                   height="100px"
@@ -243,7 +243,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo07.svg"
                   alt="Contact Us"
                   height="100px"
@@ -256,7 +256,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo08.svg"
                   alt="Contact Us"
                   height="100px"
@@ -269,7 +269,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo09.svg"
                   alt="Contact Us"
                   height="100px"
@@ -282,7 +282,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo10.svg"
                   alt="Contact Us"
                   height="100px"
@@ -295,7 +295,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo11.svg"
                   alt="Contact Us"
                   height="100px"
@@ -308,7 +308,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo12.svg"
                   alt="Contact Us"
                   height="100px"
@@ -321,7 +321,7 @@ const Work = () => {
 
               <div class="">
                 <img
-                  class="card-img-top-icon"
+                  class="card-img-top-icon workPageDivIconImgDone"
                   src="/assets/images/logo13.svg"
                   alt="Contact Us"
                   height="100px"

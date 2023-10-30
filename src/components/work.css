@@ -135,7 +135,16 @@ section .scroll.text1 {
     }
 
     .workPageDivIcon {
-        width: 100% !important;
+        /* width: 100% !important; */
+        /* margin: 0 !important; */
+        padding: 0 !important;
+        justify-content: space-between !important;
+        display: flex !important;
+    }
+
+    .workPageDivIconImgDone {
+        height: 80px;
+        width: 80px;
         margin: 0 !important;
     }
 

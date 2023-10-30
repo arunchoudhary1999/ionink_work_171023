@@ -9,12 +9,29 @@
 }
 
 .homeBolH1 {
-    color: #d661ff !important;
-    -webkit-text-stroke: 0.2vw #000;
+    /* color: rgb(135, 206, 250) !important; */
+    /* color: linear-gradient(#72eca5, #54b8d8) !important; */
+    -webkit-text-stroke: 0.2vw white;
+    background: linear-gradient(to top, #54b8d8, #72eca5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
-.homeBolH1:hover {
-    -webkit-text-stroke: 0.2vw #1cdbc1;
+.textGradient {
+    -webkit-text-stroke: 0.2vw #000;
+    background: linear-gradient(to top, #000, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.textGradientC:hover {
+    -webkit-text-stroke: 0.2vw black;
+}
+
+.textGradient:hover {
+    -webkit-text-stroke: 0.2vw white;
 }
 
 .logo {
@@ -81,13 +98,13 @@
         flex-direction: column;
     } */
 
-    .homeBolH1 {
+    /* .homeBolH1 {
         -webkit-text-stroke: 0.5vw #000;
     }
 
     .homeBolH1:hover {
         -webkit-text-stroke: 0.5vw #1cdbc1;
-    }
+    } */
 
     .homePageText {
         width: 100% !important;
@@ -140,4 +157,13 @@
         font-size: 5vw !important;
         text-align: start;
     }
+
+    .textGradientC:hover {
+        -webkit-text-stroke: 0.5vw black !important;
+    }
+
+    .textGradient:hover {
+        -webkit-text-stroke: 0.5vw white !important;
+    }
+
 }

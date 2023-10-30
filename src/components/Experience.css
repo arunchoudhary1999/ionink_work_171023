@@ -59,24 +59,21 @@
     width: 50%;
 }
 
-.table {
-    width: 100%;
-    font-size: 1rem;
-}
 
 .experienceSlider {
     min-height: 690px;
 }
 
-.experience01LookTable {
+/* .experience01LookTable {
     min-height: 740px;
-}
+} */
 
 .table {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     border: 2px solid black;
     min-height: 740px;
     margin: 0;
+    width: 100%;
 }
 
 .text-wrapper {
@@ -90,7 +87,7 @@
     font-size: 7vw;
     text-transform: uppercase;
     white-space: nowrap;
-    padding: 0 5rem;
+    padding: 0 1.4rem;
     font-weight: 800;
     /* margin-top: 10px; */
     animation: move-all 8s linear infinite;
@@ -184,7 +181,7 @@
     }
 
     .text-wrapper h1 {
-        padding: 0 2rem;
+        padding: 0 0.4rem;
         /* margin-top: 10px; */
     }
 

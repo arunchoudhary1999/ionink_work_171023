@@ -9,6 +9,7 @@ const Awards = () => {
         width: "100%",
         // border: "2px solid black",
         background: "#d661ff",
+
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
