@@ -34,7 +34,7 @@ const Experience1 = () => {
     },
 
     {
-      id: 1,
+      id: 2,
       attendance: "Magazines",
       company: "Merchandise",
       title: "Get Social",
@@ -51,7 +51,7 @@ const Experience1 = () => {
         "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
     },
     {
-      id: 1,
+      id: 3,
       attendance: "Magazines",
       company: "Merchandise",
       title: "Get Social",
@@ -68,7 +68,7 @@ const Experience1 = () => {
         "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
     },
     {
-      id: 1,
+      id: 4,
       attendance: "Magazines",
       company: "Merchandise",
       title: "Get Social",
@@ -85,7 +85,7 @@ const Experience1 = () => {
         "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
     },
     {
-      id: 1,
+      id: 5,
       attendance: "Magazines",
       company: "Merchandise",
       title: "Get Social",
@@ -102,7 +102,7 @@ const Experience1 = () => {
         "★ Your brand, our canvas. Collaborate to weave compelling narratives, showcasing your essence. Together, let's make waves that create ripples across industries",
     },
     {
-      id: 1,
+      id: 6,
       attendance: "Magazines",
       company: "Merchandise",
       title: "Get Social",
