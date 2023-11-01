@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <nav
         className="navbar navbar-expand-lg navbar-light"
-        style={{ backgroundColor: "#fff", borderBottom: "1px solid black" }}
+        style={{ backgroundColor: "#fff", border: "2px solid black" }}
       >
         <div className="container-fluid py-1">
           <button
@@ -63,6 +63,11 @@ const Header = () => {
                 <li className="nav-item mx-2">
                   <NavLink className="nav-link text-dark fs-5" to="/contact">
                     Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/magzines">
+                    Magzines
                   </NavLink>
                 </li>
                 <li className="nav-item mx-2">

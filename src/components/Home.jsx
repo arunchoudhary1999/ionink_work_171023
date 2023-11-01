@@ -5,6 +5,7 @@ import Experience from "./Experience";
 import Awards from "./Awards";
 import Work from "./Work";
 import Contact from "./Contact";
+import Magzines from "./Magzines";
 
 const Home = () => {
   useEffect(() => {
@@ -139,6 +140,7 @@ const Home = () => {
       <Awards />
       <Work />
       <Contact />
+      <Magzines />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Book = () => {
       style={{
         // height: "900px",
         width: "100%",
-        border: "1px solid black",
+        border: "2px solid black",
         background: "#ffcb46",
         display: "flex",
         justifyContent: "center",

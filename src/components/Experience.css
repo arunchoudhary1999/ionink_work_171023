@@ -69,7 +69,7 @@
 } */
 
 .table {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     border: 2px solid black;
     min-height: 740px;
     margin: 0;
@@ -118,10 +118,11 @@
     }
 
     .table {
-        width: 90% !important;
-        margin: auto;
+        /* width: 10% !important; */
+        /* margin: 0 auto !important; */
         display: flex;
-        /* flex-direc/tion: column; */
+        /* padding: 0 !important; */
+        border: none;
         font-size: .7rem;
         min-height: auto;
     }
@@ -151,7 +152,16 @@
     }
 
     .experience01LookTable {
+
         min-height: auto;
+        margin: 0 !important;
+        padding: 0 !important;
+        /* width: 100% !important; */
+    }
+
+    .containerExp {
+        width: 100% !important;
+        /* background-color: red; */
     }
 
     .c {
@@ -202,6 +212,11 @@
 /* .experienceH1Tag {
     padding-top: 15px;
 } */
+
+.containerExp {
+    width: 80%;
+    margin: auto;
+}
 
 .c {
     display: flex;

@@ -1,18 +1,45 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./Contact.css";
 
 const Contact = () => {
-  const [name, setName] = useState();
-  const [email, setEmail] = useState();
-  const [message, setMessage] = useState();
-  const sendButton = () => {
-    alert(
-      `Your Data Is Here : \n Name : ${name} \n Email : ${email} \n Message : ${message}`
-    );
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [description, setDescription] = useState("");
+  console.log({ name, email, description });
+
+  const handleName = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleEmail = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleDescription = (e) => {
+    setDescription(e.target.value);
+  };
+
+  const handleAPI = () => {
+    axios
+      .post("https://bol-9joj.onrender.com/user/sendmail", {
+        name: name,
+        email: email,
+        description: description,
+      })
+      .then((result) => {
+        console.log(result);
+        alert(
+          `Your Data Is Here : \n Name : ${name} \n Email : ${email} \n Description : ${description} \n Your Message is Successfully Send`
+        );
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
 
   return (
-    <div style={{ border: "1px solid black" }} className="contactPage">
+    <div style={{ border: "2px solid black" }} className="contactPage">
       <div className="airplaneContainer">
         <img src="/assets/images/airplane.gif" className="airplane" alt="" />
       </div>
@@ -76,7 +103,7 @@ const Contact = () => {
                       class="form-control"
                       name="name"
                       value={name}
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={handleName}
                     />
                   </div>
                   <div class="col">
@@ -93,7 +120,7 @@ const Contact = () => {
                       class="form-control"
                       name="email"
                       value={email}
-                      onChange={(e) => setEmail(e.target.value)}
+                      onChange={handleEmail}
                     />
                   </div>
                 </div>
@@ -105,9 +132,9 @@ const Contact = () => {
                     borderRadius: "15px",
                     margin: "10px 0",
                   }}
-                  name="message"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                  name="description"
+                  value={description}
+                  onChange={handleDescription}
                   class="form-control"
                   placeholder="What's up?"
                   id="exampleFormControlTextarea1"
@@ -124,7 +151,7 @@ const Contact = () => {
                     width: "100%",
                     margin: "10px 0",
                   }}
-                  onClick={sendButton}
+                  onClick={handleAPI}
                   class="btn btn-success"
                 >
                   <h4>SEND</h4>

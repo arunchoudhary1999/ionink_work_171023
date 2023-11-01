@@ -5,7 +5,7 @@ import Experience1 from "./Experience1";
 const Exprience = () => {
   return (
     <>
-      <div style={{ border: "1px solid black", height: "100%" }}>
+      <div style={{ border: "2px solid black", height: "100%" }}>
         <div className="fluid-container experienceSlider">
           {/* <div className="row airplaneContainer02" style={{ width: "100%" }}>
             <div className="col-12 airplane02" style={{ textAlign: "center" }}>

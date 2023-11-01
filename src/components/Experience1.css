@@ -1,0 +1,85 @@
+#main01 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main02 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main03 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main04 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main05 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.dropDownRowOne01 {
+    background-color: #ffcb46;
+    margin: 0;
+    padding: 0;
+}
+
+.tableOne {
+    width: 85%;
+    margin: auto;
+    border: 2px solid black;
+    /* margin-top: 20px; */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+.onlyTd,
+tr {
+    padding: 30px 12px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+/* tr:hover {
+    background-color: #D6EEEE;
+} */
+
+
+.tableContainerColumn01 {
+    font-weight: 900;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .tableOne {
+        width: 100%;
+    }
+
+    th,
+    .onlyTd,
+    tr {
+        padding: 20px 4px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .tableContainerColumn01 {
+        font-weight: 900;
+        /* font-size: 18px; */
+    }
+}

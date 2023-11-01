@@ -70,7 +70,7 @@ const Work = () => {
           class="card-columns"
           style={{
             display: "flex",
-            width: "80%",
+            width: "85%",
             flexFlow: "wrap",
             // justifyContent: "space-between",
             justifyContent: "space-evenly",
@@ -84,11 +84,11 @@ const Work = () => {
               class="card card-img-top"
               src="/assets/images/work01.png"
               alt="Contact Us"
-              height="350px"
-              width="450px"
               style={{
-                margin: "20px 0",
+                margin: "20px 10px",
                 borderRadius: "35px",
+                height: "300px",
+                width: "400px",
               }}
             />
           </div>
@@ -97,11 +97,12 @@ const Work = () => {
               class="card card-img-top"
               src="/assets/images/work02.png"
               alt="Contact Us"
-              height="350px"
-              width="450px"
               style={{
-                margin: "20px 0",
+                margin: "20px 10px",
+
                 borderRadius: "35px",
+                height: "300px",
+                width: "400px",
               }}
             />
           </div>
@@ -110,11 +111,12 @@ const Work = () => {
               class="card card-img-top"
               src="/assets/images/work03.png"
               alt="Contact Us"
-              height="300px"
-              width="400px"
               style={{
-                margin: "20px 0",
+                margin: "20px 10px",
+
                 borderRadius: "35px",
+                height: "300px",
+                width: "400px",
               }}
             />
           </div>
@@ -123,11 +125,12 @@ const Work = () => {
               class="card card-img-top"
               src="/assets/images/work04.png"
               alt="Contact Us"
-              height="300px"
-              width="400px"
               style={{
-                margin: "20px 0",
+                margin: "20px 10px",
+
                 borderRadius: "35px",
+                height: "300px",
+                width: "400px",
               }}
             />
           </div>
@@ -136,11 +139,12 @@ const Work = () => {
               class="card card-img-top"
               src="/assets/images/work05.png"
               alt="Contact Us"
-              height="300px"
-              width="400px"
               style={{
-                margin: "20px 0",
+                margin: "20px 10px",
+
                 borderRadius: "35px",
+                height: "300px",
+                width: "400px",
               }}
             />
           </div>

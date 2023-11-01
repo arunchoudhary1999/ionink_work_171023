@@ -97,10 +97,10 @@ section .scroll.text1 {
     width: 100%;
 }
 
-.cardGroup {
+/* .cardGroup {
     width: 30%;
     height: 30%;
-}
+} */
 
 @media screen and (max-width: 768px) {
 
