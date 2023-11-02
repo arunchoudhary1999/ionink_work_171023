@@ -13,7 +13,7 @@ const Header = () => {
       >
         <div className="container-fluid py-1">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler navTog"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

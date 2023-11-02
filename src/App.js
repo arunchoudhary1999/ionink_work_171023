@@ -8,8 +8,8 @@ import Exprience from "./components/Experience";
 import Book from "./components/Book";
 import Awards from "./components/Awards";
 import Work from "./components/Work";
-import Magzines from "./components/Magzines";
 import Portfolio from "./components/Portfolio";
+import Magzines from "./components/Magzines";
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
         <Route exact path="/awards" component={Awards} />
         <Route exact path="/work" component={Work} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/magzines" component={Magzines} />
         <Route exact path="/" component={Portfolio} />
+        <Route exact path="/magzines" component={Magzines} />
         <Redirect to="/" />
       </Switch>
       <Footer />
