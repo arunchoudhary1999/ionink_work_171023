@@ -1,7 +1,30 @@
 import React from "react";
 import "./work.css";
+import { useState, useEffect } from "react";
 
 const Work = () => {
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title = "Work | BOL")}`
+  );
+
+  useEffect(() => {
+    const handleBlur = () => {
+      document.title = "😞 Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [tabTitle]);
   return (
     <>
       <section>

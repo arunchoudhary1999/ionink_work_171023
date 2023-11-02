@@ -8,8 +8,8 @@ import Exprience from "./components/Experience";
 import Book from "./components/Book";
 import Awards from "./components/Awards";
 import Work from "./components/Work";
-import Portfolio from "./components/Portfolio";
 import Magzines from "./components/Magzines";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (

@@ -1,8 +1,36 @@
 import React from "react";
 import "./Experience.css";
 import Experience1 from "./Experience1";
+import { useState, useEffect } from "react";
 
 const Exprience = () => {
+  // useEffect(() => {
+  //   document.title = "Experience | BOL";
+  // }, []);
+
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title = "Experience | BOL")}`
+  );
+
+  useEffect(() => {
+    const handleBlur = () => {
+      document.title = "😞 Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [tabTitle]);
+
   return (
     <>
       <div style={{ border: "2px solid black", height: "100%" }}>

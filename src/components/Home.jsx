@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Book from "./Book";
 import Experience from "./Experience";
@@ -8,7 +8,11 @@ import Contact from "./Contact";
 import Magzines from "./Magzines";
 
 const Home = () => {
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title = "Home | BOL")}`
+  );
   useEffect(() => {
+    // document.title = "Home | BOL";
     const text = document.querySelector(".text p");
 
     text.innerHTML = text.innerText
@@ -18,7 +22,24 @@ const Home = () => {
           `<span style="transform: rotate(${i * 5.7}deg)" >${char}</span>`
       )
       .join("");
-  }, []);
+
+    const handleBlur = () => {
+      document.title = "😞 Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [tabTitle]);
 
   return (
     <div>

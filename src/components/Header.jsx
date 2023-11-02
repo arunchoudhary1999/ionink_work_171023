@@ -76,7 +76,7 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <button type="button" className="btn fs-5 headerLock">
-                  <NavLink to="/portfolio" className="headerLockLink">
+                  <NavLink to="/" className="headerLockLink">
                     <span class="fa fa-lock"></span>
                   </NavLink>
                 </button>

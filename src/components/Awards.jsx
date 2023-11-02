@@ -1,7 +1,31 @@
 import React from "react";
 import "./Award.css";
+import { useState, useEffect } from "react";
 
 const Awards = () => {
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title = "Awards | BOL")}`
+  );
+
+  useEffect(() => {
+    const handleBlur = () => {
+      document.title = "😞 Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [tabTitle]);
+
   return (
     <div
       style={{

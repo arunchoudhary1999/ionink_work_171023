@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Experience1.css";
+import { useEffect } from "react";
 
 const Experience1 = () => {
   const [one01, setOne01] = useState(1);
@@ -7,6 +8,33 @@ const Experience1 = () => {
   const [three03, setThree03] = useState(1);
   const [four04, setFour04] = useState(1);
   const [five05, setFive05] = useState(1);
+
+  // useEffect(() => {
+  //   document.title = "Experience | BOL";
+  // }, []);
+
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title = "Experience | BOL")}`
+  );
+
+  useEffect(() => {
+    const handleBlur = () => {
+      document.title = "😞 Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [tabTitle]);
 
   const hideShow01 = () => {
     if (one01 === 1) {

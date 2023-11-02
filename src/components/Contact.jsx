@@ -1,12 +1,36 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Contact.css";
+import { useEffect } from "react";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [description, setDescription] = useState("");
   console.log({ name, email, description });
+
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title = "Contact | BOL")}`
+  );
+
+  useEffect(() => {
+    const handleBlur = () => {
+      document.title = "😞 Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [tabTitle]);
 
   const handleName = (e) => {
     setName(e.target.value);
