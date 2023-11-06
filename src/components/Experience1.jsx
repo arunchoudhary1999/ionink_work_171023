@@ -14,7 +14,8 @@ const Experience1 = () => {
   // }, []);
 
   const [tabTitle, setTabTitle] = useState(
-    `${(document.title = "Experience | BOL")}`
+    `${(document.title =
+      "Experience | Brands Out Loud: Forefront For Everything Business")}`
   );
 
   useEffect(() => {
@@ -87,107 +88,206 @@ const Experience1 = () => {
   };
 
   return (
-    <div className="tableOne">
-      <table>
-        <tr>
-          <td className="tableContainerColumn01 onlyTd">Magazines</td>
-          <td className="onlyTd">Merchandise</td>
-          <td className="onlyTd">Get Social</td>
-          <td className="onlyTd">Upcoming Events, Webinars, and Podcasts</td>
-          <td className="onlyTd">Advertise With Us</td>
-          <td className="tableContainerColumn01 onlyTd" onClick={hideShow01}>
-            +
-          </td>
-        </tr>
-        <tr className="dropDownRowOne01">
-          <td className="dropDownRowOne01" colSpan="6">
-            <div id="main01" style={{ display: one01 ? "none" : "block" }}>
-              ★ Our magazine unveils the journeys of daring dreamers who
-              transformed ideas into legends. Stories that inspire, empower, and
-              redefine success.
+    <>
+      <div style={{ border: "2px solid black" }}>
+        <div className="tableOne">
+          <table>
+            <tr>
+              <td className="tableContainerColumn01 onlyTd">Magazines</td>
+              <td className="onlyTd">Merchandise</td>
+              <td className="onlyTd">Get Social</td>
+              <td className="onlyTd">
+                Upcoming Events, Webinars, and Podcasts
+              </td>
+              <td className="onlyTd">Advertise With Us</td>
+              <td
+                className="tableContainerColumn01 onlyTd"
+                onClick={hideShow01}
+              >
+                +
+              </td>
+            </tr>
+            <tr className="dropDownRowOne01">
+              <td className="dropDownRowOne01" colSpan="6">
+                <div id="main01" style={{ display: one01 ? "none" : "block" }}>
+                  ★ Our magazine unveils the journeys of daring dreamers who
+                  transformed ideas into legends. Stories that inspire, empower,
+                  and redefine success.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="onlyTd">Magazines</td>
+              <td className="tableContainerColumn01 onlyTd">Merchandise</td>
+              <td className="onlyTd">Get Social</td>
+              <td className="onlyTd">
+                Upcoming Events, Webinars, and Podcasts
+              </td>
+              <td className="onlyTd">Advertise With Us</td>
+              <td
+                className="tableContainerColumn01 onlyTd"
+                onClick={hideShow02}
+              >
+                +
+              </td>
+            </tr>
+            <tr className="dropDownRowOne01">
+              <td className="dropDownRowOne01" colSpan="6">
+                <div id="main02" style={{ display: two02 ? "none" : "block" }}>
+                  ★ Elevate your gifting with our unique merchandise. Get
+                  personalised mementoes, creative surprises, and engagement
+                  treasures that redefine team bonding..
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="onlyTd">Magazines</td>
+              <td className="onlyTd">Merchandise</td>
+              <td className="tableContainerColumn01 onlyTd">Get Social</td>
+              <td className="onlyTd">
+                Upcoming Events, Webinars, and Podcasts
+              </td>
+              <td className="onlyTd">Advertise With Us</td>
+              <td
+                className="tableContainerColumn01 onlyTd"
+                onClick={hideShow03}
+              >
+                +
+              </td>
+            </tr>
+            <tr className="dropDownRowOne01">
+              <td className="dropDownRowOne01" colSpan="6">
+                <div
+                  id="main03"
+                  style={{ display: three03 ? "none" : "block" }}
+                >
+                  ★ Join our dynamic social community, where brands, startups,
+                  and visionaries collaborate seamlessly. Foster global
+                  connections and influence across platforms.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="onlyTd">Magazines</td>
+              <td className="onlyTd">Merchandise</td>
+              <td className="onlyTd">Get Social</td>
+              <td className="tableContainerColumn01 onlyTd">
+                Upcoming Events, Webinars, and Podcasts
+              </td>
+              <td className="onlyTd">Advertise With Us</td>
+              <td
+                className="tableContainerColumn01 onlyTd"
+                onClick={hideShow04}
+              >
+                +
+              </td>
+            </tr>
+            <tr className="dropDownRowOne01">
+              <td className="dropDownRowOne01" colSpan="6">
+                <div id="main04" style={{ display: four04 ? "none" : "block" }}>
+                  ★ Embark on a journey of intellectual prowess. Uncover
+                  insights, challenge norms, and ignite innovation through our
+                  immersive events, webinars, and thought-provoking podcasts.
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td className="onlyTd">Magazines</td>
+              <td className="onlyTd">Merchandise</td>
+              <td className="onlyTd">Get Social</td>
+              <td className="onlyTd">
+                Upcoming Events, Webinars, and Podcasts
+              </td>
+              <td className="tableContainerColumn01 onlyTd">
+                Advertise With Us
+              </td>
+              <td
+                className="tableContainerColumn01 onlyTd"
+                onClick={hideShow05}
+              >
+                +
+              </td>
+            </tr>
+            <tr className="dropDownRowOne01">
+              <td className="dropDownRowOne01" colSpan="6">
+                <div id="main05" style={{ display: five05 ? "none" : "block" }}>
+                  ★ Your brand, our canvas. Collaborate to weave compelling
+                  narratives, showcasing your essence. Together, let's make
+                  waves that create ripples across industries
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              minHeight: "580px",
+              justifyContent: "center",
+              alignItems: "center",
+              flexDirection: "column",
+            }}
+            className="experienceblogTop01"
+          >
+            <div className="experienceblogHeading00">
+              <h1 className="experienceblogHeading01">
+                {" "}
+                What BOL Has To Offer
+              </h1>
             </div>
-          </td>
-        </tr>
-        <tr>
-          <td className="onlyTd">Magazines</td>
-          <td className="tableContainerColumn01 onlyTd">Merchandise</td>
-          <td className="onlyTd">Get Social</td>
-          <td className="onlyTd">Upcoming Events, Webinars, and Podcasts</td>
-          <td className="onlyTd">Advertise With Us</td>
-          <td className="tableContainerColumn01 onlyTd" onClick={hideShow02}>
-            +
-          </td>
-        </tr>
-        <tr className="dropDownRowOne01">
-          <td className="dropDownRowOne01" colSpan="6">
-            <div id="main02" style={{ display: two02 ? "none" : "block" }}>
-              ★ Elevate your gifting with our unique merchandise. Get
-              personalised mementoes, creative surprises, and engagement
-              treasures that redefine team bonding..
+            <div className="experienceblogTwoMainDiv01">
+              <div class="card-deck experienceblogTwoMainInnerDiv">
+                <div class="experienceblogTwoMainImgCardStyle other01">
+                  <div class="card-body experienceblogTwoMainTextStyle ">
+                    <h1 className="experienceblogTwoMainTextStyleH1">
+                      Magazine
+                    </h1>
+                    <h5 class="card-title experienceblogTwoMainTextStyle2H5">
+                      Our monthly editions seek to unveil stories that inspire,
+                      empower, and redefine success, one page at a time.
+                    </h5>
+
+                    <p class="card-text experienceblogTwoMainTextStyle2P">
+                      [Read Now]
+                    </p>
+                  </div>
+                </div>
+                <div class="experienceblogTwoMainImgCardStyle other02">
+                  <div class="card-body experienceblogTwoMainTextStyle">
+                    <h1 className="experienceblogTwoMainTextStyleH1">Books</h1>
+                    <h5 class="card-title experienceblogTwoMainTextStyle2H5">
+                      Invest in the power of knowledge with our byte-sized take
+                      on various industries, verticals, and interests.
+                    </h5>
+
+                    <p class="card-text experienceblogTwoMainTextStyle2P">
+                      [Explore Now]
+                    </p>
+                  </div>
+                </div>
+                <div class="experienceblogTwoMainImgCardStyle other03">
+                  <div class="card-body experienceblogTwoMainTextStyle">
+                    <h1 className="experienceblogTwoMainTextStyleH1">
+                      Events, Webinars, and Podcasts
+                    </h1>
+                    <h5 class="card-title experienceblogTwoMainTextStyle2H5">
+                      Embark on a journey of intellectual prowess. Uncover
+                      insights, and challenge norms, led by industry experts.
+                    </h5>
+
+                    <p class="card-text experienceblogTwoMainTextStyle2P">
+                      [Register Now]
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </td>
-        </tr>
-        <tr>
-          <td className="onlyTd">Magazines</td>
-          <td className="onlyTd">Merchandise</td>
-          <td className="tableContainerColumn01 onlyTd">Get Social</td>
-          <td className="onlyTd">Upcoming Events, Webinars, and Podcasts</td>
-          <td className="onlyTd">Advertise With Us</td>
-          <td className="tableContainerColumn01 onlyTd" onClick={hideShow03}>
-            +
-          </td>
-        </tr>
-        <tr className="dropDownRowOne01">
-          <td className="dropDownRowOne01" colSpan="6">
-            <div id="main03" style={{ display: three03 ? "none" : "block" }}>
-              ★ Join our dynamic social community, where brands, startups, and
-              visionaries collaborate seamlessly. Foster global connections and
-              influence across platforms.
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td className="onlyTd">Magazines</td>
-          <td className="onlyTd">Merchandise</td>
-          <td className="onlyTd">Get Social</td>
-          <td className="tableContainerColumn01 onlyTd">
-            Upcoming Events, Webinars, and Podcasts
-          </td>
-          <td className="onlyTd">Advertise With Us</td>
-          <td className="tableContainerColumn01 onlyTd" onClick={hideShow04}>
-            +
-          </td>
-        </tr>
-        <tr className="dropDownRowOne01">
-          <td className="dropDownRowOne01" colSpan="6">
-            <div id="main04" style={{ display: four04 ? "none" : "block" }}>
-              ★ Embark on a journey of intellectual prowess. Uncover insights,
-              challenge norms, and ignite innovation through our immersive
-              events, webinars, and thought-provoking podcasts.
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td className="onlyTd">Magazines</td>
-          <td className="onlyTd">Merchandise</td>
-          <td className="onlyTd">Get Social</td>
-          <td className="onlyTd">Upcoming Events, Webinars, and Podcasts</td>
-          <td className="tableContainerColumn01 onlyTd">Advertise With Us</td>
-          <td className="tableContainerColumn01 onlyTd" onClick={hideShow05}>
-            +
-          </td>
-        </tr>
-        <tr className="dropDownRowOne01">
-          <td className="dropDownRowOne01" colSpan="6">
-            <div id="main05" style={{ display: five05 ? "none" : "block" }}>
-              ★ Your brand, our canvas. Collaborate to weave compelling
-              narratives, showcasing your essence. Together, let's make waves
-              that create ripples across industries
-            </div>
-          </td>
-        </tr>
-      </table>
-    </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

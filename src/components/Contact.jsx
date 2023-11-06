@@ -5,12 +5,15 @@ import { useEffect } from "react";
 
 const Contact = () => {
   const [name, setName] = useState("");
+  const [help, setHelp] = useState("");
   const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
   const [description, setDescription] = useState("");
-  console.log({ name, email, description });
+  console.log({ name, help, email, number, description });
 
   const [tabTitle, setTabTitle] = useState(
-    `${(document.title = "Contact | BOL")}`
+    `${(document.title =
+      "Contact | Brands Out Loud: Forefront For Everything Business")}`
   );
 
   useEffect(() => {
@@ -36,8 +39,16 @@ const Contact = () => {
     setName(e.target.value);
   };
 
+  const handleHelp = (e) => {
+    setHelp(e.target.value);
+  };
+
   const handleEmail = (e) => {
     setEmail(e.target.value);
+  };
+
+  const handleNumber = (e) => {
+    setNumber(e.target.value);
   };
 
   const handleDescription = (e) => {
@@ -48,13 +59,15 @@ const Contact = () => {
     axios
       .post("https://bol-9joj.onrender.com/user/sendmail", {
         name: name,
+        help: help,
         email: email,
+        number: number,
         description: description,
       })
       .then((result) => {
         console.log(result);
         alert(
-          `Your Data Is Here : \n Name : ${name} \n Email : ${email} \n Description : ${description} \n Your Message is Successfully Send`
+          `Your Data Is Here : \n Name : ${name} \n Help : ${help} \n Number : ${number} \n Email : ${email} \n Description : ${description} \n Your Message is Successfully Send`
         );
       })
       .catch((error) => {
@@ -126,8 +139,46 @@ const Contact = () => {
                       type="text"
                       class="form-control"
                       name="name"
+                      placeholder="Enter Your Name"
                       value={name}
                       onChange={handleName}
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="exampleFormControlTextarea1">
+                      How Can We Help?
+                    </label>
+                    <input
+                      style={{
+                        cursor: "text",
+                        border: "1px solid black",
+                        borderRadius: "15px",
+                        margin: "10px 0",
+                      }}
+                      type="text"
+                      class="form-control"
+                      name="help"
+                      placeholder="(Share Your Story, Advertise With Us, Collaboration, Join Our Team)"
+                      value={help}
+                      onChange={handleHelp}
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="exampleFormControlTextarea1">
+                      Phone Number
+                    </label>
+                    <input
+                      style={{
+                        border: "1px solid black",
+                        borderRadius: "15px",
+                        margin: "10px 0",
+                      }}
+                      type="number"
+                      class="form-control"
+                      name="number"
+                      placeholder="Enter Your Number"
+                      value={number}
+                      onChange={handleNumber}
                     />
                   </div>
                   <div class="col">
@@ -144,12 +195,14 @@ const Contact = () => {
                       class="form-control"
                       name="email"
                       value={email}
+                      placeholder="Enter Your E-mail"
                       onChange={handleEmail}
                     />
                   </div>
                 </div>
               </form>
               <div class="form-group">
+                <label for="exampleFormControlTextarea1">What's Up?</label>
                 <textarea
                   style={{
                     border: "1px solid black",
@@ -160,7 +213,7 @@ const Contact = () => {
                   value={description}
                   onChange={handleDescription}
                   class="form-control"
-                  placeholder="What's up?"
+                  placeholder="Describe in detail such that we can have the appropriate point of contact get in touch with you"
                   id="exampleFormControlTextarea1"
                   rows="3"
                 ></textarea>

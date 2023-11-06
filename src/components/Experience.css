@@ -87,7 +87,9 @@
     font-size: 7vw;
     text-transform: uppercase;
     white-space: nowrap;
-    padding: 0 1.4rem;
+    padding: 0 1rem;
+    margin-left: 0;
+    margin-right: 0;
     font-weight: 800;
     /* margin-top: 10px; */
     animation: move-all 8s linear infinite;
@@ -101,7 +103,8 @@
 
 @keyframes move-all {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
+
     }
 
     100% {
@@ -175,7 +178,7 @@
 
     .speechb:before {
         right: 43% !important;
-        top: -9% !important;
+        top: -8.5% !important;
         width: 0;
         height: 0;
         border-top: 0px solid transparent !important;
@@ -201,6 +204,16 @@
 
     .experienceSlider {
         margin-bottom: 50px;
+    }
+
+    /* bubble */
+    .bodyBubble {
+        overflow: hidden;
+    }
+
+    .bubble01 {
+        right: 120px !important;
+        bottom: -50px !important;
     }
 }
 
@@ -248,4 +261,78 @@
 
 .experienceDiv {
     margin: auto;
+}
+
+
+
+/* bubble */
+.bodyBubble {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* align-content: space-between; */
+}
+
+.bubble {
+    position: relative;
+    right: 30px;
+    bottom: -30px;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    width: 150px;
+    /* background-color: red; */
+    border: 2px solid #0fb4ff;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.25);
+}
+
+.bubble p {
+    margin: auto;
+    font-weight: 900;
+    color: #0fb4ff;
+    font-size: 12px;
+}
+
+.bubble span {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bubble span:nth-child(1) {
+    inset: 4px;
+    border-left: 10px solid #0fb4ff;
+    filter: blur(3px);
+}
+
+
+.bubble01 {
+    position: relative;
+    right: 150px;
+    bottom: -40px;
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    width: 40px;
+    /* background-color: red; */
+    border: 2px solid #0fb4ff;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.25);
+}
+
+.bubble01 span {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bubble01 span:nth-child(1) {
+    inset: 4px;
+    border-left: 10px solid #0fb4ff;
+    filter: blur(2px);
 }

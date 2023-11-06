@@ -1,10 +1,11 @@
 import React from "react";
-import "./Book.css";
+import "./Books.css";
 import { useState, useEffect } from "react";
 
-const Book = () => {
+const Books = () => {
   const [tabTitle, setTabTitle] = useState(
-    `${(document.title = "Book | BOL")}`
+    `${(document.title =
+      "Books | Brands Out Loud: Forefront For Everything Business")}`
   );
 
   useEffect(() => {
@@ -126,8 +127,11 @@ const Book = () => {
                   <br />
                   <li>The Burnout</li>
                   <br />
+                  <li>The Branded C-Suite</li>
+                  <br />
+
                   <li>
-                    The C-Suite Branding
+                    The Science Of A Landing Page
                     <br />
                     <br />
                   </li>
@@ -170,4 +174,4 @@ const Book = () => {
   );
 };
 
-export default Book;
+export default Books;

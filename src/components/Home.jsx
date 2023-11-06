@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-import Book from "./Book";
+import Books from "./Books";
 import Experience from "./Experience";
-import Awards from "./Awards";
+// import Awards from "./Awards";
 import Work from "./Work";
 import Contact from "./Contact";
-import Magzines from "./Magzines";
+import Magazine from "./Magazine";
+import Team from "./Team";
+// import Blog from "./Blog";
 
 const Home = () => {
   const [tabTitle, setTabTitle] = useState(
-    `${(document.title = "Home | BOL")}`
+    `${(document.title =
+      "Home | Brands Out Loud: Forefront For Everything Business")}`
   );
   useEffect(() => {
     // document.title = "Home | BOL";
@@ -56,6 +59,7 @@ const Home = () => {
               height: "100%",
               width: "100%",
               // background: "rgb(135,206,250)",
+              paddingBottom: "15px",
               background: "linear-Gradient(#72eca5, #54b8d8)",
             }}
           >
@@ -157,11 +161,13 @@ const Home = () => {
         </div>
       </div>
       <Experience />
-      <Book />
-      <Awards />
+      <Books />
+      {/* <Blog /> */}
+      {/* <Awards /> */}
       <Work />
+      <Team />
+      <Magazine />
       <Contact />
-      <Magzines />
     </div>
   );
 };

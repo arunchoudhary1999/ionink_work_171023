@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 
 const Work = () => {
   const [tabTitle, setTabTitle] = useState(
-    `${(document.title = "Work | BOL")}`
+    `${(document.title =
+      "Work | Brands Out Loud: Forefront For Everything Business")}`
   );
 
   useEffect(() => {
@@ -30,10 +31,12 @@ const Work = () => {
       <section>
         <div className="scroll text1">
           <div>
-            work <span>work</span> work <span>work</span>
+            #Editor’s Choice <span>#Editor’s Choice</span> #Editor’s Choice{" "}
+            <span>#Editor’s Choice</span>
           </div>
           <div>
-            work <span>work</span> work <span>work</span>
+            #Editor’s Choice <span>#Editor’s Choice</span> #Editor’s Choice{" "}
+            <span>#Editor’s Choice</span>
           </div>
           {/* <div>
             work <span className="text-wrapper-stoke">work</span> work{" "}
@@ -76,15 +79,16 @@ const Work = () => {
               your stories get a standing ovation!
             </h5>
           </div>
-          <div style={{ padding: "1%" }}>
+          <div
+            style={{ padding: "1%", width: "18%" }}
+            className="workPageDivButton001"
+          >
             <button
               type="button"
-              class="btn btn-success"
+              class="btn btn-success workPageDivButton"
               style={{ borderRadius: "35px" }}
             >
-              <h4 style={{ padding: "1% 5px" }} className="workPageDivButton">
-                GIVE US A SHOUT
-              </h4>
+              Share your story
             </button>
           </div>
         </div>
@@ -171,6 +175,19 @@ const Work = () => {
               }}
             />
           </div>
+          <div class="cardGroup">
+            <img
+              class="card card-img-top"
+              src="/assets/images/work01.png"
+              alt="Contact Us"
+              style={{
+                margin: "20px 10px",
+                borderRadius: "35px",
+                height: "300px",
+                width: "400px",
+              }}
+            />
+          </div>
 
           <div>
             <br />
@@ -193,12 +210,12 @@ const Work = () => {
               <div class="workPageDivIconImg">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo01.svg"
+                  src="/assets/images/WLogo01.webp"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -206,12 +223,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo02.svg"
+                  src="/assets/images/WLogo02.webp"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -219,12 +236,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo03.svg"
+                  src="/assets/images/WLogo03.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -232,12 +249,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo04.svg"
+                  src="/assets/images/WLogo04.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -245,12 +262,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo05.svg"
+                  src="/assets/images/WLogo05.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -258,12 +275,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo06.svg"
+                  src="/assets/images/WLogo06.webp"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -271,12 +288,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo07.svg"
+                  src="/assets/images/WLogo07.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -284,12 +301,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo08.svg"
+                  src="/assets/images/WLogo08.svg"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -297,12 +314,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo09.svg"
+                  src="/assets/images/WLogo09.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -310,12 +327,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo10.svg"
+                  src="/assets/images/WLogo10.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -323,12 +340,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo11.svg"
+                  src="/assets/images/WLogo11.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>
@@ -336,25 +353,12 @@ const Work = () => {
               <div class="">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo12.svg"
+                  src="/assets/images/WLogo12.png"
                   alt="Contact Us"
-                  height="100px"
-                  width="173px"
+                  height="60px"
+                  width="120px"
                   style={{
-                    margin: "20px 0px",
-                  }}
-                />
-              </div>
-
-              <div class="">
-                <img
-                  class="card-img-top-icon workPageDivIconImgDone"
-                  src="/assets/images/logo13.svg"
-                  alt="Contact Us"
-                  height="100px"
-                  width="173px"
-                  style={{
-                    margin: "20px 0px",
+                    margin: "20px 25px",
                   }}
                 />
               </div>

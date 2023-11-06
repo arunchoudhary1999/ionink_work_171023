@@ -14,15 +14,17 @@ section .scroll {
 
 section .scroll div {
     background-color: #ffcb46;
-    font-size: 7vw;
+    font-size: 6vw;
     text-transform: uppercase;
     white-space: nowrap;
     word-spacing: 15px;
     padding: 0 2rem;
     font-weight: 800;
-    animation: move-all 10s linear infinite;
+    animation: move-all 15s linear infinite;
     border-color: #ffcb46;
     line-height: 100%;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
 
 
@@ -38,7 +40,7 @@ section .scroll div {
 }
 
 section .scroll.text1 {
-    transform: rotate(-3deg) translateY(-200px) translateY(200px);
+    transform: rotate(-2deg) translateY(-200px) translateY(200px);
 }
 
 /* .text-wrapper {
@@ -83,7 +85,7 @@ section .scroll.text1 {
 }
 
 .workPageDivButton {
-    padding: 0 20px !important;
+    padding: 10px 20px !important;
     margin: 0 !important;
     font-size: 15px;
 
@@ -124,10 +126,10 @@ section .scroll.text1 {
         text-align: justify;
     }
 
-    .workPageDivButton {
-        padding: 0 !important;
-        margin: 0 !important;
-        font-size: 18px;
+
+    .workPageDivButton001 {
+        width: 100% !important;
+        text-align: center !important;
     }
 
     .workPageDivCard {
@@ -143,9 +145,9 @@ section .scroll.text1 {
     }
 
     .workPageDivIconImgDone {
-        height: 80px;
-        width: 80px;
-        margin: 0 !important;
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 0px !important;
     }
 
     .cardGroup {
@@ -169,5 +171,7 @@ section .scroll.text1 {
 
     section .scroll div {
         padding: 0 1rem !important;
+        margin-top: 7px;
+        margin-bottom: 7px;
     }
 }

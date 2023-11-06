@@ -41,16 +41,32 @@ const Header = () => {
             <div>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/magazine">
+                    Magazine
+                  </NavLink>
+                </li>
+                {/* <li className="nav-item mx-2">
                   <NavLink className="nav-link text-dark fs-5" to="/experience">
                     Experience
                   </NavLink>
-                </li>
+                </li> */}
+
                 <li className="nav-item mx-2">
-                  <NavLink className="nav-link text-dark fs-5" to="/book">
-                    Book
+                  <NavLink className="nav-link text-dark fs-5" to="/books">
+                    Books
                   </NavLink>
                 </li>
                 <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/blog">
+                    Blog
+                  </NavLink>
+                </li>
+                {/* <li className="nav-item mx-2">
+                  <NavLink className="nav-link text-dark fs-5" to="/work">
+                    Work
+                  </NavLink>
+                </li> */}
+                {/* <li className="nav-item mx-2">
                   <NavLink className="nav-link text-dark fs-5" to="/awards">
                     Awards
                   </NavLink>
@@ -59,27 +75,23 @@ const Header = () => {
                   <NavLink className="nav-link text-dark fs-5" to="/work">
                     Work
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item mx-2">
                   <NavLink className="nav-link text-dark fs-5" to="/contact">
                     Contact
                   </NavLink>
                 </li>
-                <li className="nav-item mx-2">
-                  <NavLink className="nav-link text-dark fs-5" to="/magzines">
-                    Magzines
-                  </NavLink>
-                </li>
-                <li className="nav-item mx-2">
+
+                {/* <li className="nav-item mx-2">
                   <NavLink className="nav-link text-dark fs-5" to="/">
                     Portfolio
                   </NavLink>
-                </li>
-                <button type="button" className="btn fs-5 headerLock">
+                </li> */}
+                {/* <button type="button" className="btn fs-5 headerLock">
                   <NavLink to="/" className="headerLockLink">
                     <span class="fa fa-lock"></span>
                   </NavLink>
-                </button>
+                </button> */}
                 <Linkedin />
                 <Instagram />
               </ul>

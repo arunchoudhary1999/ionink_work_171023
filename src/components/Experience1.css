@@ -82,4 +82,122 @@ tr {
         font-weight: 900;
         /* font-size: 18px; */
     }
+
+    .experienceblogHeading01 {
+        text-align: center;
+        font-size: 25px !important;
+        font-weight: 800 !important;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .experienceblogTwoMainDiv01 {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .experienceblogTwoMainInnerDiv {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .experienceblogTwoMainImgCardStyle {
+        margin: 30px 0px !important;
+    }
+
+    .experienceblogTwoMainImgCardStyle {
+        margin: 0 0 35px 0 !important;
+    }
+
+    .experienceblogTwoMainTextStyle2P,
+    .experienceblogTwoMainTextStyleP1 {
+        display: none !important;
+    }
+
+}
+
+.experienceblogHeading00 {
+    margin-top: 15px;
+}
+
+.experienceblogTop01 {
+    /* background-color: red; */
+}
+
+.experienceblogHeading01 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.experienceblogTwoMainDiv01 {
+    width: 85%;
+    height: auto;
+}
+
+.experienceblogTwoMainInnerDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: auto;
+
+}
+
+.experienceblogTwoMainImgCardStyle {
+    width: 250px;
+    /* margin: 19px 0px; */
+    border: 1px solid lightgray;
+    padding: 50px 25px;
+}
+
+.other01 {
+    background-color: rgb(193, 23, 23);
+    border-top-left-radius: 50px;
+    border-color: rgb(193, 23, 23);
+}
+
+.other02 {
+    background-color: rgb(49, 49, 186);
+    border-top-left-radius: 50px;
+    border-color: rgb(49, 49, 186);
+
+}
+
+.other03 {
+    background-color: rgb(86, 18, 118);
+    border-top-left-radius: 50px;
+    border-color: rgb(86, 18, 118);
+
+}
+
+.experienceblogTwoMainImgStyle {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+
+.experienceblogTwoMainTextStyle {
+    text-align: center;
+    line-height: 70px;
+}
+
+.experienceblogTwoMainTextStyle2H5 {
+    color: lightgray;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+}
+
+.experienceblogTwoMainTextStyleH1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+
+.experienceblogTwoMainTextStyle2P {
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
 }

@@ -16,36 +16,59 @@ const Footer = () => {
         <div className="footerLogo">
           <NavLink class="navbar-brand" to="/">
             <img
-              src="/assets/images/BOL - Black.png"
+              src="/assets/images/footerImg.png"
               alt="Logo"
-              width="90"
-              height="54"
+              width="65"
+              height="200"
+              class="d-inline-block align-text-top"
+            />
+            <img
+              src="/assets/images/footerImg.png"
+              alt="Logo"
+              width="65"
+              height="200"
+              class="d-inline-block align-text-top"
+            />
+            <img
+              src="/assets/images/footerImg.png"
+              alt="Logo"
+              width="65"
+              height="200"
               class="d-inline-block align-text-top"
             />
           </NavLink>
+          <p>
+            This is where our website ends, but this is where your journey
+            begins. You deserve a virtual high-five! 🖐
+          </p>
         </div>
         <nav class="navbar navbar-expand footerMenu">
           <div class="container-fluid ">
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
               <ul class="navbar-nav footerMenuUl">
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="/">
-                    Google
+                  <a class="nav-link text-dark" href="/magazine">
+                    Magazine
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="/books">
+                    Books
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="/wrok">
+                    Blog
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="/contact">
+                    Contact
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-dark" href="/">
-                    Privacy
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="/">
-                    Terms
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark" href="/">
-                    Transparency
+                    Privacy Policy
                   </a>
                 </li>
               </ul>

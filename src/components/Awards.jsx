@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 
 const Awards = () => {
   const [tabTitle, setTabTitle] = useState(
-    `${(document.title = "Awards | BOL")}`
+    `${(document.title =
+      "Awards | Brands Out Loud: Forefront For Everything Business")}`
   );
 
   useEffect(() => {
