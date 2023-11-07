@@ -103,17 +103,12 @@ tr {
 
     .experienceblogTwoMainImgCardStyle {
         margin: 30px 0px !important;
+        padding: 50px 25px 20px 25px !important;
     }
 
     .experienceblogTwoMainImgCardStyle {
         margin: 0 0 35px 0 !important;
     }
-
-    .experienceblogTwoMainTextStyle2P,
-    .experienceblogTwoMainTextStyleP1 {
-        display: none !important;
-    }
-
 }
 
 .experienceblogHeading00 {

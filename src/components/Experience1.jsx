@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Experience1.css";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const Experience1 = () => {
   const [one01, setOne01] = useState(1);
@@ -250,7 +251,12 @@ const Experience1 = () => {
                     </h5>
 
                     <p class="card-text experienceblogTwoMainTextStyle2P">
-                      [Read Now]
+                      <NavLink
+                        to="/magazine"
+                        className="experienceblogTwoMainTextStyle2P"
+                      >
+                        Read Now
+                      </NavLink>
                     </p>
                   </div>
                 </div>
@@ -263,7 +269,12 @@ const Experience1 = () => {
                     </h5>
 
                     <p class="card-text experienceblogTwoMainTextStyle2P">
-                      [Explore Now]
+                      <NavLink
+                        to="/books"
+                        className="experienceblogTwoMainTextStyle2P"
+                      >
+                        Explore Now
+                      </NavLink>
                     </p>
                   </div>
                 </div>
@@ -278,7 +289,12 @@ const Experience1 = () => {
                     </h5>
 
                     <p class="card-text experienceblogTwoMainTextStyle2P">
-                      [Register Now]
+                      <NavLink
+                        to="/contact"
+                        className="experienceblogTwoMainTextStyle2P"
+                      >
+                        Register Now
+                      </NavLink>
                     </p>
                   </div>
                 </div>

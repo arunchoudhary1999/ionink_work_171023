@@ -3,6 +3,24 @@ import "./Books.css";
 import { useState, useEffect } from "react";
 
 const Books = () => {
+  const [title1, setTitle1] = useState("Book");
+
+  const updateOne = () => {
+    setTitle1("Indian Red Flag");
+  };
+
+  const updateTwo = () => {
+    setTitle1("The Burnout");
+  };
+
+  const updateThree = () => {
+    setTitle1("The Branded C-Suite");
+  };
+
+  const updateFour = () => {
+    setTitle1("The Science Of A Landing Page");
+  };
+
   const [tabTitle, setTabTitle] = useState(
     `${(document.title =
       "Books | Brands Out Loud: Forefront For Everything Business")}`
@@ -85,12 +103,13 @@ const Books = () => {
               <h1
                 class="card-title bookPageHeading"
                 style={{
-                  fontSize: "95px",
+                  minHeight: "144px",
+                  fontSize: "60px",
                   fontWeight: "900",
                   letterSpacing: "2px",
                 }}
               >
-                BOOk
+                {title1}
                 <br />
               </h1>
               <h3
@@ -104,7 +123,6 @@ const Books = () => {
                 Explore our Literary Treasure– Where Facts Inspire, One Page at
                 a Time
                 <br />
-                <br />
               </h3>
               <p
                 class="card-text bookPageParagraph"
@@ -117,7 +135,7 @@ const Books = () => {
                 collection of captivating realities that fuel your curiosity and
                 broaden your knowledge horizons. Get inspired! <br />
                 <br />
-                <ul
+                {/* <ul
                   style={{
                     fontSize: "18px",
                     fontWeight: "500",
@@ -135,8 +153,75 @@ const Books = () => {
                     <br />
                     <br />
                   </li>
-                </ul>
+                </ul> */}
               </p>
+              <div className="bookCardDiv">
+                <div
+                  class="card bg-dark text-white bookCardList"
+                  onClick={updateOne}
+                >
+                  <img
+                    src="/assets/images/book.png"
+                    class="card-img"
+                    alt="..."
+                    className="bookCardSmall"
+                  />
+                  <div class="card-img-overlay bookCardTextDiv">
+                    <h5 class="card-title bookCardTextDivH5">
+                      Indian Red Flag
+                    </h5>
+                  </div>
+                </div>
+
+                <div
+                  class="card bg-dark text-white bookCardList"
+                  onClick={updateTwo}
+                >
+                  <img
+                    src="/assets/images/book.png"
+                    class="card-img"
+                    alt="..."
+                    className="bookCardSmall"
+                  />
+                  <div class="card-img-overlay bookCardTextDiv">
+                    <h5 class="card-title bookCardTextDivH5">The Burnout</h5>
+                  </div>
+                </div>
+
+                <div
+                  class="card bg-dark text-white bookCardList"
+                  onClick={updateThree}
+                >
+                  <img
+                    src="/assets/images/book.png"
+                    class="card-img"
+                    alt="..."
+                    className="bookCardSmall"
+                  />
+                  <div class="card-img-overlay bookCardTextDiv">
+                    <h5 class="card-title bookCardTextDivH5">
+                      The Branded C-Suite
+                    </h5>
+                  </div>
+                </div>
+
+                <div
+                  class="card bg-dark text-white bookCardList"
+                  onClick={updateFour}
+                >
+                  <img
+                    src="/assets/images/book.png"
+                    class="card-img"
+                    alt="..."
+                    className="bookCardSmall"
+                  />
+                  <div class="card-img-overlay bookCardTextDiv">
+                    <h5 class="card-title bookCardTextDivH5">
+                      The Science Of A Landing Page
+                    </h5>
+                  </div>
+                </div>
+              </div>
               <div
                 style={{ display: "flex", justifyContent: "space-evenly" }}
                 className="bookPageButton"

@@ -14,9 +14,12 @@
 
 
     .bookPageHeading {
-        font-size: 65px !important;
+        font-size: 32px !important;
         text-align: center;
-        padding: 10px 0 !important;
+        padding: 10px 5px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
     .bookPageSmallHeading {
@@ -51,4 +54,67 @@
     .bookTop {
         padding: 0 !important;
     }
+
+    .bookCardDiv {
+        justify-content: center !important;
+        margin-top: -42px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .bookCardList {
+        height: 140px !important;
+    }
+
+    .bookCardSmall {
+        width: 120px !important;
+        height: 140px !important;
+    }
+
+    .bookCardTextDiv {
+        display: flex !important;
+        justify-content: end !important;
+        background-color: #43d87d !important;
+    }
+
+    .bookCardTextDivH5 {
+        width: 50% !important;
+        color: black !important;
+        opacity: 0.5 !important;
+        font-weight: 900;
+    }
+
+    .bookCardSmall {
+        opacity: 1 !important;
+        z-index: 1 !important;
+        opacity: 0.6 !important;
+
+    }
+
+}
+
+
+.bookCardDiv {
+    margin-bottom: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none;
+}
+
+.bookCardList {
+    width: 140px !important;
+}
+
+.bookCardTextDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.bookCardSmall {
+    opacity: 0.6;
 }
