@@ -57,7 +57,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dark" href="/wrok">
+                  <a class="nav-link text-dark" href="/blog">
                     Blog
                   </a>
                 </li>
