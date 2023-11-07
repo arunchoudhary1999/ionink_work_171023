@@ -3,7 +3,7 @@ import "./Books.css";
 import { useState, useEffect } from "react";
 
 const Books = () => {
-  const [title1, setTitle1] = useState("Book");
+  const [title1, setTitle1] = useState("Indian Red Flag");
 
   const updateOne = () => {
     setTitle1("Indian Red Flag");
