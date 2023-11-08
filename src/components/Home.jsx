@@ -60,19 +60,16 @@ const Home = () => {
               width: "100%",
               // background: "rgb(135,206,250)",
               paddingBottom: "15px",
-              background: "linear-Gradient(#72eca5, #54b8d8)",
+              // background: "linear-Gradient(#72eca5, #54b8d8)",
+              background: "#D5FD38",
             }}
           >
             <div
               style={{ width: "90%", float: "right" }}
               className="homePageText"
             >
-              <div
-                style={{
-                  marginTop: "-50px",
-                }}
-              >
-                <h1
+              <div className="homePageImgDiv">
+                {/* <h1
                   style={{
                     marginTop: "8vh",
                     fontSize: "18vw",
@@ -87,7 +84,12 @@ const Home = () => {
                   <span className="textGradient">B</span>
                   <span className="textGradientC">O</span>
                   <span className="textGradient">L!</span>
-                </h1>
+                </h1> */}
+                <img
+                  src="/assets/images/HomePage.gif"
+                  alt="Contact Us"
+                  className="homePageImg"
+                />
               </div>
               <div
                 className="rotate-scroll"

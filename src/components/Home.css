@@ -166,4 +166,21 @@
         -webkit-text-stroke: 0.5vw white !important;
     }
 
+    .homePageImg {
+        width: 320px !important;
+        height: 200px !important;
+    }
+
+    .homePageImgDiv {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+
+
+.homePageImg {
+    width: 700px;
+    height: 316px;
+    margin-top: 30px;
 }
