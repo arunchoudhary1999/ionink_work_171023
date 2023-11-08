@@ -174,6 +174,7 @@
     .homePageImgDiv {
         display: flex !important;
         justify-content: center !important;
+        margin-left: 0px !important;
     }
 
 }
@@ -183,4 +184,10 @@
     width: 700px;
     height: 316px;
     margin-top: 30px;
+}
+
+.homePageImgDiv {
+    display: flex;
+    justify-content: start;
+    margin-left: -55px;
 }

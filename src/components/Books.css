@@ -68,6 +68,7 @@
     .bookCardSmall {
         width: 120px !important;
         height: 140px !important;
+        overflow: hidden !important;
     }
 
     .bookCardTextDiv {
