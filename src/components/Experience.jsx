@@ -152,27 +152,57 @@ const Exprience = () => {
   return (
     <>
       <div style={{ border: "2px solid black", height: "100%" }}>
-        <div className="fluid-container experienceSlider">
-          {/* <div className="row airplaneContainer02" style={{ width: "100%" }}>
-            <div className="col-12 airplane02" style={{ textAlign: "center" }}>
-              <h1
-                style={{
-                  fontSize: "8vw",
-                  fontWeight: "900",
-                  display: "flex",
-                  margin: "auto",
-                  flexDirection: "row",
-                }}
-                className="experienceH1Tag"
-                data-text="Experience"
-              >
-                STARTUPS&nbsp;
-                <h1 className="experienceH1InnerTag">PEOPLE&nbsp;</h1>
-                INNOVATION&nbsp;
-                <h1 className="experienceH1InnerTag">CURIOSITY</h1>
+        <div
+          className="expRadiusDivMain"
+          style={{
+            width: "100%",
+            // background: "rgb(135,206,250)",
+            // background: "linear-Gradient(#72eca5, #54b8d8)",
+            height: "740px",
+            display: "flex",
+            alignItems: "center",
+          }}
+        >
+          <div className="expRadiusDiv">
+            <div className="expRadiusDivFirHeadiing">
+              <h1 className="expRadiusDivH1">
+                "We ignite stories,
+                <br />
+                celebrate
+                <br />
+                entrepreneurship,
+                <br />
+                and thrive on the
+                <br />
+                sparks of
+                <br />
+                imagination."
               </h1>
             </div>
-          </div> */}
+            <div className="expRadiusDivSecImgPara">
+              <img
+                className="expRadiusDivSecImg"
+                src="/assets/images/expPageImg.png"
+                alt="expPageImg"
+              />
+              <h6 className="expRadiusDivSecPara">
+                We craft a confetti-filled carnival where every brand can
+                <br />
+                unmute their imagination and creativity, every entrepreneur's
+                <br />
+                journey and success is shared and celebrated, and innovation
+                <br />
+                takes centerstage fueled by curiosity and collective brilliance.
+                <br />
+                <br />
+                We are Brands Out Loud—where stories, collaboration, and
+                <br />
+                innovation merge.
+              </h6>
+            </div>
+          </div>
+        </div>
+        {/* <div className="fluid-container experienceSlider">
           <div className="text-wrapper">
             <h1>
               | Startups <span className="text-wrapper-stoke">| People</span> |
@@ -202,9 +232,7 @@ const Exprience = () => {
               <div className="bubble01">
                 <span></span>
               </div>
-              {/* <div className="bubble02">
-                <span></span>
-              </div> */}
+              
               <img
                 src="/assets/images/experience.gif"
                 alt="Contact Us"
@@ -244,7 +272,7 @@ const Exprience = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Experience1 />
     </>

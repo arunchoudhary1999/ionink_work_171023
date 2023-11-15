@@ -1,3 +1,14 @@
+.teamTopOneDiv {
+    background: linear-gradient(135deg, #d5fc39, #fff, #fff, #fff, #fff, #fff, #fff, #d5fc39);
+}
+
+.teamCardDiv {
+    width: 53%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .App {
     font-family: sans-serif;
     display: flex;
@@ -5,24 +16,72 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    width: 85%;
+    width: 81%;
     margin: auto;
 }
 
 .teamText {
     width: 70%;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+}
+
+.teamTextH1 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+.teamImgH3 {
+    color: black;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+}
+
+.teamImgH6 {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    float: left;
+}
+
+.teamImg {
+    width: 60px !important;
+    height: 70px !important;
+    float: left;
+}
+
+.addIcon {
+    color: black;
+    display: flex;
+    align-self: self-end;
+    padding-top: 0;
+    padding-right: 15px;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {
     .App {
         width: 95% !important;
         /* background-color: red !important; */
-        height: 85vh !important;
+        height: auto !important;
+    }
+
+    .teamTextH1 {
+        font-size: 40px !important;
+        font-weight: 600 !important;
+        margin-top: 40px !important;
+    }
+
+    .teamCardDiv {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin-top: -30px;
+        margin-bottom: 30px;
     }
 
     .teamText {
         width: 90% !important;
+        height: auto !important;
         margin-bottom: 50px !important;
     }
 
@@ -43,5 +102,19 @@
     .teamImgH3 {
         font-size: 18px !important;
         font-weight: 600 !important;
+        text-align: start;
+        padding-left: 15px !important;
+
+    }
+
+    .teamImgH6 {
+        text-align: start;
+        padding-left: 15px !important;
+    }
+
+    .imageCard {
+        flex-direction: column !important;
+        display: flex !important;
+
     }
 }

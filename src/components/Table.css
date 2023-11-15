@@ -1,3 +1,33 @@
+#main01 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main02 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main03 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main04 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+#main05 {
+    background-color: #ffcb46;
+    padding: 20px 10px;
+    margin: 0;
+}
+
 .dropDownRowOne01 {
     background-color: #ffcb46;
     margin: 0;
@@ -29,14 +59,14 @@ tr {
 } */
 
 
-.newtableContainerColumn01 {
+.tableContainerColumn01 {
     font-weight: 900;
     font-size: 23px;
 }
 
 @media screen and (max-width: 768px) {
 
-    .newtableOne {
+    .tableOne {
         width: 100%;
     }
 
@@ -48,12 +78,12 @@ tr {
         font-size: 12px;
     }
 
-    .newtableContainerColumn01 {
+    .tableContainerColumn01 {
         font-weight: 900;
         /* font-size: 18px; */
     }
 
-    .newexperienceblogHeading01 {
+    .experienceblogHeading01 {
         text-align: center;
         font-size: 25px !important;
         font-weight: 800 !important;
@@ -61,58 +91,46 @@ tr {
         margin-bottom: 25px;
     }
 
-    .newexperienceblogTwoMainDiv01 {
+    .experienceblogTwoMainDiv01 {
         width: 100% !important;
         height: auto;
     }
 
-    .newexperienceblogTwoMainInnerDiv {
+    .experienceblogTwoMainInnerDiv {
         display: flex;
         justify-content: center !important;
     }
 
-    .newexperienceblogTwoMainImgCardStyle {
+    .experienceblogTwoMainImgCardStyle {
         margin: 30px 0px !important;
-        padding: 10px 25px !important;
+        padding: 50px 25px 20px 25px !important;
     }
 
-    .newexperienceblogTwoMainImgCardStyle {
+    .experienceblogTwoMainImgCardStyle {
         margin: 0 0 35px 0 !important;
-    }
-
-    .newExpPage02Main {
-        height: auto !important;
-        padding-top: 20px;
-        padding-bottom: 60px;
-    }
-
-    .newexperienceblogTwoMainLogoStyle {
-        width: 40% !important;
-
-    }
-
-    .newexperienceblogHeadingButtonTag {
-        padding: 5px 30px !important;
     }
 }
 
-.newexperienceblogHeading00 {
+.experienceblogHeading00 {
     margin-top: 15px;
 }
 
-.newexperienceblogHeading01 {
-    color: white;
-    margin-bottom: 50px;
-    font-size: 65px;
-    font-weight: 400;
+.experienceblogTop01 {
+    /* background-color: red; */
 }
 
-.newexperienceblogTwoMainDiv01 {
+.experienceblogHeading01 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.experienceblogTwoMainDiv01 {
     width: 85%;
     height: auto;
 }
 
-.newexperienceblogTwoMainInnerDiv {
+.experienceblogTwoMainInnerDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -120,82 +138,61 @@ tr {
 
 }
 
-.newexperienceblogTwoMainImgCardStyle {
+.experienceblogTwoMainImgCardStyle {
     width: 250px;
     /* margin: 19px 0px; */
+    border: 1px solid lightgray;
     padding: 50px 25px;
 }
 
-.newother01 {
+.other01 {
+    background-color: rgb(193, 23, 23);
     border-top-left-radius: 50px;
+    border-color: rgb(193, 23, 23);
 }
 
-.newother02 {
+.other02 {
+    background-color: rgb(49, 49, 186);
     border-top-left-radius: 50px;
+    border-color: rgb(49, 49, 186);
 
 }
 
-.newother03 {
+.other03 {
+    background-color: rgb(86, 18, 118);
     border-top-left-radius: 50px;
+    border-color: rgb(86, 18, 118);
 
 }
 
-.newexperienceblogTwoMainImgStyle {
+.experienceblogTwoMainImgStyle {
     width: 350px;
     height: 200px;
     padding: 10px;
 }
 
-.newexperienceblogTwoMainTextStyle {
+.experienceblogTwoMainTextStyle {
     text-align: center;
     line-height: 70px;
 }
 
-.newexperienceblogTwoMainTextStyle2H5 {
+.experienceblogTwoMainTextStyle2H5 {
     color: lightgray;
     font-weight: 900;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.1px;
-    margin-top: 15px;
 }
 
-.newexperienceblogTwoMainTextStyleH1 {
-    font-weight: 600;
-    font-size: 30px;
-    margin-top: 20px;
+.experienceblogTwoMainTextStyleH1 {
+    font-weight: 700;
+    font-size: 22px;
     color: white;
 }
 
-.newexperienceblogTwoMainTextStyle2P {
+.experienceblogTwoMainTextStyle2P {
     font-weight: 500;
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
     color: white;
-}
-
-
-.newExpPage02Main {
-    background-color: black;
-    height: 740px;
-}
-
-.newexperienceblogTwoMainLogoStyle {
-    width: 65%;
-
-}
-
-.newexperienceblogHeadingButtonDiv {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-}
-
-.newexperienceblogHeadingButtonTag {
-    border-radius: 50px;
-    background-color: transparent;
-    border: 2px solid greenyellow;
-    color: white;
-    padding: 12px 60px;
-    letter-spacing: 0.8px;
 }

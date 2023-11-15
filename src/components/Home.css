@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.homePageParaParagraph {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vw;
+    letter-spacing: 0vw;
+}
+
+.homePageParaHeading {
+    font-family: 'Roboto', sans-serif;
+}
+
+.homePageText {
+    width: 90%;
+    margin: auto;
+
+}
+
+.homePageParaHeading {
+    font-size: 5.2vw;
+    font-weight: 500;
+    letter-spacing: 0vw;
+}
+
+.homePageParaHeadingSpan {
+    font-size: 7.5vw;
+    font-weight: 900;
+    letter-spacing: 0vw;
+}
+
+.homePageParaParagraphSpan {
+    font-size: 4vw;
+    font-weight: 500;
+}
+
 .circle {
     position: relative;
     width: 200px;
@@ -140,22 +175,38 @@
         transform-origin: 0 50px;
     }
 
+    .homeResMain {
+        height: 672px !important;
+    }
+
     .homePageParaDiv {
         /* background-color: yellow; */
         text-align: center;
         width: 85% !important;
-        margin-left: 35px;
+        margin: auto !important;
     }
 
     .homePageParaHeading {
-        font-size: 4.8vw !important;
-        text-align: start;
-        font-weight: 600 !important;
+        margin: 0 !important;
+        text-align: start !important;
+        font-size: 8vw !important;
+        font-weight: 500 !important;
+    }
+
+
+    .homePageParaHeadingSpan {
+        font-size: 11.5vw !important;
+        font-weight: 900 !important;
     }
 
     .homePageParaParagraph {
         font-size: 5vw !important;
         text-align: start;
+    }
+
+    .homePageParaParagraphSpan {
+        font-size: 8vw;
+        font-weight: 500;
     }
 
     .textGradientC:hover {

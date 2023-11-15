@@ -148,20 +148,31 @@ const Contact = () => {
                     <label for="exampleFormControlTextarea1">
                       How Can We Help?
                     </label>
-                    <input
+                    <br />
+                    <select
+                      name="help"
+                      class="form-control"
+                      value={help}
                       style={{
                         cursor: "text",
                         border: "1px solid black",
                         borderRadius: "15px",
                         margin: "10px 0",
+                        width: "100%",
                       }}
-                      type="text"
-                      class="form-control"
-                      name="help"
-                      placeholder="(Share Your Story, Advertise With Us, Collaboration, Join Our Team)"
-                      value={help}
                       onChange={handleHelp}
-                    />
+                    >
+                      <option
+                        style={{ color: "lightGrey" }}
+                        label="Select ..."
+                      ></option>
+                      <option value="Share Your Stroy">Share Your Stroy</option>
+                      <option value="Advertise With Us">
+                        Advertise With Us
+                      </option>
+                      <option value="Collaboration">Collaboration</option>
+                      <option value="Join Our Team">Join Our Team</option>
+                    </select>
                   </div>
                   <div class="col">
                     <label for="exampleFormControlTextarea1">

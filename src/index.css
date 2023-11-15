@@ -14,13 +14,16 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   /* background: #28a745;  */
-  background: linear-gradient(to top, #54b8d8, #72eca5);
+  /* background: linear-gradient(to top, #54b8d8, #72eca5); */
+  background: linear-gradient(135deg, #d5fc39, #fff, #d5fc39);
   border-radius: 25px !important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to top, #72eca5, #54b8d8);
+  /* background: linear-gradient(to top, #72eca5, #54b8d8); */
+  background: linear-gradient(135deg, #fff, #d5fc39, #fff);
+
 
 }
 

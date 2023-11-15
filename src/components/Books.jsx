@@ -54,7 +54,6 @@ const Books = () => {
         // height: "900px",
         width: "100%",
         border: "2px solid black",
-        background: "#ffcb46",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -64,13 +63,11 @@ const Books = () => {
     >
       <div
         style={{
-          background: "#ff81cc",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           width: "85%",
           minHeight: "700px",
-          border: "2px solid black",
           borderRadius: "35px",
           padding: "15px",
         }}
@@ -78,23 +75,18 @@ const Books = () => {
       >
         <div className="row ">
           <div className="col-md 5 d-flex justify-content-center">
-            <img
-              src="/assets/images/book.png"
-              alt="Contact Us"
-              height="auto"
-              width="100%"
-              style={{
-                borderRadius: "35px",
-                border: "1px solid black",
-                // margin: "25px 5px 25px 30px ",
-              }}
-            />
+            <div className="newBookBox">
+              <h1 className="newBookBoxText">
+                <span className="newBookBoxTextSpan">New Launch</span>
+                <br />
+                {title1}
+              </h1>
+            </div>
           </div>
           <div
             class="text-white mb-3 bookPageDiv"
             style={{
               width: "55%",
-              //   padding: "0",
               marginRight: "20px",
               padding: "0px 25px 0px 50px ",
             }}
@@ -104,12 +96,19 @@ const Books = () => {
                 class="card-title bookPageHeading"
                 style={{
                   minHeight: "144px",
-                  fontSize: "60px",
-                  fontWeight: "900",
+                  fontSize: "75px",
+                  fontWeight: "700",
                   letterSpacing: "2px",
+                  lineHeight: "5vw",
+                  marginTop: "20px",
+                  marginBottom: "25px",
                 }}
               >
-                {title1}
+                Explore our
+                <br />
+                Literary
+                <br />
+                Treasure
                 <br />
               </h1>
               <h3
@@ -120,8 +119,7 @@ const Books = () => {
                   letterSpacing: "2px",
                 }}
               >
-                Explore our Literary Treasure– Where Facts Inspire, One Page at
-                a Time
+                Where Facts Inspire, One Page at a Time
                 <br />
               </h3>
               <p
@@ -135,37 +133,29 @@ const Books = () => {
                 collection of captivating realities that fuel your curiosity and
                 broaden your knowledge horizons. Get inspired! <br />
                 <br />
-                {/* <ul
-                  style={{
-                    fontSize: "18px",
-                    fontWeight: "500",
-                  }}
-                >
-                  <li>Indian Red Flag</li>
-                  <br />
-                  <li>The Burnout</li>
-                  <br />
-                  <li>The Branded C-Suite</li>
-                  <br />
-
-                  <li>
-                    The Science Of A Landing Page
-                    <br />
-                    <br />
-                  </li>
-                </ul> */}
               </p>
+              <div style={{}} className="bookPageButton">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark bookPageButtonOneClick"
+                  onClick={sendButton}
+                >
+                  <h4
+                    style={{ padding: "5px 30px 0px 30px" }}
+                    className="bookPageButtonOne"
+                  >
+                    LEARN MORE
+                  </h4>
+                </button>
+              </div>
+              <br />
+              <div className="hrStyle"></div>
+              <br />
               <div className="bookCardDiv">
                 <div
                   class="card bg-dark text-white bookCardList"
                   onClick={updateOne}
                 >
-                  <img
-                    src="/assets/images/book.png"
-                    class="card-img"
-                    alt="..."
-                    className="bookCardSmall"
-                  />
                   <div class="card-img-overlay bookCardTextDiv">
                     <h5 class="card-title bookCardTextDivH5">
                       Indian Red Flag
@@ -177,12 +167,6 @@ const Books = () => {
                   class="card bg-dark text-white bookCardList"
                   onClick={updateTwo}
                 >
-                  <img
-                    src="/assets/images/book.png"
-                    class="card-img"
-                    alt="..."
-                    className="bookCardSmall"
-                  />
                   <div class="card-img-overlay bookCardTextDiv">
                     <h5 class="card-title bookCardTextDivH5">The Burnout</h5>
                   </div>
@@ -192,12 +176,6 @@ const Books = () => {
                   class="card bg-dark text-white bookCardList"
                   onClick={updateThree}
                 >
-                  <img
-                    src="/assets/images/book.png"
-                    class="card-img"
-                    alt="..."
-                    className="bookCardSmall"
-                  />
                   <div class="card-img-overlay bookCardTextDiv">
                     <h5 class="card-title bookCardTextDivH5">
                       The Branded C-Suite
@@ -209,47 +187,12 @@ const Books = () => {
                   class="card bg-dark text-white bookCardList"
                   onClick={updateFour}
                 >
-                  <img
-                    src="/assets/images/book.png"
-                    class="card-img"
-                    alt="..."
-                    className="bookCardSmall"
-                  />
                   <div class="card-img-overlay bookCardTextDiv">
                     <h5 class="card-title bookCardTextDivH5">
                       The Science Of A Landing Page
                     </h5>
                   </div>
                 </div>
-              </div>
-              <div
-                style={{ display: "flex", justifyContent: "space-evenly" }}
-                className="bookPageButton"
-              >
-                <button
-                  type="button"
-                  class="btn btn-outline-dark"
-                  onClick={sendButton}
-                >
-                  <h4
-                    style={{ padding: "5px 30px 0px 30px" }}
-                    className="bookPageButtonOne"
-                  >
-                    LEARN MORE
-                  </h4>
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-success"
-                  onClick={sendButton}
-                >
-                  <h4
-                    style={{ padding: "5px 30px 0px 30px" }}
-                    className="bookPageButtonTwo"
-                  >
-                    BUY NOW
-                  </h4>
-                </button>
               </div>
             </div>
           </div>

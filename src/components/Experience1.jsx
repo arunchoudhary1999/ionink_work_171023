@@ -4,12 +4,6 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Experience1 = () => {
-  const [one01, setOne01] = useState(1);
-  const [two02, setTwo02] = useState(1);
-  const [three03, setThree03] = useState(1);
-  const [four04, setFour04] = useState(1);
-  const [five05, setFive05] = useState(1);
-
   // useEffect(() => {
   //   document.title = "Experience | BOL";
   // }, []);
@@ -38,188 +32,9 @@ const Experience1 = () => {
     };
   }, [tabTitle]);
 
-  const hideShow01 = () => {
-    if (one01 === 1) {
-      document.getElementById("main01").style.display = "block";
-      setOne01(0);
-    } else {
-      document.getElementById("main01").style.display = "none";
-      setOne01(1);
-    }
-  };
-
-  const hideShow02 = () => {
-    if (two02 === 1) {
-      document.getElementById("main02").style.display = "block";
-      setTwo02(0);
-    } else {
-      document.getElementById("main02").style.display = "none";
-      setTwo02(1);
-    }
-  };
-
-  const hideShow03 = () => {
-    if (three03 === 1) {
-      document.getElementById("main03").style.display = "block";
-      setThree03(0);
-    } else {
-      document.getElementById("main03").style.display = "none";
-      setThree03(1);
-    }
-  };
-
-  const hideShow04 = () => {
-    if (four04 === 1) {
-      document.getElementById("main04").style.display = "block";
-      setFour04(0);
-    } else {
-      document.getElementById("main04").style.display = "none";
-      setFour04(1);
-    }
-  };
-
-  const hideShow05 = () => {
-    if (five05 === 1) {
-      document.getElementById("main05").style.display = "block";
-      setFive05(0);
-    } else {
-      document.getElementById("main05").style.display = "none";
-      setFive05(1);
-    }
-  };
-
   return (
     <>
-      <div style={{ border: "2px solid black" }}>
-        <div className="tableOne">
-          <table>
-            <tr>
-              <td className="tableContainerColumn01 onlyTd">Magazines</td>
-              <td className="onlyTd">Merchandise</td>
-              <td className="onlyTd">Get Social</td>
-              <td className="onlyTd">
-                Upcoming Events, Webinars, and Podcasts
-              </td>
-              <td className="onlyTd">Advertise With Us</td>
-              <td
-                className="tableContainerColumn01 onlyTd"
-                onClick={hideShow01}
-              >
-                +
-              </td>
-            </tr>
-            <tr className="dropDownRowOne01">
-              <td className="dropDownRowOne01" colSpan="6">
-                <div id="main01" style={{ display: one01 ? "none" : "block" }}>
-                  ★ Our magazine unveils the journeys of daring dreamers who
-                  transformed ideas into legends. Stories that inspire, empower,
-                  and redefine success.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="onlyTd">Magazines</td>
-              <td className="tableContainerColumn01 onlyTd">Merchandise</td>
-              <td className="onlyTd">Get Social</td>
-              <td className="onlyTd">
-                Upcoming Events, Webinars, and Podcasts
-              </td>
-              <td className="onlyTd">Advertise With Us</td>
-              <td
-                className="tableContainerColumn01 onlyTd"
-                onClick={hideShow02}
-              >
-                +
-              </td>
-            </tr>
-            <tr className="dropDownRowOne01">
-              <td className="dropDownRowOne01" colSpan="6">
-                <div id="main02" style={{ display: two02 ? "none" : "block" }}>
-                  ★ Elevate your gifting with our unique merchandise. Get
-                  personalised mementoes, creative surprises, and engagement
-                  treasures that redefine team bonding..
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="onlyTd">Magazines</td>
-              <td className="onlyTd">Merchandise</td>
-              <td className="tableContainerColumn01 onlyTd">Get Social</td>
-              <td className="onlyTd">
-                Upcoming Events, Webinars, and Podcasts
-              </td>
-              <td className="onlyTd">Advertise With Us</td>
-              <td
-                className="tableContainerColumn01 onlyTd"
-                onClick={hideShow03}
-              >
-                +
-              </td>
-            </tr>
-            <tr className="dropDownRowOne01">
-              <td className="dropDownRowOne01" colSpan="6">
-                <div
-                  id="main03"
-                  style={{ display: three03 ? "none" : "block" }}
-                >
-                  ★ Join our dynamic social community, where brands, startups,
-                  and visionaries collaborate seamlessly. Foster global
-                  connections and influence across platforms.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="onlyTd">Magazines</td>
-              <td className="onlyTd">Merchandise</td>
-              <td className="onlyTd">Get Social</td>
-              <td className="tableContainerColumn01 onlyTd">
-                Upcoming Events, Webinars, and Podcasts
-              </td>
-              <td className="onlyTd">Advertise With Us</td>
-              <td
-                className="tableContainerColumn01 onlyTd"
-                onClick={hideShow04}
-              >
-                +
-              </td>
-            </tr>
-            <tr className="dropDownRowOne01">
-              <td className="dropDownRowOne01" colSpan="6">
-                <div id="main04" style={{ display: four04 ? "none" : "block" }}>
-                  ★ Embark on a journey of intellectual prowess. Uncover
-                  insights, challenge norms, and ignite innovation through our
-                  immersive events, webinars, and thought-provoking podcasts.
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="onlyTd">Magazines</td>
-              <td className="onlyTd">Merchandise</td>
-              <td className="onlyTd">Get Social</td>
-              <td className="onlyTd">
-                Upcoming Events, Webinars, and Podcasts
-              </td>
-              <td className="tableContainerColumn01 onlyTd">
-                Advertise With Us
-              </td>
-              <td
-                className="tableContainerColumn01 onlyTd"
-                onClick={hideShow05}
-              >
-                +
-              </td>
-            </tr>
-            <tr className="dropDownRowOne01">
-              <td className="dropDownRowOne01" colSpan="6">
-                <div id="main05" style={{ display: five05 ? "none" : "block" }}>
-                  ★ Your brand, our canvas. Collaborate to weave compelling
-                  narratives, showcasing your essence. Together, let's make
-                  waves that create ripples across industries
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
+      <div style={{ border: "2px solid black" }} className="newExpPage02Main">
         <div>
           <div
             style={{
@@ -230,76 +45,98 @@ const Experience1 = () => {
               alignItems: "center",
               flexDirection: "column",
             }}
-            className="experienceblogTop01"
+            className="newexperienceblogTop01"
           >
-            <div className="experienceblogHeading00">
-              <h1 className="experienceblogHeading01">
+            <div className="newexperienceblogHeading00">
+              <h1 className="newexperienceblogHeading01">
                 {" "}
                 What BOL Has To Offer
               </h1>
             </div>
-            <div className="experienceblogTwoMainDiv01">
-              <div class="card-deck experienceblogTwoMainInnerDiv">
-                <div class="experienceblogTwoMainImgCardStyle other01">
-                  <div class="card-body experienceblogTwoMainTextStyle ">
-                    <h1 className="experienceblogTwoMainTextStyleH1">
+            <div className="newexperienceblogTwoMainDiv01">
+              <div className="card-deck newexperienceblogTwoMainInnerDiv">
+                <div className="newexperienceblogTwoMainImgCardStyle newother01">
+                  <div className="card-body newexperienceblogTwoMainTextStyle ">
+                    <img
+                      src="/assets/images/magazineLogo.png"
+                      alt="magazineLogo"
+                      className="newexperienceblogTwoMainLogoStyle"
+                    />
+                    <h1 className="newexperienceblogTwoMainTextStyleH1">
                       Magazine
                     </h1>
-                    <h5 class="card-title experienceblogTwoMainTextStyle2H5">
-                      Our monthly editions seek to unveil stories that inspire,
-                      empower, and redefine success, one page at a time.
+                    <h5 className="card-title newexperienceblogTwoMainTextStyle2H5">
+                      Give a detailed description of the service being provided
+                      here.
                     </h5>
 
-                    <p class="card-text experienceblogTwoMainTextStyle2P">
+                    {/* <p className="card-text experienceblogTwoMainTextStyle2P">
                       <NavLink
                         to="/magazine"
                         className="experienceblogTwoMainTextStyle2P"
                       >
                         Read Now
                       </NavLink>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
-                <div class="experienceblogTwoMainImgCardStyle other02">
-                  <div class="card-body experienceblogTwoMainTextStyle">
-                    <h1 className="experienceblogTwoMainTextStyleH1">Books</h1>
-                    <h5 class="card-title experienceblogTwoMainTextStyle2H5">
-                      Invest in the power of knowledge with our byte-sized take
-                      on various industries, verticals, and interests.
+                <div className="newexperienceblogTwoMainImgCardStyle newother02">
+                  <div className="card-body newexperienceblogTwoMainTextStyle">
+                    <img
+                      src="/assets/images/booksLogo.png"
+                      alt="magazineLogo"
+                      className="newexperienceblogTwoMainLogoStyle"
+                    />
+                    <h1 className="newexperienceblogTwoMainTextStyleH1">
+                      Books
+                    </h1>
+                    <h5 className="card-title newexperienceblogTwoMainTextStyle2H5">
+                      Give a detailed description of the service being provided
+                      here.
                     </h5>
 
-                    <p class="card-text experienceblogTwoMainTextStyle2P">
+                    {/* <p className="card-text experienceblogTwoMainTextStyle2P">
                       <NavLink
                         to="/books"
                         className="experienceblogTwoMainTextStyle2P"
                       >
                         Explore Now
                       </NavLink>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
-                <div class="experienceblogTwoMainImgCardStyle other03">
-                  <div class="card-body experienceblogTwoMainTextStyle">
-                    <h1 className="experienceblogTwoMainTextStyleH1">
-                      Events, Webinars, and Podcasts
+                <div className="newexperienceblogTwoMainImgCardStyle newother03">
+                  <div className="card-body newexperienceblogTwoMainTextStyle">
+                    <img
+                      src="/assets/images/EventsLogo.png"
+                      alt="magazineLogo"
+                      className="newexperienceblogTwoMainLogoStyle"
+                    />
+                    <h1 className="newexperienceblogTwoMainTextStyleH1">
+                      Events
                     </h1>
-                    <h5 class="card-title experienceblogTwoMainTextStyle2H5">
-                      Embark on a journey of intellectual prowess. Uncover
-                      insights, and challenge norms, led by industry experts.
+                    <h5 className="card-title newexperienceblogTwoMainTextStyle2H5">
+                      Give a detailed description of the service being provided
+                      here.
                     </h5>
 
-                    <p class="card-text experienceblogTwoMainTextStyle2P">
+                    {/* <p className="card-text experienceblogTwoMainTextStyle2P">
                       <NavLink
                         to="/contact"
                         className="experienceblogTwoMainTextStyle2P"
                       >
                         Register Now
                       </NavLink>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div className="newexperienceblogHeadingButtonDiv">
+            <button className="newexperienceblogHeadingButtonTag">
+              EXPLORE
+            </button>
           </div>
         </div>
       </div>

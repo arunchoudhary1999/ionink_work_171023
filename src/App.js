@@ -11,6 +11,7 @@ import Books from "./components/Books";
 import Work from "./components/Work";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
+import Table from "./components/Table";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         {/* <Route exact path="/awards" component={Awards} /> */}
         <Route exact path="/work" component={Work} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/table" component={Table} />
         <Route exact path="/magazine" component={Magazine} />
         <Route exact path="/" component={Portfolio} />
         <Redirect to="/" />
