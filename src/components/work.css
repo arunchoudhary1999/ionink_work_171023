@@ -100,7 +100,6 @@ section .scroll.text1 {
     padding: 10px 20px !important;
     margin: 0 !important;
     font-size: 15px;
-
 }
 
 .card-img-top {
@@ -115,6 +114,7 @@ section .scroll.text1 {
     width: 30%;
     height: 30%;
 } */
+
 
 @media screen and (max-width: 768px) {
 
@@ -142,6 +142,12 @@ section .scroll.text1 {
     .workPageDivButton001 {
         width: 100% !important;
         text-align: center !important;
+    }
+
+    .workPageDivButton {
+        padding: 15px 20px !important;
+        font-size: 20px;
+        width: 100% !important;
     }
 
     .workPageDivCard {

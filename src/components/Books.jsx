@@ -54,12 +54,12 @@ const Books = () => {
         // height: "900px",
         width: "100%",
         border: "2px solid black",
-        background: "#ffcb46",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexWrap: "wrap",
         padding: "20px 0",
+        background: "#d5fc39",
       }}
       className="bookTop"
     >
