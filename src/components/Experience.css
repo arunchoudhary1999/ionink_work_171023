@@ -97,7 +97,7 @@
 
 .text-wrapper-stoke {
     color: transparent;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #000;
 }
 
@@ -214,6 +214,46 @@
     .bubble01 {
         right: 120px !important;
         bottom: -50px !important;
+    }
+
+    .expRadiusDivMain {
+        height: auto !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .expRadiusDiv {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        border: 3px solid black;
+        height: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .expRadiusDivH1 {
+        font-size: 32px !important;
+    }
+
+    .expRadiusDivFirHeadiing {
+        width: 85% !important;
+        text-align: center !important;
+
+    }
+
+    .expRadiusDivSecImgPara {
+        width: 85% !important;
+    }
+
+    .expRadiusDivSecImg {
+        margin-top: 25px !important;
+        width: 100% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 15px !important;
+        text-align: center !important;
     }
 }
 
@@ -335,4 +375,54 @@
     inset: 4px;
     border-left: 10px solid #0fb4ff;
     filter: blur(2px);
+}
+
+
+/* new */
+.expRadiusDiv {
+    width: 92%;
+    border-radius: 50px;
+    border: 3px solid black;
+    height: 84%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expRadiusDivH1 {
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.expRadiusDivFirHeadiing {
+    width: 45%;
+    height: 90%;
+    margin: auto 0;
+}
+
+.expRadiusDivSecImgPara {
+    width: 45%;
+    height: 90%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.expRadiusDivSecImg {
+    width: 55%;
+    height: 34%;
+    margin-bottom: 40px;
+}
+
+.expRadiusDivSecPara {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }

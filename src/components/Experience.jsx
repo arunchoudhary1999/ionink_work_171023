@@ -186,7 +186,7 @@ const Exprience = () => {
 
           <hr style={{ border: "1px solid black" }} />
           <hr style={{ border: "1px solid black", marginTop: "-18px" }} />
-          <div
+          {/* <div
             className="row d-flex justify-content-center experienceDiv"
             style={{
               width: "80%",
@@ -202,9 +202,7 @@ const Exprience = () => {
               <div className="bubble01">
                 <span></span>
               </div>
-              {/* <div className="bubble02">
-                <span></span>
-              </div> */}
+              
               <img
                 src="/assets/images/experience.gif"
                 alt="Contact Us"
@@ -241,6 +239,58 @@ const Exprience = () => {
                     innovation merge.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div> */}
+
+          <div
+            className="expRadiusDivMain"
+            style={{
+              width: "100%",
+              // background: "rgb(135,206,250)",
+              // background: "linear-Gradient(#72eca5, #54b8d8)",
+              height: "740px",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <div className="expRadiusDiv">
+              <div className="expRadiusDivFirHeadiing">
+                <h1 className="expRadiusDivH1">
+                  "We ignite stories,
+                  <br />
+                  celebrate
+                  <br />
+                  entrepreneurship,
+                  <br />
+                  and thrive on the
+                  <br />
+                  sparks of
+                  <br />
+                  imagination."
+                </h1>
+              </div>
+              <div className="expRadiusDivSecImgPara">
+                <img
+                  className="expRadiusDivSecImg"
+                  src="/assets/images/expPageImg.png"
+                  alt="expPageImg"
+                />
+                <h6 className="expRadiusDivSecPara">
+                  We craft a confetti-filled carnival where every brand can
+                  <br />
+                  unmute their imagination and creativity, every entrepreneur's
+                  <br />
+                  journey and success is shared and celebrated, and innovation
+                  <br />
+                  takes centerstage fueled by curiosity and collective
+                  brilliance.
+                  <br />
+                  <br />
+                  We are Brands Out Loud—where stories, collaboration, and
+                  <br />
+                  innovation merge.
+                </h6>
               </div>
             </div>
           </div>

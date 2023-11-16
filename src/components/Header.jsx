@@ -11,7 +11,18 @@ const Header = () => {
         className="navbar navbar-expand-lg navbar-light"
         style={{ backgroundColor: "#fff", border: "2px solid black" }}
       >
-        <div className="container-fluid py-1">
+        <div className="container-fluid navTopLogoDiv">
+          <div className="navTopLogo">
+            <NavLink class="navbar-brand" to="/">
+              <img
+                src="/assets/images/BOL - Black.png"
+                alt="Logo"
+                width="78"
+                height="48"
+                // class="d-inline-block align-text-top"
+              />
+            </NavLink>
+          </div>
           <button
             className="navbar-toggler navTog"
             type="button"
@@ -27,7 +38,7 @@ const Header = () => {
             className="collapse navbar-collapse headerDivTag"
             id="navbarSupportedContent"
           >
-            <div>
+            <div className="navTopDesktopForm">
               <NavLink class="navbar-brand" to="/">
                 <img
                   src="/assets/images/BOL - Black.png"

@@ -35,8 +35,8 @@
     }
 
     .bookPageButton {
-        width: 80% !important;
-        display: flex;
+        margin-top: -25px !important;
+        width: 92% !important;
         margin: auto;
         padding: 0 !important;
     }

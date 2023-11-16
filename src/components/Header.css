@@ -1,3 +1,12 @@
+.navTopLogoDiv {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navTopLogo {
+    display: none;
+}
+
 .fa-apple:hover {
     color: black;
 }
@@ -56,5 +65,18 @@
         display: flex !important;
         justify-content: end !important;
 
+    }
+
+    .navTopLogo {
+        display: flex !important;
+    }
+
+    .navTopLogoDiv {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .navTopDesktopForm {
+        display: none;
     }
 }

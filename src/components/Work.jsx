@@ -3,6 +3,22 @@ import "./work.css";
 import { useState, useEffect } from "react";
 
 const Work = () => {
+  const reveal = () => {
+    const reveals = document.querySelectorAll(".reveals");
+    const revealpoint = 100; // You can adjust this value based on your requirements
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = reveals[i].getBoundingClientRect().top;
+
+      if (revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  };
+
   const [tabTitle, setTabTitle] = useState(
     `${(document.title =
       "Work | Brands Out Loud: Forefront For Everything Business")}`
@@ -19,13 +35,16 @@ const Work = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
+    window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
+      window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
+
   return (
     <>
       <section>
@@ -106,9 +125,9 @@ const Work = () => {
             borderRadius: "35px",
           }}
         >
-          <div class="cardGroup">
+          <div class="cardGroup reveals">
             <img
-              class="card card-img-top"
+              class="card card-img-top "
               src="/assets/images/work01.png"
               alt="Contact Us"
               style={{
@@ -119,7 +138,7 @@ const Work = () => {
               }}
             />
           </div>
-          <div class="cardGroup">
+          <div class="cardGroup reveals">
             <img
               class="card card-img-top"
               src="/assets/images/work02.png"
@@ -133,7 +152,7 @@ const Work = () => {
               }}
             />
           </div>
-          <div class="cardGroup">
+          <div class="cardGroup reveals">
             <img
               class="card card-img-top"
               src="/assets/images/work03.png"
@@ -147,7 +166,7 @@ const Work = () => {
               }}
             />
           </div>
-          <div class="cardGroup">
+          <div class="cardGroup reveals">
             <img
               class="card card-img-top"
               src="/assets/images/work04.png"
@@ -161,7 +180,7 @@ const Work = () => {
               }}
             />
           </div>
-          <div class="cardGroup">
+          <div class="cardGroup reveals">
             <img
               class="card card-img-top"
               src="/assets/images/work05.png"
@@ -175,7 +194,7 @@ const Work = () => {
               }}
             />
           </div>
-          <div class="cardGroup">
+          <div class="cardGroup reveals">
             <img
               class="card card-img-top"
               src="/assets/images/work01.png"

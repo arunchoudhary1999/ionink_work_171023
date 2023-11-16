@@ -1,3 +1,8 @@
+.teamTopOneDiv {
+    background: linear-gradient(135deg, #d5fc39, #fff, #fff, #fff, #fff, #fff, #fff, #d5fc39);
+}
+
+
 .App {
     font-family: sans-serif;
     display: flex;
@@ -11,7 +16,66 @@
 
 .teamText {
     width: 70%;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+
+}
+
+.teamTextH1 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+.carouselDiv {
+    display: none !important;
+
+}
+
+.teamCardDiv {
+    display: flex !important;
+    width: 53%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.addIcon {
+    color: black;
+    display: flex;
+    align-self: self-end;
+    padding-top: 0;
+    padding-right: 15px;
+    font-size: 22px;
+}
+
+.teamImg {
+    width: 60px !important;
+    height: 70px !important;
+    float: left;
+}
+
+.teamCardDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding-left: 10px;
+    height: 220px;
+    width: 190px;
+    /* background-color: #00008b; */
+    background-color: #d5fc39;
+    color: #fff;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 4em;
+}
+
+.imageCard {
+    text-align: start;
+}
+
+.teamImgH3,
+.teamImgH6 {
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,6 +83,22 @@
         width: 95% !important;
         /* background-color: red !important; */
         height: 85vh !important;
+    }
+
+    .carouselDiv {
+        display: flex !important;
+
+    }
+
+    .teamCardDiv {
+        display: none !important;
+    }
+
+
+    .teamTextH1 {
+        font-size: 40px !important;
+        font-weight: 600 !important;
+        margin-top: 40px !important;
     }
 
     .teamText {

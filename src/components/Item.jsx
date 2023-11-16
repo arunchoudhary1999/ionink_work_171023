@@ -8,10 +8,10 @@ export default styled.div`
   height: 250px;
   width: 100%;
   /* background-color: #00008b; */
-  background: linear-Gradient(#72eca5, #54b8d8);
-  border-top-right-radius: 50%;
+  background-color: #d5fc39;
+  border-top-right-radius: 35%;
   border-top-left-radius: 5%;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 35%;
   border-bottom-right-radius: 5%;
   color: #fff;
   margin: 0 15px;
