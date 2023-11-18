@@ -1,3 +1,14 @@
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .workPageDivButton001 {
+        width: 30% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+}
+
 .reveals {
     position: relative;
     transform: translateY(150px);

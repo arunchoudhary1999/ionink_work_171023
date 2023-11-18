@@ -45,8 +45,6 @@
     }
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 @keyframes fly02 {
     0% {
         left: 100%;
@@ -111,6 +109,46 @@
 
     100% {
         transform: translateX(-100%);
+    }
+}
+
+/* For Mobile View */
+@media screen and (min-device-width: 0px) and (max-device-width: 281px) {
+
+
+    .expRadiusDivFirHeadiing {
+        width: 100% !important;
+        padding: 0px !important;
+        margin: 0px !important;
+
+    }
+
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 28px !important;
+    }
+
+    /* new */
+
+
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .expRadiusDivFirHeadiing {}
+
+    .expRadiusDivH1 {
+        font-size: 44px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: 68% !important;
+        height: 24% !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 13px !important;
+        /* text-align: center !important; */
     }
 }
 

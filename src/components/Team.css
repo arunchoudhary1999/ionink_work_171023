@@ -1,3 +1,19 @@
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .teamCardDiv {
+        /* display: flex !important; */
+        width: 100% !important;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-evenly; */
+    }
+
+    .teamTextH1 {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+        margin-top: 0px !important;
+    }
+}
+
 .teamTopOneDiv {
     background: linear-gradient(135deg, #d5fc39, #fff, #fff, #fff, #fff, #fff, #fff, #d5fc39);
 }

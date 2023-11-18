@@ -1,3 +1,63 @@
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .navTopLogoDiv {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .navTopLogo {
+        display: flex !important;
+    }
+
+    .headerLock,
+    .linkedinIcon,
+    .instagramIcon {
+        text-align: start;
+        padding: 0;
+    }
+
+    .headerDivTag {
+        /* flex-direction: column; */
+        display: block;
+        /* justify-content: center !important; */
+        /* width: 50% !important; */
+    }
+
+    .headerLockLink,
+    .linkedinIconInner,
+    .instagramIconInner {
+        /* background-color: red; */
+        margin: 0px 0px 0px 10px;
+        font-size: 32px;
+    }
+
+    /* .linkedinIcon {
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: start;
+
+    } */
+
+    .container-fluid {
+        display: flex !important;
+        justify-content: end !important;
+
+    }
+
+    .navTopLogo {
+        display: flex !important;
+    }
+
+    .navTopLogoDiv {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .navTopDesktopForm {
+        display: none;
+    }
+}
+
 .navTopLogoDiv {
     padding-top: 5px;
     padding-bottom: 5px;

@@ -78,8 +78,8 @@ const Books = () => {
         }}
         className="bookPage"
       >
-        <div className="row ">
-          <div className="col-md 5 d-flex justify-content-center">
+        <div className="row">
+          <div className="col-md 5 d-flex justify-content-center bookImageResponse">
             <img
               src="/assets/images/book.png"
               alt="Contact Us"
