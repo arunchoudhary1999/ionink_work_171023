@@ -1,3 +1,54 @@
+@media screen and (max-width: 1280px) {
+    .teamCardDiv {
+        width: 70% !important;
+    }
+
+    .App {
+        width: 95% !important;
+        /* background-color: red !important; */
+        margin-bottom: 50px !important;
+    }
+
+    .teamTextH1 {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+        margin-top: 80px !important;
+        margin-bottom: -20px !important;
+    }
+
+    .teamText {
+        width: 90% !important;
+        margin-bottom: 50px !important;
+    }
+
+    .teamText h1 {
+        font-weight: 700 !important;
+    }
+
+    .teamText h4 {
+        font-weight: 500 !important;
+        font-size: 19px !important;
+    }
+
+    .teamImg {
+        width: 6px !important;
+        height: 90px !important;
+    }
+
+}
+
+@media screen and (min-width: 1281px) {
+    .teamCardDiv {
+        width: 60% !important;
+    }
+}
+
+@media screen and (min-width: 1648px) {
+    .teamCardDiv {
+        width: 45% !important;
+    }
+}
+
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .teamCardDiv {

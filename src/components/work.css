@@ -1,3 +1,90 @@
+@media screen and (max-width: 1280px) {
+    .workPageDivButton001 {
+        width: 20% !important;
+    }
+
+    .workPage {
+        padding: 50px 0 0 0 !important;
+    }
+
+    .card-columns {
+        margin-top: 35px !important;
+    }
+
+    .cardGroup {
+        display: flex !important;
+        justify-content: center !important;
+        width: 30%;
+        /* height: 20%; */
+        margin: 10px;
+    }
+
+    .card-img-top {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 100px !important;
+        margin: 25px 10px !important;
+    }
+
+}
+
+@media screen and (min-width: 1281px) {
+    .workPageDivButton001 {
+        width: 16% !important;
+    }
+
+    .workPage {
+        padding: 50px 0 0 0 !important;
+    }
+
+    .card-columns {
+        margin-top: 35px !important;
+    }
+
+    .cardGroup {
+        display: flex !important;
+        justify-content: center !important;
+        width: 28%;
+        /* height: 20%; */
+        margin: 15px;
+    }
+
+    .card-img-top {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 100px !important;
+        margin: 25px 10px !important;
+    }
+
+    .workPageDivIconImgDone {
+        height: 70px !important;
+        width: 140px !important;
+        margin: 25px 20px !important;
+    }
+}
+
+@media screen and (min-width: 1648px) {
+    .cardGroup {
+        width: 24%;
+    }
+}
+
+@media screen and (min-width: 1848px) {
+    .cardGroup {
+        width: 22%;
+    }
+
+
+}
+
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .workPageDivButton001 {

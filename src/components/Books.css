@@ -1,3 +1,51 @@
+@media screen and (max-width: 1280px) {
+    .bookImageResponse {
+        /* padding: 15px !important; */
+        margin: 20px 0 !important;
+    }
+
+    .bookPageDiv {
+        margin: 30px 0 !important;
+
+    }
+
+    .bookPageHeading {
+        font-size: 45px !important;
+        min-height: 110px !important;
+    }
+
+    .bookPage {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin: 30px 0 !important;
+        min-height: 515px !important;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .bookImageResponse {
+        /* padding: 15px !important; */
+        margin: 30px 0 !important;
+    }
+
+    .bookPageDiv {
+        margin: 30px 0 !important;
+
+    }
+
+    .bookPageHeading {
+        font-size: 45px !important;
+        min-height: 110px !important;
+    }
+
+    .bookPage {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        margin: 30px 0 !important;
+        min-height: 515px !important;
+    }
+}
+
 /* For Tablet View */
 @media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
 

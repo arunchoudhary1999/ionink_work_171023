@@ -1,3 +1,68 @@
+@media screen and (max-width: 1280px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 54px;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 60% !important;
+        height: 30% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 17px !important;
+    }
+}
+
+/* @media screen and (min-width: 1281px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 60px !important;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 60% !important;
+        height: 31% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 18px !important;
+    }
+} */
+
+/* @media screen and (min-width: 1648px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 78px !important;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 56% !important;
+        height: 35% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 23px !important;
+    }
+} */
+
+/* @media screen and (min-width: 1805px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 78px !important;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 56% !important;
+        height: 41% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 25px !important;
+    }
+} */
+
+
 /* .experienceH1Tag {
     color: #fff !important;
     -webkit-text-stroke: 0.2vw #000;
