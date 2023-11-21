@@ -1,3 +1,81 @@
+.workPageDivIconImg {
+    width: 13% !important;
+    height: 13% !important;
+    padding: 5px !important;
+    margin: 15px !important;
+}
+
+.workPageDivIconImgDone {
+    margin: 0 !important;
+}
+
+.IconImg01 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg02 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg03 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg04 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg05 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg06 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg07 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg08 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg09 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg10 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg11 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.IconImg12 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/* .workPageDivIconImgDone {
+    height: 70px !important;
+    width: 140px !important;
+    margin: 25px 20px !important;
+} */
+
 @media screen and (max-width: 1280px) {
     .workPageDivButton001 {
         width: 20% !important;
@@ -58,17 +136,17 @@
         margin: 0 !important;
     }
 
-    .workPageDivIconImgDone {
+    /* .workPageDivIconImgDone {
         height: 50px !important;
         width: 100px !important;
         margin: 25px 10px !important;
-    }
+    } */
 
-    .workPageDivIconImgDone {
+    /* .workPageDivIconImgDone {
         height: 70px !important;
         width: 140px !important;
         margin: 25px 20px !important;
-    }
+    } */
 }
 
 @media screen and (min-width: 1648px) {
@@ -264,42 +342,36 @@ section .scroll.text1 {
         width: 100% !important;
     }
 
-    .workPageDivCard {
-        background-color: yellow;
-    }
-
     .workPageDivIcon {
-        /* width: 100% !important; */
-        /* margin: 0 !important; */
-        padding: 0 !important;
         justify-content: space-between !important;
-        display: flex !important;
     }
 
-    .workPageDivIconImgDone {
-        height: 50px !important;
-        width: 80px !important;
-        margin: 25px 0px !important;
+    .workPageDivIconImg {
+        width: 23% !important;
+    }
+
+    .IconImg01,
+    .IconImg02,
+    .IconImg03,
+    .IconImg04,
+    .IconImg05,
+    .IconImg06,
+    .IconImg07,
+    .IconImg08,
+    .IconImg09,
+    .IconImg10,
+    .IconImg11,
+    .IconImg12 {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .cardGroup {
         width: 100%;
         height: 100%;
     }
-
-    /* .text-wrapper {
-        margin-top: 4px !important;
-        padding-top: 10px !important;
-        margin-bottom: -10px;
-    }
-
-    .text-wrapper h1 {
-        padding: 0 2rem;
-    }
-
-    .text-wrapper-stoke {
-        -webkit-text-stroke-width: 1.2px;
-    } */
 
     section .scroll div {
         padding: 0 1rem !important;

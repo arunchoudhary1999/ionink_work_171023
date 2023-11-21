@@ -231,7 +231,7 @@ const Work = () => {
             >
               <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg01"
                   src="/assets/images/WLogo01.webp"
                   alt="Contact Us"
                   height="60px"
@@ -242,9 +242,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg02"
                   src="/assets/images/WLogo02.webp"
                   alt="Contact Us"
                   height="60px"
@@ -255,9 +255,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg03"
                   src="/assets/images/WLogo03.png"
                   alt="Contact Us"
                   height="60px"
@@ -268,9 +268,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg04"
                   src="/assets/images/WLogo04.png"
                   alt="Contact Us"
                   height="60px"
@@ -281,9 +281,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg05"
                   src="/assets/images/WLogo05.png"
                   alt="Contact Us"
                   height="60px"
@@ -294,9 +294,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg06"
                   src="/assets/images/WLogo06.webp"
                   alt="Contact Us"
                   height="60px"
@@ -307,9 +307,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg07"
                   src="/assets/images/WLogo07.png"
                   alt="Contact Us"
                   height="60px"
@@ -320,9 +320,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg08"
                   src="/assets/images/WLogo08.svg"
                   alt="Contact Us"
                   height="60px"
@@ -333,9 +333,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg09"
                   src="/assets/images/WLogo09.png"
                   alt="Contact Us"
                   height="60px"
@@ -346,9 +346,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg10"
                   src="/assets/images/WLogo10.png"
                   alt="Contact Us"
                   height="60px"
@@ -359,9 +359,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg11"
                   src="/assets/images/WLogo11.png"
                   alt="Contact Us"
                   height="60px"
@@ -372,9 +372,9 @@ const Work = () => {
                 />
               </div>
 
-              <div class="">
+              <div class="workPageDivIconImg">
                 <img
-                  class="card-img-top-icon workPageDivIconImgDone"
+                  class="card-img-top-icon workPageDivIconImgDone IconImg12"
                   src="/assets/images/WLogo12.png"
                   alt="Contact Us"
                   height="60px"

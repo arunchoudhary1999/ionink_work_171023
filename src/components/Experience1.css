@@ -110,11 +110,11 @@ tr {
 
     .newexperienceblogTwoMainImgCardStyle {
         margin: 30px 0px !important;
-        padding: 10px 25px !important;
+        padding: 10px 0px !important;
     }
 
     .newexperienceblogTwoMainImgCardStyle {
-        margin: 0 0 35px 0 !important;
+        /* margin: 0 0 35px 0 !important; */
     }
 
     .newExpPage02Main {
@@ -130,6 +130,16 @@ tr {
 
     .newexperienceblogHeadingButtonTag {
         padding: 5px 30px !important;
+    }
+
+    .newexperienceblogTwoMainImgCardStyle {
+        width: 280px !important;
+    }
+
+    .newexperienceblogTwoMainTextStyle2H5 {
+        color: lightgray;
+        font-weight: 700;
+        font-size: 21px !important;
     }
 }
 

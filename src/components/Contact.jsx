@@ -145,7 +145,7 @@ const Contact = () => {
             >
               <form>
                 <div class="">
-                  <div class="col contactReveals">
+                  <div class="col">
                     <label for="exampleFormControlTextarea1">Name</label>
                     <input
                       style={{
@@ -162,7 +162,7 @@ const Contact = () => {
                       onChange={handleName}
                     />
                   </div>
-                  <div class="col contactReveals">
+                  <div class="col">
                     <label for="exampleFormControlTextarea1">
                       How Can We Help?
                     </label>
@@ -192,7 +192,7 @@ const Contact = () => {
                       <option value="Join Our Team">Join Our Team</option>
                     </select>
                   </div>
-                  <div class="col contactReveals">
+                  <div class="col">
                     <label for="exampleFormControlTextarea1">
                       Phone Number
                     </label>
@@ -210,7 +210,7 @@ const Contact = () => {
                       onChange={handleNumber}
                     />
                   </div>
-                  <div class="col contactReveals">
+                  <div class="col">
                     <label for="exampleFormControlTextarea1">
                       Email Address
                     </label>
@@ -230,7 +230,7 @@ const Contact = () => {
                   </div>
                 </div>
               </form>
-              <div class="form-group contactReveals">
+              <div class="form-group">
                 <label for="exampleFormControlTextarea1">What's Up?</label>
                 <textarea
                   style={{
@@ -258,7 +258,7 @@ const Contact = () => {
                     margin: "10px 0",
                   }}
                   onClick={handleAPI}
-                  class="btn btn-success contactReveals"
+                  class="btn btn-success"
                 >
                   <h4>SEND</h4>
                 </button>
