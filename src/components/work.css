@@ -102,11 +102,23 @@
         margin: 0 !important;
     }
 
-    .workPageDivIconImgDone {
+    /* .workPageDivIconImgDone {
         height: 50px !important;
         width: 100px !important;
         margin: 25px 10px !important;
+    } */
+
+    .workPageDivIconImg {
+        width: 13% !important;
+        height: 13% !important;
+        padding: 5px !important;
+        margin: 15px !important;
     }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
 
 }
 
@@ -165,11 +177,11 @@
 
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .workPageDivIconImgDone {
+    /* .workPageDivIconImgDone {
         height: 50px !important;
         width: 80px !important;
         margin: 25px 10px !important;
-    }
+    } */
 
     .workPageDivButton001 {
         width: 30% !important;
@@ -188,6 +200,18 @@
     .workPageDivBox {
         padding-left: 30px !important;
     }
+
+    .workPageDivIconImg {
+        width: 13% !important;
+        height: 13% !important;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
 }
 
 .reveals {
