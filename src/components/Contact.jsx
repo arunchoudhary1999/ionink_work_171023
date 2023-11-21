@@ -16,6 +16,22 @@ const Contact = () => {
       "Contact | Brands Out Loud: Forefront For Everything Business")}`
   );
 
+  const reveal = () => {
+    const reveals = document.querySelectorAll(".contactReveals");
+    const revealpoint = 100; // You can adjust this value based on your requirements
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = reveals[i].getBoundingClientRect().top;
+
+      if (revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  };
+
   useEffect(() => {
     const handleBlur = () => {
       document.title = "😞 Missing you already";
@@ -27,11 +43,13 @@ const Contact = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
+    window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
+      window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
 
@@ -96,7 +114,7 @@ const Contact = () => {
                 fontSize: "3rem",
                 fontWeight: "700",
               }}
-              className="contactPageHeading"
+              className="contactPageHeading contactReveals"
             >
               LET'S CONNECT
             </h1>
@@ -105,7 +123,7 @@ const Contact = () => {
                 fontSize: "3.5rem",
                 fontWeight: "300",
               }}
-              className="contactPageHeading01"
+              className="contactPageHeading01 contactReveals"
             >
               Time to connect the pulse!
             </h2>
@@ -113,7 +131,7 @@ const Contact = () => {
         </div>
         <div>
           <div
-            className="container mb-5 contactPageHeadingForm"
+            className="container mb-5 contactPageHeadingForm contactReveals"
             style={{
               width: "50%",
             }}
@@ -127,7 +145,7 @@ const Contact = () => {
             >
               <form>
                 <div class="">
-                  <div class="col">
+                  <div class="col contactReveals">
                     <label for="exampleFormControlTextarea1">Name</label>
                     <input
                       style={{
@@ -144,7 +162,7 @@ const Contact = () => {
                       onChange={handleName}
                     />
                   </div>
-                  <div class="col">
+                  <div class="col contactReveals">
                     <label for="exampleFormControlTextarea1">
                       How Can We Help?
                     </label>
@@ -174,7 +192,7 @@ const Contact = () => {
                       <option value="Join Our Team">Join Our Team</option>
                     </select>
                   </div>
-                  <div class="col">
+                  <div class="col contactReveals">
                     <label for="exampleFormControlTextarea1">
                       Phone Number
                     </label>
@@ -192,7 +210,7 @@ const Contact = () => {
                       onChange={handleNumber}
                     />
                   </div>
-                  <div class="col">
+                  <div class="col contactReveals">
                     <label for="exampleFormControlTextarea1">
                       Email Address
                     </label>
@@ -212,7 +230,7 @@ const Contact = () => {
                   </div>
                 </div>
               </form>
-              <div class="form-group">
+              <div class="form-group contactReveals">
                 <label for="exampleFormControlTextarea1">What's Up?</label>
                 <textarea
                   style={{
@@ -240,7 +258,7 @@ const Contact = () => {
                     margin: "10px 0",
                   }}
                   onClick={handleAPI}
-                  class="btn btn-success"
+                  class="btn btn-success contactReveals"
                 >
                   <h4>SEND</h4>
                 </button>

@@ -26,6 +26,22 @@ const Books = () => {
       "Books | Brands Out Loud: Forefront For Everything Business")}`
   );
 
+  const reveal = () => {
+    const reveals = document.querySelectorAll(".bookReveals");
+    const revealpoint = 100; // You can adjust this value based on your requirements
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = reveals[i].getBoundingClientRect().top;
+
+      if (revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  };
+
   useEffect(() => {
     const handleBlur = () => {
       document.title = "😞 Missing you already";
@@ -37,11 +53,13 @@ const Books = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
+    window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
+      window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
 
@@ -76,10 +94,10 @@ const Books = () => {
           padding: "15px",
           marginBottom: "20px",
         }}
-        className="bookPage"
+        className="bookPage bookReveals"
       >
         <div className="row">
-          <div className="col-md 5 d-flex justify-content-center bookImageResponse">
+          <div className="col-md 5 d-flex justify-content-center bookImageResponse bookReveals">
             <img
               src="/assets/images/book.png"
               alt="Contact Us"
@@ -101,7 +119,7 @@ const Books = () => {
               padding: "0px 25px 0px 50px ",
             }}
           >
-            <div class="card-body text-black">
+            <div class="card-body text-black bookReveals">
               <h1
                 class="card-title bookPageHeading"
                 style={{

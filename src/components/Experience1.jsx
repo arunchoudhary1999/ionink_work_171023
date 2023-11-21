@@ -8,6 +8,22 @@ const Experience1 = () => {
   //   document.title = "Experience | BOL";
   // }, []);
 
+  const reveal = () => {
+    const reveals = document.querySelectorAll(".exp1Reveals");
+    const revealpoint = 100; // You can adjust this value based on your requirements
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = reveals[i].getBoundingClientRect().top;
+
+      if (revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  };
+
   const [tabTitle, setTabTitle] = useState(
     `${(document.title =
       "Experience | Brands Out Loud: Forefront For Everything Business")}`
@@ -24,11 +40,13 @@ const Experience1 = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
+    window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
+      window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
 
@@ -47,7 +65,7 @@ const Experience1 = () => {
             }}
             className="newexperienceblogTop01"
           >
-            <div className="newexperienceblogHeading00">
+            <div className="newexperienceblogHeading00 exp1Reveals">
               <h1 className="newexperienceblogHeading01">
                 {" "}
                 What BOL Has To Offer
@@ -56,7 +74,7 @@ const Experience1 = () => {
             <div className="newexperienceblogTwoMainDiv01">
               <div className="card-deck newexperienceblogTwoMainInnerDiv">
                 <div className="newexperienceblogTwoMainImgCardStyle newother01">
-                  <div className="card-body newexperienceblogTwoMainTextStyle ">
+                  <div className="card-body newexperienceblogTwoMainTextStyle exp1Reveals">
                     <img
                       src="/assets/images/magazineLogo.png"
                       alt="magazineLogo"
@@ -81,7 +99,7 @@ const Experience1 = () => {
                   </div>
                 </div>
                 <div className="newexperienceblogTwoMainImgCardStyle newother02">
-                  <div className="card-body newexperienceblogTwoMainTextStyle">
+                  <div className="card-body newexperienceblogTwoMainTextStyle exp1Reveals">
                     <img
                       src="/assets/images/booksLogo.png"
                       alt="magazineLogo"
@@ -106,7 +124,7 @@ const Experience1 = () => {
                   </div>
                 </div>
                 <div className="newexperienceblogTwoMainImgCardStyle newother03">
-                  <div className="card-body newexperienceblogTwoMainTextStyle">
+                  <div className="card-body newexperienceblogTwoMainTextStyle exp1Reveals">
                     <img
                       src="/assets/images/EventsLogo.png"
                       alt="magazineLogo"
@@ -133,7 +151,7 @@ const Experience1 = () => {
               </div>
             </div>
           </div>
-          <div className="newexperienceblogHeadingButtonDiv">
+          <div className="newexperienceblogHeadingButtonDiv exp1Reveals">
             <button className="newexperienceblogHeadingButtonTag">
               EXPLORE
             </button>

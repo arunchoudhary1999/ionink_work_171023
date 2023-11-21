@@ -48,7 +48,7 @@ const Work = () => {
   return (
     <>
       <section>
-        <div className="scroll text1">
+        <div className="scroll text1 reveals">
           <div>
             #Editor’s Choice <span>#Editor’s Choice</span> #Editor’s Choice{" "}
             <span>#Editor’s Choice</span>
@@ -78,7 +78,7 @@ const Work = () => {
         className="workPage"
       >
         <div
-          class="workPageDiv"
+          class="workPageDiv reveals"
           style={{
             display: "flex",
             alignItems: "center",
@@ -90,7 +90,7 @@ const Work = () => {
           }}
         >
           <div
-            class="card-body workPageDivBox"
+            class="card-body workPageDivBox "
             style={{ width: "100%", margin: "0px 0px", padding: "2%" }}
           >
             <h5 class="card-title">
@@ -212,12 +212,15 @@ const Work = () => {
             <br />
             <br />
             <br />
-            <h5 style={{ textAlign: "center", color: "white" }}>
+            <h5
+              style={{ textAlign: "center", color: "white" }}
+              className="reveals"
+            >
               The Power of Multiples— Partner for Visibility, Growth, and
               Success
             </h5>
             <div
-              class="card-columns workPageDivIcon"
+              class="card-columns workPageDivIcon reveals"
               style={{
                 display: "flex",
                 width: "100%",

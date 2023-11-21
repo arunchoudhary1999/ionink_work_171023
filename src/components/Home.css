@@ -1,3 +1,15 @@
+.homeReveals {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.homeReveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 .homePageParaParagraph {
     font-size: 2.5vw;
     letter-spacing: 0vw;

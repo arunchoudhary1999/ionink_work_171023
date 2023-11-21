@@ -19,6 +19,22 @@ const Table = () => {
       "Experience | Brands Out Loud: Forefront For Everything Business")}`
   );
 
+  const reveal = () => {
+    const reveals = document.querySelectorAll(".tableReveals");
+    const revealpoint = 100; // You can adjust this value based on your requirements
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = reveals[i].getBoundingClientRect().top;
+
+      if (revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  };
+
   useEffect(() => {
     const handleBlur = () => {
       document.title = "😞 Missing you already";
@@ -30,11 +46,13 @@ const Table = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
+    window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
+      window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
 
@@ -92,8 +110,8 @@ const Table = () => {
     <>
       <div style={{ border: "2px solid black" }}>
         <div className="tableOne">
-          <table>
-            <tr>
+          <table className="tableReveals">
+            <tr className="tableReveals">
               <td className="tableContainerColumn01 onlyTd">Magazines</td>
               <td className="onlyTd">Merchandise</td>
               <td className="onlyTd">Get Social</td>
@@ -108,7 +126,7 @@ const Table = () => {
                 +
               </td>
             </tr>
-            <tr className="dropDownRowOne01">
+            <tr className="dropDownRowOne01 tableReveals">
               <td className="dropDownRowOne01" colSpan="6">
                 <div id="main01" style={{ display: one01 ? "none" : "block" }}>
                   ★ Our magazine unveils the journeys of daring dreamers who
@@ -117,7 +135,7 @@ const Table = () => {
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr className="tableReveals">
               <td className="onlyTd">Magazines</td>
               <td className="tableContainerColumn01 onlyTd">Merchandise</td>
               <td className="onlyTd">Get Social</td>
@@ -132,7 +150,7 @@ const Table = () => {
                 +
               </td>
             </tr>
-            <tr className="dropDownRowOne01">
+            <tr className="dropDownRowOne01 tableReveals">
               <td className="dropDownRowOne01" colSpan="6">
                 <div id="main02" style={{ display: two02 ? "none" : "block" }}>
                   ★ Elevate your gifting with our unique merchandise. Get
@@ -141,7 +159,7 @@ const Table = () => {
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr className="tableReveals">
               <td className="onlyTd">Magazines</td>
               <td className="onlyTd">Merchandise</td>
               <td className="tableContainerColumn01 onlyTd">Get Social</td>
@@ -156,7 +174,7 @@ const Table = () => {
                 +
               </td>
             </tr>
-            <tr className="dropDownRowOne01">
+            <tr className="dropDownRowOne01 tableReveals">
               <td className="dropDownRowOne01" colSpan="6">
                 <div
                   id="main03"
@@ -168,7 +186,7 @@ const Table = () => {
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr className="tableReveals">
               <td className="onlyTd">Magazines</td>
               <td className="onlyTd">Merchandise</td>
               <td className="onlyTd">Get Social</td>
@@ -183,7 +201,7 @@ const Table = () => {
                 +
               </td>
             </tr>
-            <tr className="dropDownRowOne01">
+            <tr className="dropDownRowOne01 tableReveals">
               <td className="dropDownRowOne01" colSpan="6">
                 <div id="main04" style={{ display: four04 ? "none" : "block" }}>
                   ★ Embark on a journey of intellectual prowess. Uncover
@@ -192,7 +210,7 @@ const Table = () => {
                 </div>
               </td>
             </tr>
-            <tr>
+            <tr className="tableReveals">
               <td className="onlyTd">Magazines</td>
               <td className="onlyTd">Merchandise</td>
               <td className="onlyTd">Get Social</td>
@@ -209,7 +227,7 @@ const Table = () => {
                 +
               </td>
             </tr>
-            <tr className="dropDownRowOne01">
+            <tr className="dropDownRowOne01 tableReveals">
               <td className="dropDownRowOne01" colSpan="6">
                 <div id="main05" style={{ display: five05 ? "none" : "block" }}>
                   ★ Your brand, our canvas. Collaborate to weave compelling

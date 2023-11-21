@@ -1,3 +1,15 @@
+.exp1Reveals {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.exp1Reveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 .dropDownRowOne01 {
     background-color: #ffcb46;
     margin: 0;
@@ -178,8 +190,8 @@ tr {
 
 .newexperienceblogTwoMainTextStyle2H5 {
     color: lightgray;
-    font-weight: 900;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 15px;
     letter-spacing: 0.1px;
     margin-top: 15px;
 }

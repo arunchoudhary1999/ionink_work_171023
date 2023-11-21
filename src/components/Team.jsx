@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
@@ -12,10 +12,32 @@ const breakPoints = [
 ];
 
 const Team = () => {
+  const reveal = () => {
+    const reveals = document.querySelectorAll(".teamReveals");
+    const revealpoint = 100; // You can adjust this value based on your requirements
+
+    for (let i = 0; i < reveals.length; i++) {
+      const windowheight = window.innerHeight;
+      const revealtop = reveals[i].getBoundingClientRect().top;
+
+      if (revealtop < windowheight - revealpoint) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", reveal);
+    return () => {
+      window.removeEventListener("scroll", reveal);
+    };
+  }, []);
   return (
     <div style={{ border: "2px solid black" }} className="teamTopOneDiv">
       <div className="App">
-        <div className="teamText">
+        <div className="teamText teamReveals">
           <h1 className="teamTextH1" style={{ textAlign: "center" }}>
             Meet The Team
           </h1>
@@ -24,7 +46,7 @@ const Team = () => {
             wizards, 50% mavericks, and 100% super-ready to shout out loud.
           </h4> */}
         </div>
-        <Carousel breakPoints={breakPoints} className="carouselDiv">
+        <Carousel breakPoints={breakPoints} className="carouselDiv teamReveals">
           <Item>
             {" "}
             <i class="fa fa-plus-circle addIcon"></i>
@@ -106,7 +128,7 @@ const Team = () => {
         </Carousel>
 
         <div className="teamCardDiv">
-          <div className="teamCardDesktop">
+          <div className="teamCardDesktop teamReveals">
             <i class="fa fa-plus-circle addIcon" width="80px" height="80px"></i>
 
             <div className="imageCard">
@@ -121,7 +143,7 @@ const Team = () => {
               <h6 className="teamImgH6">Chief Storyteller</h6>
             </div>
           </div>
-          <div className="teamCardDesktop">
+          <div className="teamCardDesktop teamReveals">
             <i class="fa fa-plus-circle addIcon"></i>
 
             <div className="imageCard">
@@ -136,7 +158,7 @@ const Team = () => {
               <h6 className="teamImgH6">Executive Editor</h6>
             </div>
           </div>
-          <div className="teamCardDesktop">
+          <div className="teamCardDesktop teamReveals">
             <i class="fa fa-plus-circle addIcon"></i>
 
             <div className="imageCard">
@@ -151,7 +173,7 @@ const Team = () => {
               <h6 className="teamImgH6">Process Prodigy</h6>
             </div>
           </div>
-          <div className="teamCardDesktop">
+          <div className="teamCardDesktop teamReveals">
             <i class="fa fa-plus-circle addIcon"></i>
 
             <div className="imageCard">
@@ -166,7 +188,7 @@ const Team = () => {
               <h6 className="teamImgH6">Content Architect</h6>
             </div>
           </div>
-          <div className="teamCardDesktop">
+          <div className="teamCardDesktop teamReveals">
             <i class="fa fa-plus-circle addIcon"></i>
 
             <div className="imageCard">
@@ -181,7 +203,7 @@ const Team = () => {
               <h6 className="teamImgH6">Content Architect</h6>
             </div>
           </div>
-          <div className="teamCardDesktop">
+          <div className="teamCardDesktop teamReveals">
             <i class="fa fa-plus-circle addIcon"></i>
             <div className="imageCard">
               <img

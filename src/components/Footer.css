@@ -1,3 +1,15 @@
+.footerReveals {
+    position: relative;
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.footerReveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .footerLogo p {

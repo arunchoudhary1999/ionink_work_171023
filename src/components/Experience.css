@@ -1,3 +1,15 @@
+.expReveals {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.expReveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 @media screen and (max-width: 1280px) {
     .expRadiusDivFirHeadiing h1 {
         font-size: 54px;

@@ -1,3 +1,15 @@
+.tableReveals {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.tableReveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 #main01 {
     background-color: #ffcb46;
     padding: 20px 10px;
@@ -37,7 +49,7 @@
 .tableOne {
     width: 85%;
     margin: auto;
-    border: 2px solid black;
+    border: 2px solid white;
     /* margin-top: 20px; */
 }
 
