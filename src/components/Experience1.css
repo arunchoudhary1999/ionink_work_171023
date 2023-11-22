@@ -106,6 +106,8 @@ tr {
     .newexperienceblogTwoMainInnerDiv {
         display: flex;
         justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center !important;
     }
 
     .newexperienceblogTwoMainImgCardStyle {

@@ -10,9 +10,95 @@
     opacity: 1;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-device-width:1440px) and (max-device-width: 2560px) {
+
+    /* .bookPageHeading {
+        font-size: 45px !important;
+        min-height: 110px !important;
+    } */
+
+    .bookPage {
+        padding-top: 0px !important;
+        padding-left: 25px !important;
+        padding-right: 20px !important;
+        padding-bottom: 0px !important;
+    }
+
     .bookImageResponse {
-        /* padding: 15px !important; */
+        padding-right: 0px !important;
+    }
+
+    .bookPage {
+        min-height: 400px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+
+    .bookPageHeading {
+        font-size: 100px !important;
+        min-height: 100px !important;
+        line-height: 40px !important;
+        margin-top: 15px;
+    }
+
+    .bookPageSmallHeading {
+        font-size: 38px !important;
+        word-spacing: 1px !important;
+    }
+
+    .bookPageParagraph {
+        margin-top: 10px !important;
+        font-size: 25px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1025px) and (max-device-width: 1440px) {
+
+    /* .bookPageHeading {
+        font-size: 45px !important;
+        min-height: 110px !important;
+    } */
+
+    .bookPage {
+        padding-top: 0px !important;
+        padding-left: 25px !important;
+        padding-right: 20px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .bookImageResponse {
+        padding-right: 0px !important;
+    }
+
+    .bookPage {
+        min-height: 400px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+
+    .bookPageHeading {
+        font-size: 62px !important;
+        min-height: 70px !important;
+        line-height: 40px !important;
+
+    }
+
+    .bookPageSmallHeading {
+        font-size: 25px !important;
+        word-spacing: 1px !important;
+    }
+
+    .bookPageParagraph {
+        margin-top: 10px !important;
+    }
+
+}
+
+/* @media screen and (max-width: 1280px) {
+    .bookImageResponse {
         margin: 20px 0 !important;
     }
 
@@ -32,11 +118,10 @@
         margin: 30px 0 !important;
         min-height: 515px !important;
     }
-}
+} */
 
-@media screen and (min-width: 1281px) {
+/* @media screen and (min-width: 1281px) {
     .bookImageResponse {
-        /* padding: 15px !important; */
         margin: 30px 0 !important;
     }
 
@@ -56,14 +141,55 @@
         margin: 30px 0 !important;
         min-height: 515px !important;
     }
+} */
+
+@media screen and (min-device-width:768px) and (max-device-width: 1024px) {
+
+    /* .bookPageHeading {
+        font-size: 45px !important;
+        min-height: 110px !important;
+    } */
+
+    .bookPage {
+        min-height: 400px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* .bookPage {
+        padding-top: 0px !important;
+        padding-left: 25px !important;
+        padding-right: 20px !important;
+        padding-bottom: 0px !important;
+    } */
+
+    .bookImageResponse {
+        /* padding-right: 0px !important; */
+    }
+
+
+    .bookPageHeading {
+        font-size: 40px !important;
+        min-height: 50px !important;
+        line-height: 40px !important;
+    }
+
+    .bookPageSmallHeading {
+        font-size: 25px !important;
+        word-spacing: 1px !important;
+    }
+
+    .bookPageParagraph {
+        margin-top: 10px !important;
+    }
+
 }
 
 /* For Tablet View */
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+@media screen and (min-device-width:426px) and (max-device-width: 768px) {
 
-    .bookPageHeading {
+    /* .bookPageHeading {
         font-size: 45px !important;
-        /* line-height: 10vw !important; */
         min-height: 110px !important;
     }
 
@@ -76,7 +202,25 @@
 
     .bookImageResponse {
         padding-right: 0px !important;
+    } */
+
+
+    .bookImageResponse {
+        /* padding: 15px !important; */
+        margin: 0 0 !important;
     }
+
+    .bookPageHeading {
+        font-size: 38px !important;
+        min-height: 60px !important;
+        line-height: 40px !important;
+        padding: 0 10px !important;
+    }
+
+    .bookPageParagraph {
+        margin-top: 10px !important;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -164,6 +308,53 @@
 
     }
 
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 426px) {
+
+    .bookImageResponse {
+        /* padding: 15px !important; */
+        margin: 0 0 !important;
+    }
+
+    .bookPageHeading {
+        font-size: 38px !important;
+        min-height: 60px !important;
+        line-height: 40px !important;
+        padding: 0 10px !important;
+    }
+
+    .bookPageParagraph {
+        margin-top: 10px !important;
+    }
+
+
+    /* .bookImageResponse {
+        padding-right: 0px !important;
+    } */
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 320px) {
+
+    .bookPageHeading {
+        font-size: 25px !important;
+        min-height: 60px !important;
+        line-height: 40px !important;
+        padding: 0 10px !important;
+    }
+
+    .bookPageSmallHeading {
+        font-size: 20px !important;
+    }
+
+    .bookPageParagraph {
+        margin-top: 10px !important;
+        font-size: 15px !important;
+    }
+
+    /* .bookImageResponse {
+        padding-right: 0px !important;
+    } */
 }
 
 

@@ -10,6 +10,60 @@
     opacity: 1;
 }
 
+@media screen and (max-width: 2220px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 80px;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 54% !important;
+        height: 45% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 25px !important;
+        text-align: center !important;
+
+    }
+}
+
+@media screen and (max-width: 1788px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 72px;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 50% !important;
+        height: 36% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 22px !important;
+        text-align: center !important;
+
+    }
+}
+
+@media screen and (max-width: 1552px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 62px;
+    }
+
+
+    .expRadiusDivSecImg {
+        width: 46% !important;
+        height: 30% !important;
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 19px !important;
+        text-align: center !important;
+
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .expRadiusDivFirHeadiing h1 {
         font-size: 54px;
@@ -23,8 +77,11 @@
 
     .expRadiusDivSecPara {
         font-size: 17px !important;
+        text-align: center !important;
     }
 }
+
+
 
 /* @media screen and (min-width: 1281px) {
     .expRadiusDivFirHeadiing h1 {
@@ -190,7 +247,7 @@
 }
 
 /* For Mobile View */
-@media screen and (min-device-width: 0px) and (max-device-width: 281px) {
+@media screen and (min-device-width: 0px) and (max-device-width: 548px) {
 
 
     .expRadiusDivFirHeadiing {
@@ -201,31 +258,44 @@
     }
 
     .expRadiusDivFirHeadiing h1 {
-        font-size: 28px !important;
+        font-size: 32px !important;
     }
 
-    /* new */
 
+    .expRadiusDivSecImgPara h6 {
+        font-size: 13px !important;
+    }
 
 }
+
+@media screen and (min-device-width: 0px) and (max-device-width: 350px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 25px !important;
+    }
+
+    .expRadiusDivSecImgPara h6 {
+        font-size: 8px !important;
+    }
+}
+
 
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .expRadiusDivFirHeadiing {}
 
     .expRadiusDivH1 {
-        font-size: 44px !important;
+        font-size: 40px !important;
     }
 
     .expRadiusDivSecImg {
-        width: 68% !important;
-        height: 24% !important;
+        width: 75% !important;
+        height: 25% !important;
         /* margin-bottom: 40px; */
     }
 
     .expRadiusDivSecPara {
-        font-size: 13px !important;
-        /* text-align: center !important; */
+        font-size: 16px !important;
+        text-align: center !important;
     }
 }
 
@@ -350,13 +420,12 @@
     }
 
     .expRadiusDivH1 {
-        font-size: 32px !important;
+        font-size: 48px !important;
     }
 
     .expRadiusDivFirHeadiing {
         width: 85% !important;
         text-align: center !important;
-
     }
 
     .expRadiusDivSecImgPara {
@@ -365,11 +434,11 @@
 
     .expRadiusDivSecImg {
         margin-top: 25px !important;
-        width: 100% !important;
+        width: 60% !important;
     }
 
     .expRadiusDivSecPara {
-        font-size: 15px !important;
+        font-size: 17px !important;
         text-align: center !important;
     }
 }
