@@ -1,0 +1,131 @@
+.editPostPost {
+    flex: 9;
+}
+
+.editPostPostWrapper {
+    padding: 20px;
+    /* padding-right: 0; */
+}
+
+.editPostMainDiv {
+    margin-top: 20px;
+}
+
+.editPostPostImg {
+    width: 100%;
+    height: 318px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.editPostPostTitle {
+    text-align: center;
+    /* margin: 10px; */
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+}
+
+.editPostPostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.editPostPostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.editPostPostIcon:first-child {
+    color: teal;
+}
+
+.editPostPostIcon:last-child {
+    color: tomato;
+}
+
+.editPostPostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #be9656;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.editPostPostAuthor {
+    margin-left: 5px;
+}
+
+.editPostPostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.editPostPostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.editPostInput {
+    font-size: 30px;
+    border: none;
+    /* padding: 20px; */
+    width: 10vw;
+    border-bottom: 1px solid grey;
+}
+
+.editPostInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+}
+
+.editPostInput:focus {
+    outline-style: none;
+}
+
+.editPostSubmit {
+    position: absolute;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 2560px) {
+    .editPostInput {
+        width: 100%;
+    }
+
+    .editPostPostWrapper {
+        padding: 10px;
+    }
+
+    .editPostMainDiv {
+        position: relative;
+        margin-top: 80px;
+    }
+
+    .editPostPostAuthor {
+        margin-left: 0px;
+    }
+
+    .editPostPostDesc::first-letter {
+        margin-left: 0px;
+    }
+
+    .editPostSubmit {
+        position: absolute;
+        top: -62px;
+        right: 10px;
+        padding: 10px 30px;
+    }
+
+}

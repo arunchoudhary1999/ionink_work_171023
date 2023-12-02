@@ -1,0 +1,112 @@
+.awardWinning00H1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: red;
+}
+
+.awardWinning00 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.awardWinning01 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.awardWinningh5 {
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    font-size: 40px;
+    color: black;
+}
+
+.awardWinningCardDiv {
+    background-color: white;
+    position: relative;
+    width: 11rem;
+    height: 14rem;
+    border: 2px solid black;
+    border-radius: 35px;
+}
+
+.awardWinninglasth5 {
+    text-align: center;
+}
+
+@media screen and (min-device-width:0px) and (max-device-width: 375px) {
+    .awardWinning01 {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: -40px;
+    }
+
+    .awardWinningMainDiv {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-device-width:376px) and (max-device-width: 425px) {
+    .awardWinning01 {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+    }
+
+    .awardWinningMainDiv {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-device-width:426px) and (max-device-width: 600px) {
+    .awardWinning01 {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+    }
+
+    .awardWinningMainDiv {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-device-width:601px) and (max-device-width: 768px) {
+    .awardWinning01 {
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+    }
+
+    .awardWinningMainDiv {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (min-device-width:769px) and (max-device-width: 2560px) {
+    .awardWinning00 {
+        padding-top: 20px;
+    }
+
+    .awardWinning01 {
+        margin-top: 40px;
+        margin-bottom: -40px;
+    }
+
+    .awardWinningMainDiv {
+        margin-bottom: 40px;
+    }
+}

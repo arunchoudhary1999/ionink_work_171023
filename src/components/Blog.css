@@ -1,3 +1,15 @@
+.blogReveals {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.blogReveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 .blogTop01 {
     padding-top: 40px;
     padding-bottom: 40px;

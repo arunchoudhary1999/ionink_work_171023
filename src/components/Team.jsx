@@ -41,10 +41,6 @@ const Team = () => {
           <h1 className="teamTextH1" style={{ textAlign: "center" }}>
             Meet The Team
           </h1>
-          {/* <h4>
-            At Brands Out Loud, we’ve got behind-the-scenes maestros who are 50%
-            wizards, 50% mavericks, and 100% super-ready to shout out loud.
-          </h4> */}
         </div>
         <Carousel breakPoints={breakPoints} className="carouselDiv teamReveals">
           <Item>

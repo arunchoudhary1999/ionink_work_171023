@@ -1,4 +1,824 @@
-.bookReveals {
+.bookPage00 {
+    background: linear-gradient(135deg, #d5fc39, #fff, #fff, #fff, #fff, #fff, #fff, #d5fc39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.bookPage01 {
+    width: 85%;
+    /* border: 2px solid black; */
+    height: auto;
+}
+
+.bookPage02 {
+    display: flex;
+    justify-content: center;
+}
+
+.bookPage0201 {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    width: 48%;
+}
+
+.bookPage0202 {
+    display: flex;
+    justify-content: center;
+    /* background-color: orange; */
+    width: 48%;
+}
+
+.bookPage020101 {
+    width: 80%;
+    /* background-color: green; */
+}
+
+.bookPage020101Main00 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bookPage020101Main01 {
+    font-size: 56px;
+}
+
+.bookPage020101Main02 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.bookPage020101Main03 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.bookPage020201 {
+    width: 80%;
+    /* background-color: green; */
+}
+
+.bookPage020201Main00 {
+    position: relative;
+}
+
+.bookPage020201Main0001 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 35px;
+    border: 2px solid black;
+}
+
+.bookPage020201Main01 {
+    position: absolute;
+    margin-right: 35px;
+    bottom: 100px;
+    left: 50px;
+}
+
+.bookPage020201Main0101 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bookPage020201Main0102 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.bookPage020101Main0401 {
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #d5fc39;
+    border: none;
+    padding-bottom: 3px;
+}
+
+@media screen and (min-device-width:0px) and (max-device-width: 320px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    .bookPage0201 {
+        width: 100%;
+    }
+
+    .bookPage0202 {
+        width: 100%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 20px;
+        bottom: 80px;
+        left: 20px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 20px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 30px;
+    }
+
+    .bookPage020201 {
+        margin-bottom: -40px;
+        margin-top: -40px;
+    }
+}
+
+@media screen and (min-device-width:321px) and (max-device-width: 375px) {
+    .bookPage020201 {
+        margin-bottom: -40px;
+        margin-top: -40px;
+    }
+
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    .bookPage0201 {
+        width: 100%;
+    }
+
+    .bookPage0202 {
+        width: 100%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 20px;
+        bottom: 80px;
+        left: 20px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 25px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-device-width:375px) and (max-device-width: 425px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    .bookPage0201 {
+        width: 100%;
+    }
+
+    .bookPage0202 {
+        width: 100%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 20px;
+        bottom: 80px;
+        left: 20px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 28px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-device-width:425px) and (max-device-width: 540px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {}
+
+    .bookPage0201 {
+        width: 50%;
+    }
+
+    .bookPage0202 {
+        width: 50%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 27px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 9px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 10px;
+        bottom: 30px;
+        left: 10px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 15px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-device-width:540px) and (max-device-width: 767px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {}
+
+    .bookPage0201 {
+        width: 50%;
+    }
+
+    .bookPage0202 {
+        width: 50%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 39px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+
+
+    .bookPage020201Main0001 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 20px;
+        bottom: 40px;
+        left: 20px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 18px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 29px;
+    }
+}
+
+@media screen and (min-device-width:768px) and (max-device-width: 1023px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {}
+
+    .bookPage0201 {
+        width: 50%;
+    }
+
+    .bookPage0202 {
+        width: 50%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 20px;
+        bottom: 60px;
+        left: 20px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 25px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-device-width:1024px) and (max-device-width: 1439px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {}
+
+    .bookPage0201 {
+        width: 50%;
+    }
+
+    .bookPage0202 {
+        width: 50%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 65px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 24px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 28px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 30px;
+        bottom: 70px;
+        left: 30px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 30px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 58px;
+    }
+}
+
+@media screen and (min-device-width:1229px) and (max-device-width: 1439px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {}
+
+    .bookPage0201 {
+        width: 50%;
+    }
+
+    .bookPage0202 {
+        width: 50%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 80px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 29px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 40px;
+        bottom: 70px;
+        left: 40px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 35px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 68px;
+    }
+}
+
+@media screen and (min-device-width:1440px) and (max-device-width: 2560px) {
+    .bookPage00 {
+        height: auto;
+    }
+
+    .bookPage01 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .bookPage02 {}
+
+    .bookPage0201 {
+        width: 50%;
+    }
+
+    .bookPage0202 {
+        width: 50%;
+    }
+
+    .bookPage020101 {
+        width: 90%;
+    }
+
+    .bookPage020101Main00 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bookPage020101Main01 {
+        font-size: 94px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .bookPage020101Main02 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .bookPage020101Main03 {
+        font-size: 34px;
+        text-align: justify;
+    }
+
+    .bookPage020101Main0401 {
+        font-weight: 900;
+        font-size: 35px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        background-color: black;
+        color: #d5fc39;
+        border: none;
+        padding-bottom: 3px;
+    }
+
+    .bookPage020201Main0001 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 35px;
+        border: 2px solid black;
+    }
+
+    .bookPage020201Main01 {
+        margin-right: 45px;
+        bottom: 80px;
+        left: 45px;
+    }
+
+    .bookPage020201Main0101 {
+        font-size: 40px;
+    }
+
+    .bookPage020201Main0102 {
+        font-size: 82px;
+    }
+}
+
+
+/* .bookReveals {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -11,12 +831,6 @@
 }
 
 @media screen and (min-device-width:1440px) and (max-device-width: 2560px) {
-
-    /* .bookPageHeading {
-        font-size: 45px !important;
-        min-height: 110px !important;
-    } */
-
     .bookPage {
         padding-top: 0px !important;
         padding-left: 25px !important;
@@ -55,12 +869,6 @@
 }
 
 @media screen and (min-device-width:1025px) and (max-device-width: 1440px) {
-
-    /* .bookPageHeading {
-        font-size: 45px !important;
-        min-height: 110px !important;
-    } */
-
     .bookPage {
         padding-top: 0px !important;
         padding-left: 25px !important;
@@ -97,76 +905,13 @@
 
 }
 
-/* @media screen and (max-width: 1280px) {
-    .bookImageResponse {
-        margin: 20px 0 !important;
-    }
-
-    .bookPageDiv {
-        margin: 30px 0 !important;
-
-    }
-
-    .bookPageHeading {
-        font-size: 45px !important;
-        min-height: 110px !important;
-    }
-
-    .bookPage {
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-        margin: 30px 0 !important;
-        min-height: 515px !important;
-    }
-} */
-
-/* @media screen and (min-width: 1281px) {
-    .bookImageResponse {
-        margin: 30px 0 !important;
-    }
-
-    .bookPageDiv {
-        margin: 30px 0 !important;
-
-    }
-
-    .bookPageHeading {
-        font-size: 45px !important;
-        min-height: 110px !important;
-    }
-
-    .bookPage {
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-        margin: 30px 0 !important;
-        min-height: 515px !important;
-    }
-} */
-
 @media screen and (min-device-width:768px) and (max-device-width: 1024px) {
-
-    /* .bookPageHeading {
-        font-size: 45px !important;
-        min-height: 110px !important;
-    } */
 
     .bookPage {
         min-height: 400px !important;
         padding-top: 20px !important;
         padding-bottom: 20px !important;
     }
-
-    /* .bookPage {
-        padding-top: 0px !important;
-        padding-left: 25px !important;
-        padding-right: 20px !important;
-        padding-bottom: 0px !important;
-    } */
-
-    .bookImageResponse {
-        /* padding-right: 0px !important; */
-    }
-
 
     .bookPageHeading {
         font-size: 40px !important;
@@ -185,28 +930,8 @@
 
 }
 
-/* For Tablet View */
 @media screen and (min-device-width:426px) and (max-device-width: 768px) {
-
-    /* .bookPageHeading {
-        font-size: 45px !important;
-        min-height: 110px !important;
-    }
-
-    .bookPage {
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-        margin: 30px 0 !important;
-        min-height: 515px !important;
-    }
-
     .bookImageResponse {
-        padding-right: 0px !important;
-    } */
-
-
-    .bookImageResponse {
-        /* padding: 15px !important; */
         margin: 0 0 !important;
     }
 
@@ -235,8 +960,6 @@
         margin: 0 !important;
         width: 100% !important;
     }
-
-
 
     .bookPageHeading {
         font-size: 32px !important;
@@ -281,8 +1004,6 @@
         padding: 0 !important;
     }
 
-
-
     .bookCardTextDivH5 {
         font-weight: 900;
         padding-left: 20px;
@@ -305,7 +1026,6 @@
         flex-wrap: wrap !important;
         display: flex !important;
         justify-content: center !important;
-
     }
 
 }
@@ -313,7 +1033,6 @@
 @media screen and (min-device-width: 320px) and (max-device-width: 426px) {
 
     .bookImageResponse {
-        /* padding: 15px !important; */
         margin: 0 0 !important;
     }
 
@@ -327,11 +1046,6 @@
     .bookPageParagraph {
         margin-top: 10px !important;
     }
-
-
-    /* .bookImageResponse {
-        padding-right: 0px !important;
-    } */
 }
 
 @media screen and (min-device-width: 0px) and (max-device-width: 320px) {
@@ -351,10 +1065,6 @@
         margin-top: 10px !important;
         font-size: 15px !important;
     }
-
-    /* .bookImageResponse {
-        padding-right: 0px !important;
-    } */
 }
 
 
@@ -421,4 +1131,4 @@
 
 .hrStyle {
     border: 2px solid black;
-}
+} */

@@ -1,0 +1,139 @@
+.postPostEdit {
+    float: left;
+    font-size: 16px;
+}
+
+.postSubmit {
+    /* position: absolute; */
+    left: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.postDivCard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postTop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    flex: 9;
+    margin: 0px 5px 10px 5px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-bottom: 1px solid gray; */
+    background-color: rgb(209, 204, 204);
+    padding-top: 0;
+    width: 340px;
+}
+
+.postImg {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    text-align: center;
+}
+
+.postInfo {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.postCat {
+    width: 480px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 19px;
+    /* margin-top: 15px; */
+    /* margin-right: 10px; */
+    cursor: pointer;
+    text-align: center;
+}
+
+.postTitle {
+    width: 480px;
+    font-size: 24px;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+}
+
+.postDate {
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    width: 480px;
+    text-align: center;
+}
+
+.postDesc {
+    width: 480px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #444444;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 425px) {
+
+    .postSubmit {
+        margin-top: 20px;
+    }
+
+    .postTop {
+        padding: auto !important;
+        margin: auto !important;
+    }
+
+    .post {
+        margin: 15px 0px !important;
+        width: 280px;
+    }
+
+    .postInfo {
+        width: 280px;
+    }
+
+    .postTitle {
+        width: 280px;
+    }
+
+    .postDate {
+        width: 280px;
+    }
+
+    .postDesc {
+        width: 280px;
+    }
+
+}
