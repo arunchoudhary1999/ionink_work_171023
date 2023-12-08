@@ -16,23 +16,23 @@ const Contact = () => {
       "Contact | Brands Out Loud: Forefront For Everything Business")}`
   );
 
-  const reveal = () => {
-    const reveals = document.querySelectorAll(".contactReveals");
-    const revealpoint = 100; // You can adjust this value based on your requirements
-
-    for (let i = 0; i < reveals.length; i++) {
-      const windowheight = window.innerHeight;
-      const revealtop = reveals[i].getBoundingClientRect().top;
-
-      if (revealtop < windowheight - revealpoint) {
-        reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
-    }
-  };
-
   useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback);
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
     const handleBlur = () => {
       document.title = "😞 Missing you already";
     };
@@ -43,13 +43,14 @@ const Contact = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
-    window.addEventListener("scroll", reveal);
+    // window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
-      window.removeEventListener("scroll", reveal);
+      // window.removeEventListener("scroll", reveal);
+      hiddenElements.forEach((el) => observer.unobserve(el));
     };
   }, [tabTitle]);
 
@@ -90,6 +91,7 @@ const Contact = () => {
       })
       .catch((error) => {
         console.log(error);
+        alert("Its server error");
       });
   };
 
@@ -114,7 +116,7 @@ const Contact = () => {
                 fontSize: "3rem",
                 fontWeight: "700",
               }}
-              className="contactPageHeading contactReveals"
+              className="contactPageHeading hidden"
             >
               LET'S CONNECT
             </h1>
@@ -123,7 +125,7 @@ const Contact = () => {
                 fontSize: "3.5rem",
                 fontWeight: "300",
               }}
-              className="contactPageHeading01 contactReveals"
+              className="contactPageHeading01 hidden"
             >
               Time to connect the pulse!
             </h2>
@@ -131,7 +133,7 @@ const Contact = () => {
         </div>
         <div>
           <div
-            className="container mb-5 contactPageHeadingForm contactReveals"
+            className="container mb-5 contactPageHeadingForm hidden"
             style={{
               width: "50%",
             }}
@@ -160,6 +162,7 @@ const Contact = () => {
                       placeholder="Enter Your Name"
                       value={name}
                       onChange={handleName}
+                      required
                     />
                   </div>
                   <div class="col">
@@ -171,6 +174,7 @@ const Contact = () => {
                       name="help"
                       class="form-control"
                       value={help}
+                      required
                       style={{
                         cursor: "text",
                         border: "1px solid black",
@@ -184,7 +188,7 @@ const Contact = () => {
                         style={{ color: "lightGrey" }}
                         label="Select ..."
                       ></option>
-                      <option value="Share Your Stroy">Share Your Stroy</option>
+                      <option value="Share Your Stroy">Share Your Story</option>
                       <option value="Advertise With Us">
                         Advertise With Us
                       </option>
@@ -202,12 +206,16 @@ const Contact = () => {
                         borderRadius: "15px",
                         margin: "10px 0",
                       }}
-                      type="number"
-                      class="form-control"
+                      type="tel"
+                      minLength="10"
+                      maxlength="14"
+                      class="form-control "
                       name="number"
                       placeholder="Enter Your Number"
                       value={number}
                       onChange={handleNumber}
+                      required
+                      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                     />
                   </div>
                   <div class="col">
@@ -226,6 +234,7 @@ const Contact = () => {
                       value={email}
                       placeholder="Enter Your E-mail"
                       onChange={handleEmail}
+                      required
                     />
                   </div>
                 </div>
@@ -255,12 +264,11 @@ const Contact = () => {
                     border: "1px solid black",
                     borderRadius: "15px",
                     width: "100%",
-                    margin: "10px 0",
                   }}
                   onClick={handleAPI}
-                  class="btn btn-success"
+                  class="btn btn-success sendContact"
                 >
-                  <h4>SEND</h4>
+                  <h4 className="onSend">SEND</h4>
                 </button>
               </div>
             </div>

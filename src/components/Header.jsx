@@ -34,6 +34,17 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon avbar-toggler"></span>
           </button>
+          {/* <button
+            className="navbar-toggler navTog"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon avbar-toggler"></span>
+          </button> */}
           <div
             className="collapse navbar-collapse headerDivTag"
             id="navbarSupportedContent"
@@ -52,7 +63,15 @@ const Header = () => {
             <div>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item mx-2">
-                  <NavLink className="nav-link text-dark fs-5" to="/magazine">
+                  <NavLink
+                    className="nav-link text-dark fs-5"
+                    to="/magazine"
+                    onClick={() =>
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show")
+                    }
+                  >
                     Magazine
                   </NavLink>
                 </li>
@@ -63,12 +82,28 @@ const Header = () => {
                 </li> */}
 
                 <li className="nav-item mx-2">
-                  <NavLink className="nav-link text-dark fs-5" to="/books">
+                  <NavLink
+                    className="nav-link text-dark fs-5"
+                    to="/books"
+                    onClick={() =>
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show")
+                    }
+                  >
                     Books
                   </NavLink>
                 </li>
                 <li className="nav-item mx-2">
-                  <NavLink className="nav-link text-dark fs-5" to="/blog">
+                  <NavLink
+                    className="nav-link text-dark fs-5"
+                    to="/blog"
+                    onClick={() =>
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show")
+                    }
+                  >
                     Blog
                   </NavLink>
                 </li>
@@ -88,7 +123,15 @@ const Header = () => {
                   </NavLink>
                 </li> */}
                 <li className="nav-item mx-2">
-                  <NavLink className="nav-link text-dark fs-5" to="/contact">
+                  <NavLink
+                    className="nav-link text-dark fs-5"
+                    to="/contact"
+                    onClick={() =>
+                      document
+                        .getElementById("navbarSupportedContent")
+                        .classList.remove("show")
+                    }
+                  >
                     Contact
                   </NavLink>
                 </li>

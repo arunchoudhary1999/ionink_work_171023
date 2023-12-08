@@ -54,7 +54,7 @@ const Magazine = () => {
     >
       <div className="magzineHeadingDiv">
         <h1 className="magzineHeading">Magzines</h1>
-        <div className="magzineHeadingNav">
+        {/* <div className="magzineHeadingNav">
           <ul class="nav justify-content-center magzineHeadingMainNav">
             <li className="nav-item magzineHeadingNavDivOne">
               <button
@@ -77,7 +77,7 @@ const Magazine = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="magazineMainDiv">

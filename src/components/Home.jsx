@@ -7,31 +7,47 @@ import Work from "./Work";
 import Contact from "./Contact";
 // import Magazine from "./Magazine";
 import Team from "./Team";
-import Table from "./Table";
+// import Table from "./Table";
 // import Blog from "./Blog";
 
 const Home = () => {
-  const reveal = () => {
-    const reveals = document.querySelectorAll(".homeReveals");
-    const revealpoint = 100; // You can adjust this value based on your requirements
+  // const reveal = () => {
+  //   const reveals = document.querySelectorAll(".homeReveals");
+  //   const revealpoint = 0; // You can adjust this value based on your requirements
 
-    for (let i = 0; i < reveals.length; i++) {
-      const windowheight = window.innerHeight;
-      const revealtop = reveals[i].getBoundingClientRect().top;
+  //   for (let i = 0; i < reveals.length; i++) {
+  //     const windowheight = window.innerHeight;
+  //     const revealtop = reveals[i].getBoundingClientRect().top;
 
-      if (revealtop < windowheight - revealpoint) {
-        reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
-    }
-  };
+  //     if (revealtop < windowheight - revealpoint) {
+  //       reveals[i].classList.add("active");
+  //     } else {
+  //       reveals[i].classList.remove("active");
+  //     }
+  //   }
+  // };
 
   const [tabTitle, setTabTitle] = useState(
     `${(document.title =
       "Home | Brands Out Loud: Forefront For Everything Business")}`
   );
   useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback);
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
     // document.title = "Home | BOL";
     const handleBlur = () => {
       document.title = "😞 Missing you already";
@@ -43,13 +59,14 @@ const Home = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
-    window.addEventListener("scroll", reveal);
+    // window.addEventListener("scroll", reveal);
 
     return () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
-      window.removeEventListener("scroll", reveal);
+      hiddenElements.forEach((el) => observer.unobserve(el));
+      // window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
 
@@ -94,7 +111,7 @@ const Home = () => {
                   style={{
                     width: "80%",
                   }}
-                  className="homePageParaDiv homeReveals"
+                  className="homePageParaDiv hidden"
                 >
                   <div style={{ paddingBottom: "10px" }}>
                     <h1 className="homePageParaHeading">
@@ -128,7 +145,7 @@ const Home = () => {
       <Team />
       {/* <Magazine /> */}
       <Contact />
-      <Table />
+      {/* <Table /> */}
     </div>
   );
 };

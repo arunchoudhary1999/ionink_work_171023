@@ -53,7 +53,7 @@ const Experience1 = () => {
   return (
     <>
       <div style={{ border: "2px solid black" }} className="newExpPage02Main">
-        <div>
+        <div className="exp1Reveals">
           <div
             style={{
               width: "100%",
@@ -63,9 +63,9 @@ const Experience1 = () => {
               alignItems: "center",
               flexDirection: "column",
             }}
-            className="newexperienceblogTop01"
+            className="newexperienceblogTop01 "
           >
-            <div className="newexperienceblogHeading00 exp1Reveals">
+            <div className="newexperienceblogHeading00">
               <h1 className="newexperienceblogHeading01">
                 {" "}
                 What BOL Has To Offer
@@ -74,7 +74,7 @@ const Experience1 = () => {
             <div className="newexperienceblogTwoMainDiv01">
               <div className="card-deck newexperienceblogTwoMainInnerDiv">
                 <div className="newexperienceblogTwoMainImgCardStyle newother01">
-                  <div className="card-body newexperienceblogTwoMainTextStyle exp1Reveals">
+                  <div className="card-body newexperienceblogTwoMainTextStyle">
                     <img
                       src="/assets/images/magazineLogo.png"
                       alt="magazineLogo"
@@ -99,7 +99,7 @@ const Experience1 = () => {
                   </div>
                 </div>
                 <div className="newexperienceblogTwoMainImgCardStyle newother02">
-                  <div className="card-body newexperienceblogTwoMainTextStyle exp1Reveals">
+                  <div className="card-body newexperienceblogTwoMainTextStyle">
                     <img
                       src="/assets/images/booksLogo.png"
                       alt="magazineLogo"
@@ -124,7 +124,7 @@ const Experience1 = () => {
                   </div>
                 </div>
                 <div className="newexperienceblogTwoMainImgCardStyle newother03">
-                  <div className="card-body newexperienceblogTwoMainTextStyle exp1Reveals">
+                  <div className="card-body newexperienceblogTwoMainTextStyle">
                     <img
                       src="/assets/images/EventsLogo.png"
                       alt="magazineLogo"
@@ -151,7 +151,7 @@ const Experience1 = () => {
               </div>
             </div>
           </div>
-          <div className="newexperienceblogHeadingButtonDiv exp1Reveals">
+          <div className="newexperienceblogHeadingButtonDiv">
             <button className="newexperienceblogHeadingButtonTag">
               EXPLORE
             </button>

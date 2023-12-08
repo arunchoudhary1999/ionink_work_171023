@@ -1,8 +1,3 @@
-.postPostEdit {
-    float: left;
-    font-size: 16px;
-}
-
 .postSubmit {
     /* position: absolute; */
     left: 50px;
@@ -21,6 +16,7 @@
 .postDivCard {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .postTop {
@@ -29,28 +25,36 @@
 }
 
 .post {
-    flex: 9;
+    /* flex: 9; */
     margin: 0px 5px 10px 5px;
     padding-top: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* border-bottom: 1px solid gray; */
-    background-color: rgb(209, 204, 204);
+    /* background-color: #e0bf8a; */
+    /* background-color: rgb(209, 204, 204); */
     padding-top: 0;
-    width: 340px;
+    width: 40%;
+    border: 1px solid gray;
+}
+
+.postdivh {
+    width: 50%;
+    background-color: white;
 }
 
 .postImg {
     width: 100%;
+    background-size: cover;
     height: 280px;
     object-fit: cover;
     text-align: center;
 }
 
 .postInfo {
-    width: 480px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,4 +140,17 @@
         width: 280px;
     }
 
+}
+
+.postlink {
+    text-decoration: none;
+}
+
+.postSubmit:hover {
+    background-color: #d5fc39;
+    color: black;
+}
+
+.post:hover {
+    opacity: 0.8;
 }

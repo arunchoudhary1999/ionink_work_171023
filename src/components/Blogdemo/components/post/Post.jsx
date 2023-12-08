@@ -25,23 +25,25 @@ export default function Post() {
     <>
       <div className="postTop">
         <div className="postPostEdit">
-          <Link className="" to={`/blog/write`}>
+          <Link className="postlink" to={`/blog/write`}>
             <button className="postSubmit">Add Post</button>
           </Link>
         </div>
         <div className="postDivCard">
           {posts.map((post) => (
             <div key={post.id} className="post">
-              <img className="postImg" src={post.blogImage} alt="" />
+              <div className="postdivh">
+                <img className="postImg" src={post.blogImage} alt="" />
+              </div>
               <div className="postInfo">
                 <span className="postTitle">
                   <Link to={`/blog/post/${post._id}`} className="link">
                     {post.tittle}
                   </Link>
                 </span>
-                <span className="postDate">{post.createdAt}</span>
                 <p className="postDesc">{post.description}</p>
                 <p className="postDesc">{post.metaDescription}</p>
+                <span className="postDate">{post.createdAt}</span>
               </div>
             </div>
           ))}

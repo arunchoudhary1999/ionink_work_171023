@@ -5,7 +5,6 @@ export default styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: start;
-  padding-left: 10px;
   height: 220px;
   width: 190px;
   /* background-color: #00008b; */
@@ -15,7 +14,7 @@ export default styled.div`
   border-bottom-left-radius: 35%;
   border-bottom-right-radius: 5%;
   color: #fff;
-  margin: 10px;
+  margin: 10px 50px;
   border-radius: 30px;
   font-size: 4em;
 `;

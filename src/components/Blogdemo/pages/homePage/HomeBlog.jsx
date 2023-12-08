@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./HomeBlog.css";
+// import "./HomeBlog.css";
 // import Post from "./BlogHome/Post";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import Blogheader from "../../components/header/Blogheader";
 import Posts from "../../components/posts/Posts";
 // import axios from "axios";
@@ -30,7 +30,7 @@ const HomeBlog = () => {
       <Blogheader />
       <div className="home">
         <Posts posts={posts} />
-        <Sidebar />
+        {/* <Sidebar /> */}
       </div>
     </>
   );

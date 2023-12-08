@@ -2,7 +2,7 @@
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 0.8s ease;
 }
 
 .exp1Reveals.active {
@@ -55,7 +55,7 @@ tr {
 
 @media screen and (min-device-width: 351px) and (max-device-width: 425px) {
     .newexperienceblogHeading00 h1 {
-        font-size: 34px !important;
+        font-size: 30px !important;
     }
 }
 
@@ -154,7 +154,7 @@ tr {
     }
 
     .newexperienceblogTwoMainImgCardStyle {
-        width: 280px !important;
+        width: 260px !important;
     }
 
     .newexperienceblogTwoMainTextStyle2H5 {
@@ -170,7 +170,8 @@ tr {
 
 .newexperienceblogHeading01 {
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
     font-size: 65px;
     font-weight: 400;
 }
@@ -189,7 +190,8 @@ tr {
 }
 
 .newexperienceblogTwoMainImgCardStyle {
-    width: 250px;
+    width: 300px;
+    /* background-color: red; */
     /* margin: 19px 0px; */
     padding: 50px 25px;
 }
@@ -222,7 +224,7 @@ tr {
 .newexperienceblogTwoMainTextStyle2H5 {
     color: lightgray;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 0.1px;
     margin-top: 15px;
 }
@@ -266,4 +268,9 @@ tr {
     color: white;
     padding: 12px 60px;
     letter-spacing: 0.8px;
+}
+
+.newexperienceblogHeadingButtonTag:hover {
+    background-color: #d5fc39;
+    color: black;
 }

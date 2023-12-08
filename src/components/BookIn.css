@@ -1272,32 +1272,36 @@
     opacity: 1; */
 }
 
+.row {
+    flex-wrap: wrap-reverse;
+}
+
 @media(prefers-reduced-motion) {
     .hidden {
         transition: none;
     }
 }
 
-.bookReveals {
+.inbookReveals {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
     transition: all 0.8s ease;
 }
 
-.bookReveals.active {
+.inbookReveals.active {
     transform: translateY(0px);
     opacity: 1;
 }
 
 @media screen and (max-width: 768px) {
-    .bookPage {
+    .inbookPage {
         width: 85% !important;
         padding: 15px !important;
         margin: 30px 0 !important;
     }
 
-    .bookPageDiv {
+    .inbookPageDiv {
         padding: 0 !important;
         margin: 0 !important;
         width: 100% !important;
@@ -1305,7 +1309,7 @@
 
 
 
-    .bookPageHeading {
+    .inbookPageHeading {
         font-size: 32px !important;
         line-height: 10vw !important;
         text-align: center;
@@ -1315,61 +1319,61 @@
         align-items: center !important;
     }
 
-    .bookPageSmallHeading {
+    .inbookPageSmallHeading {
         text-align: center;
         padding: 0px 15px 0px 15px !important;
         font-size: 25px !important;
         word-spacing: 1px !important;
     }
 
-    .bookPageParagraph {
+    .inbookPageParagraph {
         text-align: justify;
         padding: 15px 0px 0px 0px !important;
     }
 
-    .bookPageButton {
+    .inbookPageButton {
         width: 80% !important;
         display: flex;
         padding: 0 !important;
     }
 
-    .bookPageButtonOne {
+    .inbookPageButtonOne {
         font-size: 15px !important;
         padding: 5px 0px 0px 0px !important;
     }
 
-    .bookPageButtonTwo {
+    .inbookPageButtonTwo {
         font-size: 15px !important;
         padding: 5px 0px 0px 0px !important;
     }
 
-    .bookTop {
+    .inbookTop {
         padding: 0 !important;
     }
 
 
 
-    .bookCardTextDivH5 {
+    .inbookCardTextDivH5 {
         font-weight: 900;
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .newBookBox {
+    .innewBookBox {
         width: 80% !important;
         padding-top: 120px !important;
         padding-bottom: 120px !important;
     }
 
-    .bookCardTextDiv {
+    .inbookCardTextDiv {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
 
-    .bookCardDiv {
+    .inbookCardDiv {
         margin-bottom: 0px !important;
         flex-wrap: wrap !important;
-        display: none !important;
+        display: flex !important;
         justify-content: center !important;
 
     }
@@ -1377,13 +1381,13 @@
 }
 
 
-.bookCardDiv {
+.inbookCardDiv {
     margin-bottom: 45px;
     display: flex;
     border: none;
 }
 
-.bookCardList {
+.inbookCardList {
     height: 80px;
     margin: 10px;
     border-radius: 50px;
@@ -1391,7 +1395,7 @@
     color: black !important;
 }
 
-.bookCardTextDiv {
+.inbookCardTextDiv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1402,10 +1406,11 @@
 }
 
 
-.newBookBox {
+.innewBookBox {
     background-color: #d5fc39;
     width: 70%;
-    border-radius: 200px;
+    border-radius: 35px;
+    border: 3px solid black;
     display: flex;
     align-items: flex-end;
     padding-bottom: 180px;
@@ -1413,35 +1418,36 @@
     flex-wrap: wrap;
 }
 
-.newBookBoxText {
+.innewBookBoxText {
     letter-spacing: 2px;
     font-weight: 900;
     font-size: 30px;
 }
 
-.newBookBoxTextSpan {
+.innewBookBoxTextSpan {
     font-weight: 700;
     font-size: 18px;
 }
 
-.bookCardTextDivH5 {
+.inbookCardTextDivH5 {
     font-size: 15px !important;
+
 }
 
-.bookPageButtonOneClick {
+.inbookPageButtonOneClick {
     color: #d5fc39;
     background-color: black;
 }
 
-.bookPageButtonOne {
+.inbookPageButtonOne {
     font-size: 15px;
 }
 
-.hrStyle {
+/* .inhrStyle {
     border: 2px solid black;
-}
+} */
 
-.booklink {
+.inbooklink {
     text-decoration: none;
     color: white;
 }

@@ -233,6 +233,7 @@
         width: 30% !important;
     }
 
+
     .cardGroup {
         width: 30%;
         /* height: 20%; */
@@ -264,7 +265,7 @@
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 0.8s ease;
 }
 
 .reveals.active {
@@ -361,11 +362,26 @@ section .scroll.text1 {
 .workPageDivButton {
     padding: 10px 20px !important;
     margin: 0 !important;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.workPageDivButton001 {
+    width: 21% !important;
+}
+
+.workPageDivButton:hover {
+    background-color: #d5fc39;
+    color: black;
 }
 
 .card-img-top {
     width: 100%;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
 }
 
 .card-columns {

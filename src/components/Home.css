@@ -1,13 +1,27 @@
-.homeReveals {
-    position: relative;
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(150px);
+    transition: all 1s;
+    /* position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1s ease; */
 }
 
-.homeReveals.active {
-    transform: translateY(0px);
+.show {
     opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    /* transition-delay: all 2s ease;
+    transform: translateY(0px);
+    opacity: 1; */
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
 }
 
 .homePageParaParagraph {

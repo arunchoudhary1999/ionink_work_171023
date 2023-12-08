@@ -1,13 +1,53 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(150px);
+    transition: all 1s;
+    /* position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease; */
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    /* transition-delay: all 2s ease;
+    transform: translateY(0px);
+    opacity: 1; */
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+
+
 .contactReveals {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 0.8s ease;
 }
 
 .contactReveals.active {
     transform: translateY(0px);
     opacity: 1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .airplaneContainer {
@@ -142,4 +182,21 @@
     .airplane01 {
         width: 40%;
     }
+}
+
+.sendContact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onSend {
+    margin: auto;
+    padding-top: 5px;
+}
+
+.sendContact:hover {
+    background-color: #d5fc39;
+    color: black;
 }

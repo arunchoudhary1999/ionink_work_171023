@@ -1,31 +1,31 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
-  const reveal = () => {
-    const reveals = document.querySelectorAll(".footerReveals");
-    const revealpoint = 100; // You can adjust this value based on your requirements
+  // const reveal = () => {
+  //   const reveals = document.querySelectorAll(".footerReveals");
+  //   const revealpoint = 100; // You can adjust this value based on your requirements
 
-    for (let i = 0; i < reveals.length; i++) {
-      const windowheight = window.innerHeight;
-      const revealtop = reveals[i].getBoundingClientRect().top;
+  //   for (let i = 0; i < reveals.length; i++) {
+  //     const windowheight = window.innerHeight;
+  //     const revealtop = reveals[i].getBoundingClientRect().top;
 
-      if (revealtop < windowheight - revealpoint) {
-        reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
-    }
-  };
+  //     if (revealtop < windowheight - revealpoint) {
+  //       reveals[i].classList.add("active");
+  //     } else {
+  //       reveals[i].classList.remove("active");
+  //     }
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", reveal);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", reveal);
 
-    return () => {
-      window.removeEventListener("scroll", reveal);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", reveal);
+  //   };
+  // }, []);
 
   return (
     <div
@@ -40,6 +40,13 @@ const Footer = () => {
         <div className="footerLogo ">
           <NavLink class="navbar-brand footerReveals" to="/">
             <img
+              src="/assets/images/ffooterImg.png"
+              alt="Logo"
+              width="100%"
+              height="220"
+              class="d-inline-block align-text-top"
+            />
+            {/* <img
               src="/assets/images/footerImg.png"
               alt="Logo"
               width="65"
@@ -52,14 +59,7 @@ const Footer = () => {
               width="65"
               height="200"
               class="d-inline-block align-text-top"
-            />
-            <img
-              src="/assets/images/footerImg.png"
-              alt="Logo"
-              width="65"
-              height="200"
-              class="d-inline-block align-text-top"
-            />
+            /> */}
           </NavLink>
           <p className="footerReveals">
             This is where our website ends, but this is where your journey

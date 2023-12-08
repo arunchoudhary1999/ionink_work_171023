@@ -226,6 +226,7 @@ const Work = () => {
                 width: "100%",
                 flexFlow: "wrap",
                 justifyContent: "center",
+                alignItems: "center",
                 margin: "50px 0 0 0",
               }}
             >
@@ -320,7 +321,7 @@ const Work = () => {
                 />
               </div>
 
-              <div class="workPageDivIconImg">
+              {/* <div class="workPageDivIconImg">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone IconImg08"
                   src="/assets/images/WLogo08.svg"
@@ -331,7 +332,7 @@ const Work = () => {
                     margin: "20px 25px",
                   }}
                 />
-              </div>
+              </div> */}
 
               <div class="workPageDivIconImg">
                 <img
@@ -359,7 +360,7 @@ const Work = () => {
                 />
               </div>
 
-              <div class="workPageDivIconImg">
+              {/* <div class="workPageDivIconImg">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone IconImg11"
                   src="/assets/images/WLogo11.png"
@@ -370,9 +371,9 @@ const Work = () => {
                     margin: "20px 25px",
                   }}
                 />
-              </div>
+              </div> */}
 
-              <div class="workPageDivIconImg">
+              {/* <div class="workPageDivIconImg">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone IconImg12"
                   src="/assets/images/WLogo12.png"
@@ -383,7 +384,7 @@ const Work = () => {
                     margin: "20px 25px",
                   }}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

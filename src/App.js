@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import { Redirect, Route, Switch } from "react-router-dom";
 // import Exprience from "./components/Experience";
 import Books from "./components/Books";
+import BookIn from "./components/BookIn";
 // import Awards from "./components/Awards";
 import Work from "./components/Work";
 import Portfolio from "./components/Portfolio";
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/" component={Home} />
         {/* <Route exact path="/experience" component={Exprience} /> */}
         <Route exact path="/books" component={Books} />
+        <Route exact path="/books/bookin" component={BookIn} />
         <Route exact path="/blog" component={Blog} />
         {/* <Route exact path="/demoblog" component={Demoblog} /> */}
         <Route exact path="/blog/homeblog" component={HomeBlog} />

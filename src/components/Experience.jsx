@@ -170,7 +170,7 @@ const Exprience = () => {
   return (
     <>
       <div style={{ border: "2px solid black", height: "100%" }}>
-        <div className="text-wrapper expReveals">
+        <div className="text-wrapper">
           <h1>
             | Startups <span className="text-wrapper-stoke">| People</span> |
             Innovation <span className="text-wrapper-stoke">| Curiosity</span>
@@ -181,11 +181,8 @@ const Exprience = () => {
           </h1>
         </div>
 
-        <hr style={{ border: "1px solid black" }} className="expReveals" />
-        <hr
-          style={{ border: "1px solid black", marginTop: "-18px" }}
-          className="expReveals"
-        />
+        <hr style={{ border: "1px solid black" }} />
+        <hr style={{ border: "1px solid black", marginTop: "-18px" }} />
         <div
           className="expRadiusDivMain"
           style={{

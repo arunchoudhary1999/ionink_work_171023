@@ -1,4 +1,4 @@
-.teamReveals {
+/* .teamReveals {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -22,7 +22,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -46,7 +45,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -70,7 +68,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -94,7 +91,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 20px !important;
     }
 
@@ -118,7 +114,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 20px !important;
     }
 
@@ -142,7 +137,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 20px !important;
     }
 
@@ -162,99 +156,6 @@
     }
 }
 
-/* @media screen and (min-device-width: 445px) and (max-device-width: 768px) {
-} */
-
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .newArrbookBestSellers00 {
-        height: auto !important;
-    }
-} */
-
-/* @media screen and (max-width: 1280px) {
-    .teamCardDiv {
-        width: 70% !important;
-
-    }
-
-    .newArrbookBestSellers0101 {
-        font-size: 60px !important;
-        font-weight: 600 !important;
-        margin-top: 80px !important;
-        margin-bottom: -20px !important;
-    }
-
-    .teamText {
-        width: 90% !important;
-        margin-bottom: 50px !important;
-    }
-
-    .teamText h1 {
-        font-weight: 700 !important;
-    }
-
-    .teamText h4 {
-        font-weight: 500 !important;
-        font-size: 19px !important;
-    }
-
-    .newArrbookBestSellers00TeamImg {
-        width: 6px !important;
-        height: 90px !important;
-    }
-
-} */
-
-/* @media screen and (min-width: 1281px) {
-    .teamCardDiv {
-        width: 60% !important;
-    }
-} */
-
-/* @media screen and (min-width: 1648px) {
-    .teamCardDiv {
-        width: 45% !important;
-    }
-} */
-
-/* For Tablet View */
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .newArrbookBestSellers00 {
-        height: auto !important;
-        margin-top: 30px !important;
-    }
-
-    .teamCardDiv {
-        width: 87% !important;
-    }
-
-    .newArrbookBestSellers0101 {
-        font-size: 60px !important;
-        font-weight: 600 !important;
-        margin-top: 0px !important;
-    }
-} */
-
-/* @media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
-    .newArrbookBestSellers00 {
-        height: auto !important;
-    }
-
-    .teamCardDiv {
-        width: 65% !important;
-    }
-} */
-
-/* @media screen and (min-device-width: 1440px) and (max-device-width: 2560px) {
-    .newArrbookBestSellers00 {
-        height: auto !important;
-        margin-top: 30px !important;
-    }
-
-    .teamCardDiv {
-        width: 65% !important;
-    }
-} */
 
 .teamTopOneDiv {
     background: linear-gradient(135deg, #d5fc39, #fff, #fff, #fff, #fff, #fff, #fff, #d5fc39);
@@ -262,12 +163,10 @@
 
 
 .newArrbookBestSellers00 {
-    /* font-family: sans-serif; */
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    /* height: 100vh; */
     width: 100%;
     margin: auto;
     background-color: #fff;
@@ -288,10 +187,6 @@
     font-weight: 600;
 }
 
-.newArrbookBestSellers00CarouselDiv {
-    /* display: none !important; */
-
-}
 
 .teamCardDiv {
     display: flex !important;
@@ -324,7 +219,6 @@
     padding-left: 10px;
     height: 220px;
     width: 190px;
-    /* background-color: #00008b; */
     color: #fff;
     margin: 10px;
     border-radius: 30px;
@@ -347,45 +241,360 @@
 
 .newArrbookBestSellers00TeamImgH6 {
     font-size: 32px;
+} */
+
+
+.newArrbookBestSellers01 {
+    width: 82%;
+    border-bottom: 4px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
 }
 
-/* @media screen and (max-width: 768px) {
+/* 
+@media screen and (min-device-width: 0px) and (max-device-width: 320px) {
     .newArrbookBestSellers00 {
         width: 100% !important;
+        padding: 0 !important;
+        padding: 40px 10px !important;
     }
 
-    .teamCardDiv {
-        display: none !important;
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
     }
-
 
     .newArrbookBestSellers0101 {
-        font-size: 40px !important;
-        font-weight: 600 !important;
-        margin-top: 40px !important;
+        font-size: 32px !important;
+        font-weight: 600;
     }
 
-    .teamText {
-        width: 90% !important;
-        margin-bottom: 50px !important;
+}
+
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        padding: 40px 10px !important;
     }
 
-    .teamText h1 {
-        font-weight: 700 !important;
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
     }
 
-    .teamText h4 {
-        font-weight: 500 !important;
-        font-size: 19px !important;
+    .newArrbookBestSellers0101 {
+        font-size: 32px !important;
+        font-weight: 600;
     }
 
-    .newArrbookBestSellers00TeamImg {
-        width: 80px !important;
-        height: 90px !important;
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        padding: 40px 10px !important;
     }
 
-    .newArrbookBestSellers00TeamImgH3 {
-        font-size: 18px !important;
-        font-weight: 600 !important;
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
     }
+
+    .newArrbookBestSellers0101 {
+        font-size: 32px !important;
+        font-weight: 600;
+    }
+
+
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 42px !important;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (min-device-width: 789px) and (max-device-width: 1024px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 60px !important;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        padding: 40px 20px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 80px !important;
+        font-weight: 600;
+    }
+
 } */
+
+
+.newArrbookBestSellers00 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.newArrbookBestSellers0101 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+.newArrbookBestImg {
+    overflow: hidden;
+    width: 50%;
+}
+
+.newArrbookBestImginText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+    padding: 15px 35px 0px 35px;
+}
+
+.newArrbookBestImginbutton {
+    align-self: flex-end;
+    padding: 0px 0px 15px 0px;
+}
+
+.newArrbookinbutton {
+    padding-top: 9px;
+}
+
+.newArrbookinbutton:hover {
+    background-color: #d5fc39;
+    color: black;
+}
+
+@media screen and (min-device-width:0px) and (max-device-width: 375px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        /* height: auto !important; */
+        padding: 40px 10px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 32px !important;
+        font-weight: 600;
+    }
+
+    .newArrbookBestImginText {
+        display: block;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .newArrbookBestImginText h3 {
+        font-size: 12px;
+    }
+
+    .newArrbookBestImginText h1 {
+        font-size: 15px;
+    }
+
+    .newArrbookinbutton {
+        font-size: 10px;
+    }
+
+    .newArrbookBestImg {
+        width: 80%;
+    }
+}
+
+@media screen and (min-device-width:376px) and (max-device-width: 425px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        /* height: auto !important; */
+        padding: 40px 10px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 32px !important;
+        font-weight: 600;
+    }
+
+    .newArrbookBestImginText {
+        display: block;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .newArrbookBestImginText h3 {
+        font-size: 16px;
+    }
+
+    .newArrbookBestImginText h1 {
+        font-size: 30px;
+    }
+
+    .newArrbookinbutton {
+        font-size: 14px;
+    }
+
+    .newArrbookBestImg {
+        width: 80%;
+    }
+}
+
+@media screen and (min-device-width:426px) and (max-device-width: 768px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        /* height: auto !important; */
+        padding: 40px 10px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 42px !important;
+        font-weight: 600;
+    }
+
+    .newArrbookBestImginText {
+        display: block;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .newArrbookBestImginText h3 {
+        font-size: 22px;
+    }
+
+    .newArrbookBestImginText h1 {
+        font-size: 40px;
+    }
+
+    .newArrbookinbutton {
+        font-size: 16px;
+    }
+
+    .newArrbookBestImg {
+        width: 80%;
+    }
+}
+
+@media screen and (min-device-width:769px) and (max-device-width: 1023px) {
+    .newArrbookBestSellers00 {
+        width: 100% !important;
+        padding: 0 !important;
+        /* height: auto !important; */
+        padding: 40px 10px !important;
+    }
+
+    .newArrbookBestSellers01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .newArrbookBestSellers0101 {
+        font-size: 60px !important;
+        font-weight: 600;
+    }
+
+    .newArrbookBestImginText {
+        display: block;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .newArrbookBestImginText h3 {
+        font-size: 30px;
+    }
+
+    .newArrbookBestImginText h1 {
+        font-size: 50px;
+    }
+
+    .newArrbookinbutton {
+        font-size: 20px;
+    }
+
+    .newArrbookBestImg {
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-device-width:1024px) and (max-device-width: 1440px) {
+
+    .newArrbookBestSellers0101 {
+        font-size: 80px !important;
+        font-weight: 600;
+    }
+}

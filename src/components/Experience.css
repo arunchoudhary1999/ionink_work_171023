@@ -2,7 +2,7 @@
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 0.8s ease;
 }
 
 .expReveals.active {
@@ -235,6 +235,8 @@
     justify-content: flex-start;
     align-items: center;
     overflow: hidden;
+    padding-top: 20px;
+    margin-bottom: -18px;
 }
 
 .text-wrapper h1 {
@@ -267,7 +269,7 @@
 }
 
 /* For Mobile View */
-@media screen and (min-device-width: 351px) and (max-device-width: 548px) {
+@media screen and (min-device-width: 426px) and (max-device-width: 548px) {
 
 
     .expRadiusDivFirHeadiing {
@@ -288,9 +290,9 @@
 
 }
 
-@media screen and (min-device-width: 0px) and (max-device-width: 350px) {
+@media screen and (min-device-width: 0px) and (max-device-width: 240px) {
     .expRadiusDivFirHeadiing h1 {
-        font-size: 32px !important;
+        font-size: 13px !important;
     }
 
     .expRadiusDivSecImgPara h6 {
@@ -298,9 +300,28 @@
     }
 }
 
+@media screen and (min-device-width: 241px) and (max-device-width: 425px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 20px !important;
+    }
 
-@media screen and (min-device-width: 548px) and (max-device-width: 767px) {
+    .expRadiusDivSecImgPara h6 {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+}
 
+@media screen and (min-device-width: 426px) and (max-device-width: 547px) {
+    .expRadiusDivFirHeadiing h1 {
+        font-size: 30px !important;
+    }
+
+    .expRadiusDivSecImgPara h6 {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (min-device-width: 548px) and (max-device-width: 768px) {
 
     .expRadiusDivFirHeadiing {
         width: 100% !important;
@@ -310,7 +331,7 @@
     }
 
     .expRadiusDivFirHeadiing h1 {
-        font-size: 52px !important;
+        font-size: 38px !important;
     }
 
 
@@ -322,11 +343,20 @@
 
 
 /* For Tablet View */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .expRadiusDivFirHeadiing {}
+@media screen and (min-device-width: 769px) and (max-device-width: 875px) {
+
+    .expRadiusDiv {
+        width: 90% !important;
+        height: 60% !important;
+
+    }
+
+    .expRadiusDivSecImgPara {
+        justify-content: center !important;
+    }
 
     .expRadiusDivH1 {
-        font-size: 52px !important;
+        font-size: 32px !important;
         text-align: center !important;
     }
 
@@ -337,10 +367,337 @@
     }
 
     .expRadiusDivSecPara {
-        font-size: 14px !important;
+        font-size: 12px !important;
         text-align: center !important;
     }
 }
+
+@media screen and (min-device-width: 876px) and (max-device-width: 1023px) {
+
+    .expRadiusDiv {
+        width: 90% !important;
+        height: 60% !important;
+
+    }
+
+    .expRadiusDivSecImgPara {
+        justify-content: center !important;
+    }
+
+    .expRadiusDivH1 {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 13px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1115px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        justify-content: center !important;
+    }
+
+    .expRadiusDivH1 {
+        font-size: 40px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 13px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1116px) and (max-device-width: 1260px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 48px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 13px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1260px) and (max-device-width: 1360px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 50px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1361px) and (max-device-width: 1440px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 55px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 58px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1541px) and (max-device-width: 1640px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 58px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 19px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1641px) and (max-device-width: 1740px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 58px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 21px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1741px) and (max-device-width: 1840px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 64px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 23px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1841px) and (max-device-width: 1940px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 66px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 23px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 1941px) and (max-device-width: 2040px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 74px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-device-width: 2041px) and (max-device-width: 2560px) {
+
+    .expRadiusDiv {
+        width: 80%;
+        height: 80%;
+    }
+
+    .expRadiusDivSecImgPara {
+        /* justify-content: center !important; */
+    }
+
+    .expRadiusDivH1 {
+        font-size: 74px !important;
+    }
+
+    .expRadiusDivSecImg {
+        width: auto !important;
+        height: auto !important;
+        /* margin-bottom: 40px; */
+    }
+
+    .expRadiusDivSecPara {
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .card {
@@ -609,10 +966,10 @@
 
 /* new */
 .expRadiusDiv {
-    width: 92%;
+    width: 80%;
     border-radius: 50px;
     border: 3px solid black;
-    height: 84%;
+    height: 80%;
     margin: auto;
 
     display: flex;
@@ -623,6 +980,7 @@
     font-size: 65px;
     /* font-family: 'Roboto', sans-serif; */
     font-weight: 700;
+    letter-spacing: 3px;
 }
 
 .expRadiusDivFirHeadiing {
@@ -653,5 +1011,6 @@
     font-weight: 600;
     display: flex;
     justify-content: center;
+    text-align: justify !important;
     /* font-family: 'Roboto', sans-serif; */
 }

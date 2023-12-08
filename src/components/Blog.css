@@ -1,4 +1,4 @@
-.blogReveals {
+/* .blogReveals {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -111,7 +111,6 @@
 
 .blogTwoMainImgCardStyle {
     width: 350px;
-    /* margin: 19px 0px; */
     border: 1px solid lightgray;
 }
 
@@ -151,7 +150,6 @@
     }
 
     .blogHeading01 {
-        /* margin-top: -80px !important; */
         padding: 0 !important;
         font-size: 60px !important;
         font-weight: 800 !important;
@@ -188,4 +186,4 @@
     .blogTwoMainImgCardStyle {
         margin: 0 0 35px 0 !important;
     }
-}
+} */
