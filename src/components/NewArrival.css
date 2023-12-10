@@ -244,13 +244,13 @@
 } */
 
 
-.newArrbookBestSellers01 {
+/* .newArrbookBestSellers01 {
     width: 82%;
     border-bottom: 4px solid black;
     margin-top: 20px;
     margin-bottom: 40px;
     display: flex;
-}
+} */
 
 /* 
 @media screen and (min-device-width: 0px) and (max-device-width: 320px) {
@@ -375,7 +375,7 @@
 
 } */
 
-
+/* 
 .newArrbookBestSellers00 {
     display: flex;
     align-items: center;
@@ -404,7 +404,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: red; */
     padding: 15px 35px 0px 35px;
 }
 
@@ -426,7 +425,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -468,7 +466,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -510,7 +507,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -552,7 +548,6 @@
     .newArrbookBestSellers00 {
         width: 100% !important;
         padding: 0 !important;
-        /* height: auto !important; */
         padding: 40px 10px !important;
     }
 
@@ -597,4 +592,567 @@
         font-size: 80px !important;
         font-weight: 600;
     }
+} */
+
+
+
+
+@media screen and (min-device-width:0px) and (max-device-width: 375px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 32px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 220px !important;
+        height: 160px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
 }
+
+
+@media screen and (min-device-width:376px) and (max-device-width: 425px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 32px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 280px !important;
+        height: 190px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:426px) and (max-device-width: 625px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 42px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 280px !important;
+        height: 180px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+
+@media screen and (min-device-width:626px) and (max-device-width: 768px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 42px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 280px !important;
+        height: 180px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:769px) and (max-device-width: 900px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 60px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 330px !important;
+        height: 180px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:901px) and (max-device-width: 1024px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 60px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 330px !important;
+        height: 180px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1025px) and (max-device-width: 1224px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 80px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 415px !important;
+        height: 240px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+
+@media screen and (min-device-width:1225px) and (max-device-width: 1440px) {
+    .secondApp {
+        height: auto !important;
+        margin-bottom: 60px !important;
+        margin-top: 60px !important;
+    }
+
+    .secondteam01 {
+        border-bottom: 4px solid black;
+        margin-top: 0px !important;
+        border-bottom: 3px solid black !important;
+    }
+
+    .secondteam0101 {
+        font-size: 80px !important;
+        font-weight: 600;
+    }
+
+    .secondslide-image {
+        width: 415px !important;
+        height: 240px !important;
+    }
+
+    .secondteamImgH3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .secondteamImgH6 {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .secondteamImgButton {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+
+}
+
+
+.secondteam01 {
+    width: 90%;
+    border-bottom: 4px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.secondteam0101 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+.secondteamReveals {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.secondteamReveals.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.secondteamTopOneDiv {
+    background: linear-gradient(135deg, #d5fc39, #fff, #fff, #fff, #fff, #fff, #fff, #d5fc39);
+}
+
+.secondApp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 85%;
+    margin: auto;
+}
+
+.secondteamText {
+    width: 70%;
+    margin-bottom: 30px;
+
+}
+
+.secondteamTextH1 {
+    font-size: 82px;
+    font-weight: 600;
+}
+
+.secondcarouselDiv {
+    display: none !important;
+
+}
+
+.secondteamCardDiv {
+    display: flex !important;
+    width: 53%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.secondaddIcon {
+    color: black;
+    display: flex;
+    align-self: self-end;
+    padding-top: 0;
+    padding-right: 15px;
+    font-size: 22px;
+}
+
+
+.secondteamCardDesktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding-left: 10px;
+    height: 220px;
+    width: 190px;
+    background-color: #d5fc39;
+    color: #fff;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 4em;
+}
+
+.secondimageCard {
+    text-align: start;
+}
+
+.secondteamImgH3,
+.secondteamImgH6 {
+    color: black;
+}
+
+.secondinSlideCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.secondSlideOneImg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.secondSlidesecondText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondteamImg {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.secondSlidesecondTextone {
+    width: 100%;
+}
+
+.secondteamImgButton {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.secondteamImgButton:hover {
+    background-color: #d5fc39;
+    color: black;
+}
+
+.secondslide-image {
+    transition: transform 1s;
+    border-radius: 35px;
+}
+
+.secondslide-image:hover {
+    transform: translateZ(20px);
+}
+
+.secondteam-container {
+    display: grid;
+    place-items: center;
+}
+
+.secondin-container {
+    height: auto;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    padding-left: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.secondslide-container {
+    display: flex;
+    animation: secondscroll 20s linear infinite;
+}
+
+@keyframes secondscroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-280px * 12));
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .secondApp {
+        width: 95% !important;
+    }
+
+    .secondcarouselDiv {
+        display: flex !important;
+
+    }
+
+    .secondteamCardDiv {
+        display: none !important;
+    }
+
+
+    .secondteamTextH1 {
+        font-size: 40px !important;
+        font-weight: 600 !important;
+        margin-top: 40px !important;
+    }
+
+    .secondteamText {
+        width: 90% !important;
+        margin-bottom: 50px !important;
+    }
+
+    .secondteamText h1 {
+        font-weight: 700 !important;
+    }
+
+    .secondteamText h4 {
+        font-weight: 500 !important;
+        font-size: 19px !important;
+    }
+
+    .secondteamImg {
+        width: 80px !important;
+        height: 90px !important;
+    }
+
+    .secondteamImgH3 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+} */

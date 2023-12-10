@@ -289,7 +289,7 @@ const Team = () => {
         <br />
         <br />
 
-        <div className="secondteam-container">
+        {/* <div className="secondteam-container">
           <div className="container secondin-container">
             <div className="secondslide-container">
               <Item className="secondslide-image">
@@ -450,7 +450,7 @@ const Team = () => {
               </Item>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <div className="teamCardDiv">
           <div className="teamCardDesktop teamReveals">

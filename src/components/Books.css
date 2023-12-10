@@ -1252,6 +1252,17 @@
     opacity: 0.6;
 } */
 
+@media screen and (min-device-width:0px) and (max-device-width: 415px) {
+    .newBookBoxOrder {
+        position: absolute;
+        top: 22vh;
+    }
+
+    .bookPageHeading {
+        margin-bottom: 45vh !important;
+    }
+}
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
@@ -1294,7 +1305,7 @@
     .bookPage {
         width: 85% !important;
         padding: 15px !important;
-        margin: 30px 0 !important;
+        margin: 30px 0 0px 0 !important;
     }
 
     .bookPageDiv {
@@ -1359,6 +1370,7 @@
         width: 80% !important;
         padding-top: 120px !important;
         padding-bottom: 120px !important;
+        padding-left: 28px !important;
     }
 
     .bookCardTextDiv {
@@ -1372,6 +1384,10 @@
         display: none !important;
         justify-content: center !important;
 
+    }
+
+    .hrStyle {
+        display: none;
     }
 
 }

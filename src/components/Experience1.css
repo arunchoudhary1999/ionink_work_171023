@@ -49,13 +49,18 @@ tr {
 @media screen and (min-device-width: 0px) and (max-device-width: 350px) {
     .newexperienceblogTwoMainTextStyle h5 {
         font-weight: 700;
-        font-size: 17px !important;
+        font-size: 14px !important;
     }
 }
 
 @media screen and (min-device-width: 351px) and (max-device-width: 425px) {
     .newexperienceblogHeading00 h1 {
         font-size: 30px !important;
+    }
+
+    .newexperienceblogTwoMainTextStyle h5 {
+        font-weight: 700;
+        font-size: 16px !important;
     }
 }
 

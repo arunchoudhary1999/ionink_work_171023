@@ -84,11 +84,7 @@ const Magazine = () => {
         <div class="card-deck magazineMainInnerDiv">
           {data.map((item) => (
             <div key={item.id} className="card magImgCardStyle">
-              <img
-                class="card-img-top magImgStyle"
-                src={item.image}
-                alt="Card"
-              />
+              <img class="magImgStyle" src={item.image} alt="Card" />
               <div class="card-body">
                 <h5 class="card-title">{item.h5}</h5>
                 <h6>{item.h6}</h6>

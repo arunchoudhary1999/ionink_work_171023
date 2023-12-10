@@ -1,3 +1,11 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 445px) {
+    .magImgStyle {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .magzinesTop {
         padding: 50px 0px !important;

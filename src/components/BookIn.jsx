@@ -98,7 +98,7 @@ const BookIn = () => {
           }}
           className="inbookPage hidden"
         >
-          <div className="row ">
+          <div className="row inbookPageRowDiv">
             <div
               class="text-white mb-3 inbookPageDiv"
               style={{
@@ -171,7 +171,7 @@ const BookIn = () => {
               </div>
             </div>
 
-            <div className="col-md 5 d-flex justify-content-center">
+            <div className="col-md 5 d-flex justify-content-center inbookPageCardCenter">
               <div className="innewBookBox">
                 <h1 className="innewBookBoxText">
                   <span className="innewBookBoxTextSpan">New Launch</span>

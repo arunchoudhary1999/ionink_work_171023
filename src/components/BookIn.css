@@ -1272,9 +1272,6 @@
     opacity: 1; */
 }
 
-.row {
-    flex-wrap: wrap-reverse;
-}
 
 @media(prefers-reduced-motion) {
     .hidden {
@@ -1450,4 +1447,35 @@
 .inbooklink {
     text-decoration: none;
     color: white;
+}
+
+
+
+@media screen and (min-device-width:0px) and (max-device-width: 320px) {
+
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 40vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 100vh !important;
+    }
+}
+
+@media screen and (min-device-width:321px) and (max-device-width: 425px) {
+
+    .inbookPageRowDiv {
+        /* position: relative; */
+        /* flex-wrap: wrap-reverse; */
+    }
+
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 45vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 95vh !important;
+    }
 }

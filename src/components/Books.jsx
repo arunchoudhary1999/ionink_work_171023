@@ -611,7 +611,7 @@ const Books = () => {
         className="bookPage hidden"
       >
         <div className="row ">
-          <div className="col-md 5 d-flex justify-content-center">
+          <div className="col-md 5 d-flex justify-content-center newBookBoxOrder">
             <div className="newBookBox">
               <h1 className="newBookBoxText">
                 <span className="newBookBoxTextSpan">New Launch</span>

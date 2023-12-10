@@ -291,8 +291,9 @@
 }
 
 @media screen and (min-device-width: 0px) and (max-device-width: 240px) {
+
     .expRadiusDivFirHeadiing h1 {
-        font-size: 13px !important;
+        font-size: 10px !important;
     }
 
     .expRadiusDivSecImgPara h6 {
@@ -301,23 +302,35 @@
 }
 
 @media screen and (min-device-width: 241px) and (max-device-width: 425px) {
+    .expRadiusDivFirHeadiing {
+        display: flex;
+        justify-content: center;
+    }
+
     .expRadiusDivFirHeadiing h1 {
         font-size: 20px !important;
+        text-align: start !important;
     }
 
     .expRadiusDivSecImgPara h6 {
-        font-size: 12px !important;
-        text-align: center !important;
+        font-size: 8px !important;
+        text-align: start !important;
     }
 }
 
 @media screen and (min-device-width: 426px) and (max-device-width: 547px) {
+    .expRadiusDivFirHeadiing {
+        display: flex;
+        justify-content: center;
+    }
+
     .expRadiusDivFirHeadiing h1 {
         font-size: 30px !important;
+        text-align: start !important;
     }
 
     .expRadiusDivSecImgPara h6 {
-        font-size: 15px !important;
+        font-size: 12px !important;
     }
 }
 

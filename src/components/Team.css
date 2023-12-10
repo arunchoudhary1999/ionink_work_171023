@@ -10,17 +10,20 @@
     opacity: 1;
 }
 
+
+
+@media screen and (min-device-width: 0px) and (max-device-width: 425px) {
+    .App {
+        max-height: 40vh !important;
+    }
+}
+
+
 @media screen and (min-device-width: 445px) and (max-device-width: 768px) {
     .carouselDiv {
         width: 70% !important;
     }
 }
-
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .App {
-        height: auto !important;
-    }
-} */
 
 @media screen and (max-width: 1280px) {
     .teamCardDiv {
@@ -29,7 +32,6 @@
 
     .App {
         width: 95% !important;
-        /* background-color: red !important; */
         margin-bottom: 140px !important;
         margin-top: 100px !important;
     }
@@ -74,18 +76,14 @@
     }
 }
 
-/* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .App {
-        height: auto !important;
+        /* height: auto !important; */
         margin-top: 30px !important;
     }
 
     .teamCardDiv {
-        /* display: flex !important; */
         width: 87% !important;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
     }
 
     .teamTextH1 {
@@ -97,33 +95,20 @@
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
     .App {
-        height: auto !important;
+        /* height: auto !important; */
         margin-bottom: 30px !important;
 
         margin-top: 30px !important;
     }
 
     .teamCardDiv {
-        /* display: flex !important; */
         width: 65% !important;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
     }
 }
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 2560px) {
-    .App {
-        /* height: auto !important; */
-        /* margin-bottom: 30px !important;
-
-        margin-top: 30px !important; */
-    }
-
     .teamCardDiv {
-        /* display: flex !important; */
         width: 65% !important;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
     }
 }
 
@@ -133,7 +118,6 @@
 
 
 .App {
-    /* font-family: sans-serif; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -179,7 +163,6 @@
 .teamImg {
     width: 60px !important;
     height: 70px !important;
-    /* float: left; */
 }
 
 .teamCardDesktop {
@@ -190,7 +173,6 @@
     padding-left: 10px;
     height: 220px;
     width: 190px;
-    /* background-color: #00008b; */
     background-color: #d5fc39;
     color: #fff;
     margin: 10px;
@@ -210,7 +192,6 @@
 .inSlideCard {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin: auto;
     overflow: hidden;
@@ -262,7 +243,6 @@
 @media screen and (max-width: 768px) {
     .App {
         width: 95% !important;
-        /* background-color: red !important; */
         height: 85vh !important;
     }
 
@@ -322,7 +302,7 @@
 
 
 
-.secondteamReveals {
+/* .secondteamReveals {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -340,11 +320,6 @@
     }
 }
 
-/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .App {
-        height: auto !important;
-    }
-} */
 
 @media screen and (max-width: 1280px) {
     .secondteamCardDiv {
@@ -353,7 +328,6 @@
 
     .secondApp {
         width: 95% !important;
-        /* background-color: red !important; */
         margin-bottom: 50px !important;
     }
 
@@ -397,7 +371,6 @@
     }
 }
 
-/* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
     .secondApp {
         height: auto !important;
@@ -405,10 +378,7 @@
     }
 
     .secondteamCardDiv {
-        /* display: flex !important; */
         width: 87% !important;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
     }
 
     .secondteamTextH1 {
@@ -427,26 +397,14 @@
     }
 
     .secondteamCardDiv {
-        /* display: flex !important; */
         width: 65% !important;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
     }
 }
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 2560px) {
-    .secondApp {
-        /* height: auto !important; */
-        /* margin-bottom: 30px !important;
-
-        margin-top: 30px !important; */
-    }
 
     .secondteamCardDiv {
-        /* display: flex !important; */
         width: 65% !important;
-        /* flex-wrap: wrap; */
-        /* justify-content: space-evenly; */
     }
 }
 
@@ -456,7 +414,6 @@
 
 
 .secondApp {
-    /* font-family: sans-serif; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -502,7 +459,6 @@
 .secondteamImg {
     width: 60px !important;
     height: 70px !important;
-    /* float: left; */
 }
 
 .secondteamCardDesktop {
@@ -513,7 +469,6 @@
     padding-left: 10px;
     height: 220px;
     width: 190px;
-    /* background-color: #00008b; */
     background-color: #d5fc39;
     color: #fff;
     margin: 10px;
@@ -533,7 +488,6 @@
 .secondinSlideCard {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin: auto;
     overflow: hidden;
@@ -585,7 +539,6 @@
 @media screen and (max-width: 768px) {
     .secondApp {
         width: 95% !important;
-        /* background-color: red !important; */
         height: 85vh !important;
     }
 
@@ -628,4 +581,4 @@
         font-size: 18px !important;
         font-weight: 600 !important;
     }
-}
+} */
