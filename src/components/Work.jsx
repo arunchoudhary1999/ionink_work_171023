@@ -1,3 +1,4 @@
+// Work Page :-
 import React from "react";
 import "./work.css";
 import { useState, useEffect } from "react";
@@ -5,7 +6,7 @@ import { useState, useEffect } from "react";
 const Work = () => {
   const reveal = () => {
     const reveals = document.querySelectorAll(".reveals");
-    const revealpoint = 100; // You can adjust this value based on your requirements
+    const revealpoint = 100;
 
     for (let i = 0; i < reveals.length; i++) {
       const windowheight = window.innerHeight;
@@ -38,7 +39,6 @@ const Work = () => {
     window.addEventListener("scroll", reveal);
 
     return () => {
-      // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
       window.removeEventListener("scroll", reveal);
@@ -57,10 +57,6 @@ const Work = () => {
             #Editor’s Choice <span>#Editor’s Choice</span> #Editor’s Choice{" "}
             <span>#Editor’s Choice</span>
           </div>
-          {/* <div>
-            work <span className="text-wrapper-stoke">work</span> work{" "}
-            <span className="text-wrapper-stoke">work</span>
-          </div> */}
         </div>
       </section>
       <div
@@ -111,16 +107,13 @@ const Work = () => {
             </button>
           </div>
         </div>
-
         <div
           class="card-columns"
           style={{
             display: "flex",
             width: "85%",
             flexFlow: "wrap",
-            // justifyContent: "space-between",
             justifyContent: "space-evenly",
-            // justifyContent: "space-around",
             margin: "50px 0",
             borderRadius: "35px",
           }}
@@ -207,14 +200,13 @@ const Work = () => {
               }}
             />
           </div>
-
           <div>
             <br />
             <br />
             <br />
             <h5
               style={{ textAlign: "center", color: "white" }}
-              className="reveals"
+              className="reveals workCenterTextHeader"
             >
               The Power of Multiples— Partner for Visibility, Growth, and
               Success
@@ -321,19 +313,6 @@ const Work = () => {
                 />
               </div>
 
-              {/* <div class="workPageDivIconImg">
-                <img
-                  class="card-img-top-icon workPageDivIconImgDone IconImg08"
-                  src="/assets/images/WLogo08.svg"
-                  alt="Contact Us"
-                  height="60px"
-                  width="120px"
-                  style={{
-                    margin: "20px 25px",
-                  }}
-                />
-              </div> */}
-
               <div class="workPageDivIconImg">
                 <img
                   class="card-img-top-icon workPageDivIconImgDone IconImg09"
@@ -359,32 +338,6 @@ const Work = () => {
                   }}
                 />
               </div>
-
-              {/* <div class="workPageDivIconImg">
-                <img
-                  class="card-img-top-icon workPageDivIconImgDone IconImg11"
-                  src="/assets/images/WLogo11.png"
-                  alt="Contact Us"
-                  height="60px"
-                  width="120px"
-                  style={{
-                    margin: "20px 25px",
-                  }}
-                />
-              </div> */}
-
-              {/* <div class="workPageDivIconImg">
-                <img
-                  class="card-img-top-icon workPageDivIconImgDone IconImg12"
-                  src="/assets/images/WLogo12.png"
-                  alt="Contact Us"
-                  height="60px"
-                  width="120px"
-                  style={{
-                    margin: "20px 25px",
-                  }}
-                />
-              </div> */}
             </div>
           </div>
         </div>

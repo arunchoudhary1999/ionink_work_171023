@@ -1,6 +1,6 @@
 .workPageDivIconImg {
-    width: 13% !important;
-    height: 13% !important;
+    width: 13%;
+    height: 13%;
     padding: 5px !important;
     margin: 15px !important;
 }
@@ -76,38 +76,167 @@
     margin: 25px 20px !important;
 } */
 
-@media screen and (min-device-width: 0px) and (max-device-width: 320px) {
+@media screen and (min-device-width: 0px) and (max-device-width: 274px) {
+    .workPageDivButton {
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 16px !important;
+
+    }
 
     .card-img-top {
-        height: 200px !important;
+        height: 160px !important;
     }
 
-}
-
-@media screen and (min-device-width: 320px) and (max-device-width: 445px) {
-
-    .card-img-top {
-        height: 220px !important;
+    .workCenterTextHeader {
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: -20px;
     }
 
-    .cardGroup {
-        width: 75% !important;
-
+    .workPageDivIconImg {
+        width: 35% !important;
+        height: 35% !important;
     }
 }
 
-@media screen and (min-device-width: 445px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 275px) and (max-device-width: 320px) {
+    .workPageDivButton {
+        padding: 10px !important;
+        font-size: 16px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 18px !important;
+
+    }
 
     .card-img-top {
         height: 210px !important;
-        width: 100% !important;
     }
 
-    .cardGroup {
-        width: 44% !important;
+    .workCenterTextHeader {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
 
+    .workPageDivIconImg {
+        width: 35% !important;
+        height: 35% !important;
     }
 }
+
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
+    .workPageDivButton {
+        padding: 10px !important;
+        font-size: 18px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 20px !important;
+
+    }
+
+    .card-img-top {
+        height: 250px !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .workPageDivIconImg {
+        width: 35% !important;
+        height: 35% !important;
+    }
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
+    .workPageDivButton {
+        padding: 10px !important;
+        font-size: 20px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 22px !important;
+
+    }
+
+    .card-img-top {
+        height: 270px !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .workPageDivIconImg {
+        width: 35% !important;
+        height: 35% !important;
+    }
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 540px) {
+    .workPageDivButton {
+        padding: 10px !important;
+        font-size: 22px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 26px !important;
+
+    }
+
+    .card-img-top {
+        height: 300px !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .workPageDivIconImg {
+        width: 35% !important;
+        height: 35% !important;
+    }
+}
+
+@media screen and (min-device-width: 541px) and (max-device-width: 640px) {
+    .workPageDivButton {
+        padding: 10px !important;
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .card-img-top {
+        height: 330px !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .workPageDivIconImg {
+        width: 35% !important;
+        height: 35% !important;
+    }
+}
+
 
 @media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
 
@@ -155,8 +284,8 @@
     } */
 
     .workPageDivIconImg {
-        width: 13% !important;
-        height: 13% !important;
+        width: 13%;
+        height: 13%;
         padding: 5px !important;
         margin: 15px !important;
     }
@@ -222,21 +351,186 @@
 }
 
 /* For Tablet View */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 868px) {
     /* .workPageDivIconImgDone {
         height: 50px !important;
         width: 80px !important;
         margin: 25px 10px !important;
     } */
 
-    .workPageDivButton001 {
-        width: 30% !important;
+    .workCenterTextHeader {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: -20px;
     }
 
+    .workPageDivButton {
+        font-size: 14px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 16px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 42% !important;
+    }
 
     .cardGroup {
         width: 30%;
-        /* height: 20%; */
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 25px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 13%;
+        height: 13%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 869px) and (max-device-width: 968px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workCenterTextHeader {
+        font-size: 23px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .workPageDivButton {
+        font-size: 16px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 18px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 42% !important;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 25px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 15%;
+        height: 15%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 969px) and (max-device-width: 1024px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 19px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 20px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 42% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 25px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1120px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 22px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 23px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 42% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
         margin: 10px;
     }
 
@@ -249,8 +543,773 @@
     }
 
     .workPageDivIconImg {
-        width: 13% !important;
-        height: 13% !important;
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1121px) and (max-device-width: 1240px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 25px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 26px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 42% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1241px) and (max-device-width: 1360px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 28px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 28px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 42% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1361px) and (max-device-width: 1440px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 28px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 36% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 24px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 26px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 30% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1541px) and (max-device-width: 1640px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 24px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 26px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 28% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1641px) and (max-device-width: 1740px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 24px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 26px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 26% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1741px) and (max-device-width: 1840px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 24px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 26px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 24% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1841px) and (max-device-width: 1940px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 24% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 1941px) and (max-device-width: 2040px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 24% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 2041px) and (max-device-width: 2140px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 24% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 2141px) and (max-device-width: 2240px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 22% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 2241px) and (max-device-width: 2340px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 20% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 2341px) and (max-device-width: 2440px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 20% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 2441px) and (max-device-width: 2540px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 18% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
+        padding: 5px !important;
+        margin: 15px !important;
+    }
+
+    .workPageDivIconImgDone {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (min-device-width: 2541px) and (max-device-width: 2640px) {
+    /* .workPageDivIconImgDone {
+        height: 50px !important;
+        width: 80px !important;
+        margin: 25px 10px !important;
+    } */
+
+    .workPageDivButton {
+        font-size: 26px !important;
+    }
+
+    .workPageDivBox h5 {
+        font-size: 30px !important;
+    }
+
+    .workPageDivButton001 {
+        width: 18% !important;
+    }
+
+    .workCenterTextHeader {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -20px;
+    }
+
+    .cardGroup {
+        width: 30%;
+        margin: 10px;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+    }
+
+    .workPageDivBox {
+        padding-left: 30px !important;
+    }
+
+    .workPageDivIconImg {
+        width: 16%;
+        height: 16%;
         padding: 5px !important;
         margin: 15px !important;
     }
@@ -360,15 +1419,15 @@ section .scroll.text1 {
 }
 
 .workPageDivButton {
-    padding: 10px 20px !important;
-    margin: 0 !important;
+    padding: 10px 20px;
+    margin: 0;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: 1px;
 }
 
 .workPageDivButton001 {
-    width: 21% !important;
+    width: 21%;
 }
 
 .workPageDivButton:hover {
@@ -423,7 +1482,7 @@ section .scroll.text1 {
     }
 
     .workPageDivButton {
-        padding: 15px 20px !important;
+        padding: 15px 20px;
         font-size: 20px;
         width: 100% !important;
     }
@@ -433,7 +1492,7 @@ section .scroll.text1 {
     }
 
     .workPageDivIconImg {
-        width: 23% !important;
+        width: 23%;
     }
 
     .IconImg01,

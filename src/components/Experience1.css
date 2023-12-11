@@ -46,27 +46,116 @@ tr {
     font-size: 23px;
 }
 
-@media screen and (min-device-width: 0px) and (max-device-width: 350px) {
+@media screen and (min-device-width: 0px) and (max-device-width: 274px) {
+    .newexperienceblogHeading00 h1 {
+        font-size: 20px !important;
+    }
+
+    .newexperienceblogTwoMainTextStyle h5 {
+        font-weight: 700;
+        font-size: 12px !important;
+        padding: 0px 25px;
+    }
+
+    .newexperienceblogTwoMainImgCardStyle {
+        width: auto !important;
+    }
+
+    .newexperienceblogTwoMainLogoStyle {
+        width: 30% !important;
+    }
+
+    .newexperienceblogTwoMainTextStyleH1 {
+        font-size: 18px !important;
+    }
+
+    .newexperienceblogHeadingButtonTag {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (min-device-width: 275px) and (max-device-width: 320px) {
+    .newexperienceblogHeading00 h1 {
+        font-size: 25px !important;
+    }
+
     .newexperienceblogTwoMainTextStyle h5 {
         font-weight: 700;
         font-size: 14px !important;
+        padding: 0px 30px;
+    }
+
+    .newexperienceblogTwoMainImgCardStyle {
+        width: auto !important;
+    }
+
+    .newexperienceblogTwoMainLogoStyle {
+        width: 30% !important;
+    }
+
+    .newexperienceblogTwoMainTextStyleH1 {
+        font-size: 25px !important;
+    }
+
+    .newexperienceblogHeadingButtonTag {
+        font-size: 12px !important;
     }
 }
 
-@media screen and (min-device-width: 351px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 321px) and (max-device-width: 375px) {
     .newexperienceblogHeading00 h1 {
-        font-size: 30px !important;
+        font-size: 28px !important;
     }
 
     .newexperienceblogTwoMainTextStyle h5 {
         font-weight: 700;
-        font-size: 16px !important;
+        font-size: 14px !important;
+        padding: 0px 50px;
+    }
+
+    .newexperienceblogTwoMainImgCardStyle {
+        width: auto !important;
+    }
+
+    .newexperienceblogTwoMainLogoStyle {
+        width: 30% !important;
+    }
+
+    .newexperienceblogTwoMainTextStyleH1 {
+        font-size: 25px !important;
+    }
+
+    .newexperienceblogHeadingButtonTag {
+        font-size: 12px !important;
     }
 }
 
-@media screen and (min-device-width: 426px) and (max-device-width: 768px) {
+
+@media screen and (min-device-width: 376px) and (max-device-width: 425px) {
     .newexperienceblogHeading00 h1 {
-        font-size: 44px !important;
+        font-size: 32px !important;
+    }
+
+    .newexperienceblogTwoMainTextStyle h5 {
+        font-weight: 700;
+        font-size: 14px !important;
+        padding: 0px 50px;
+    }
+
+    .newexperienceblogTwoMainImgCardStyle {
+        width: auto !important;
+    }
+
+    .newexperienceblogTwoMainLogoStyle {
+        width: 30% !important;
+    }
+
+    .newexperienceblogTwoMainTextStyleH1 {
+        font-size: 25px !important;
+    }
+
+    .newexperienceblogHeadingButtonTag {
+        font-size: 14px !important;
     }
 }
 
@@ -82,7 +171,7 @@ tr {
     }
 
     .newexperienceblogTwoMainLogoStyle {
-        width: 50% !important;
+        width: 50%;
 
     }
 
@@ -150,7 +239,7 @@ tr {
     }
 
     .newexperienceblogTwoMainLogoStyle {
-        width: 40% !important;
+        width: 40%;
 
     }
 
@@ -159,7 +248,7 @@ tr {
     }
 
     .newexperienceblogTwoMainImgCardStyle {
-        width: 260px !important;
+        width: 260px;
     }
 
     .newexperienceblogTwoMainTextStyle2H5 {
@@ -257,7 +346,6 @@ tr {
 
 .newexperienceblogTwoMainLogoStyle {
     width: 65%;
-
 }
 
 .newexperienceblogHeadingButtonDiv {

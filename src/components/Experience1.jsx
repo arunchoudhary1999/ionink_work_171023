@@ -1,16 +1,12 @@
+/* Experience1 Page Style */
 import React, { useState } from "react";
 import "./Experience1.css";
 import { useEffect } from "react";
-import { NavLink } from "react-router-dom";
 
 const Experience1 = () => {
-  // useEffect(() => {
-  //   document.title = "Experience | BOL";
-  // }, []);
-
   const reveal = () => {
     const reveals = document.querySelectorAll(".exp1Reveals");
-    const revealpoint = 100; // You can adjust this value based on your requirements
+    const revealpoint = 100;
 
     for (let i = 0; i < reveals.length; i++) {
       const windowheight = window.innerHeight;
@@ -43,7 +39,6 @@ const Experience1 = () => {
     window.addEventListener("scroll", reveal);
 
     return () => {
-      // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
       window.removeEventListener("scroll", reveal);
@@ -87,15 +82,6 @@ const Experience1 = () => {
                       Our monthly editions seek to unveil stories that inspire,
                       empower, and redefine success, one page at a time.
                     </h5>
-
-                    {/* <p className="card-text experienceblogTwoMainTextStyle2P">
-                      <NavLink
-                        to="/magazine"
-                        className="experienceblogTwoMainTextStyle2P"
-                      >
-                        Read Now
-                      </NavLink>
-                    </p> */}
                   </div>
                 </div>
                 <div className="newexperienceblogTwoMainImgCardStyle newother02">
@@ -112,15 +98,6 @@ const Experience1 = () => {
                       Invest in the power of knowledge with our byte-sized take
                       on various industries, verticals, and interests.
                     </h5>
-
-                    {/* <p className="card-text experienceblogTwoMainTextStyle2P">
-                      <NavLink
-                        to="/books"
-                        className="experienceblogTwoMainTextStyle2P"
-                      >
-                        Explore Now
-                      </NavLink>
-                    </p> */}
                   </div>
                 </div>
                 <div className="newexperienceblogTwoMainImgCardStyle newother03">
@@ -137,15 +114,6 @@ const Experience1 = () => {
                       Embark on a journey of intellectual prowers. Uncover
                       insights, and challenge norms, led by industry experts.
                     </h5>
-
-                    {/* <p className="card-text experienceblogTwoMainTextStyle2P">
-                      <NavLink
-                        to="/contact"
-                        className="experienceblogTwoMainTextStyle2P"
-                      >
-                        Register Now
-                      </NavLink>
-                    </p> */}
                   </div>
                 </div>
               </div>

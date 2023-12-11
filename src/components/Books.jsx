@@ -515,6 +515,7 @@
 
 // export default Books;
 
+// Book Page Section :-
 import React from "react";
 import "./Books.css";
 import { useState, useEffect } from "react";
@@ -571,24 +572,17 @@ const Books = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
-    // window.addEventListener("scroll", reveal);
 
     return () => {
-      // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
-      // window.removeEventListener("scroll", reveal);
       hiddenElements.forEach((el) => observer.unobserve(el));
     };
   }, [tabTitle]);
 
-  // const sendButton = () => {
-  //   alert("Can't call any page at present");
-  // };
   return (
     <div
       style={{
-        // height: "900px",
         width: "100%",
         border: "2px solid black",
         display: "flex",
@@ -675,7 +669,6 @@ const Books = () => {
                 <button
                   type="button"
                   class="btn btn-outline-dark bookPageButtonOneClick"
-                  // onClick={sendButton}
                 >
                   <h4
                     style={{ padding: "5px 30px 0px 30px" }}

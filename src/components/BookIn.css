@@ -1451,31 +1451,1076 @@
 
 
 
-@media screen and (min-device-width:0px) and (max-device-width: 320px) {
-
+@media screen and (min-device-width:0px) and (max-device-width: 274px) {
     .inbookPageCardCenter {
         position: absolute;
-        top: 40vh;
+        top: 22vh;
     }
 
     .inbookPageHeading {
-        margin-bottom: 100vh !important;
-    }
-}
-
-@media screen and (min-device-width:321px) and (max-device-width: 425px) {
-
-    .inbookPageRowDiv {
-        /* position: relative; */
-        /* flex-wrap: wrap-reverse; */
-    }
-
-    .inbookPageCardCenter {
-        position: absolute;
-        top: 45vh;
+        margin-bottom: 38vh !important;
     }
 
     .inbookPageHeading {
-        margin-bottom: 95vh !important;
+        font-size: 35px !important;
+        line-height: 15vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 19px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+    }
+
+    .innewBookBox {
+        /* width: 70%; */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 90px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
     }
 }
+
+@media screen and (min-device-width:275px) and (max-device-width: 320px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 30vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 50vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 35px !important;
+        line-height: 15vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 19px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+    }
+
+    .innewBookBox {
+        /* width: 70%; */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 90px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:321px) and (max-device-width: 374px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 30vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 51vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 35px !important;
+        line-height: 13vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 22px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        /* width: 70%; */
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 90px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:375px) and (max-device-width: 379px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 30vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 51vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 35px !important;
+        line-height: 13vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 22px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        width: 70% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 90px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:380px) and (max-device-width: 489px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 32vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 54vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 40px !important;
+        line-height: 12vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 24px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        width: 60% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:390px) and (max-device-width: 494px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 24vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 43vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 40px !important;
+        line-height: 12vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 24px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        width: 60% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:395px) and (max-device-width: 411px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 32vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 54vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 40px !important;
+        line-height: 12vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 24px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        width: 60% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:412px) and (max-device-width: 418px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 24vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 42vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 40px !important;
+        line-height: 12vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 24px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        width: 60% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:419px) and (max-device-width: 425px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 32vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 54vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 40px !important;
+        line-height: 12vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 24px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 8vw !important;
+    }
+
+    .innewBookBox {
+        width: 60% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-device-width:426px) and (max-device-width: 546px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 33vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 54vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 45px !important;
+        line-height: 10vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 26px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 7vw !important;
+    }
+
+    .innewBookBox {
+        width: 50% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 28px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-device-width:547px) and (max-device-width: 647px) {
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 35vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 59vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 45px !important;
+        line-height: 9vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 30px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 7vw !important;
+    }
+
+    .innewBookBox {
+        width: 50% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 34px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-device-width:648px) and (max-device-width: 768px) {
+
+    .inbookPageCardCenter {
+        position: absolute;
+        top: 37vh;
+    }
+
+    .inbookPageHeading {
+        margin-bottom: 62vh !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 50px !important;
+        line-height: 8vw !important;
+    }
+
+    .inbookPageSmallHeading {
+        font-size: 35px !important;
+        word-spacing: 1px !important;
+        font-weight: 900 !important;
+        line-height: 7vw !important;
+    }
+
+    .innewBookBox {
+        width: 40% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 110px !important;
+        padding-bottom: 90px !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 36px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width:769px) and (max-device-width: 900px) {
+    .inbookPageSmallHeading {
+        font-size: 25px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 52px !important;
+        line-height: 8vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 100%;
+        height: 90%;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 35px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:901px) and (max-device-width: 1024px) {
+    .inbookPageSmallHeading {
+        font-size: 28px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 60px !important;
+        line-height: 8vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 100%;
+        height: 90%;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1025px) and (max-device-width: 1160px) {
+    .inbookPageSmallHeading {
+        font-size: 28px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 65px !important;
+        line-height: 8vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 100%;
+        height: 90%;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1161px) and (max-device-width: 1300px) {
+    .inbookPageSmallHeading {
+        font-size: 34px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 70px !important;
+        line-height: 8vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 100%;
+        height: 90%;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 44px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1301px) and (max-device-width: 1440px) {
+    .inbookPageSmallHeading {
+        font-size: 42px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 80px !important;
+        line-height: 8vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 100%;
+        height: 90%;
+        padding-bottom: 0px;
+        padding-left: 20px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1441px) and (max-device-width: 1640px) {
+    .inbookPageSmallHeading {
+        font-size: 45px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 85px !important;
+        line-height: 6vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 80%;
+        height: 90%;
+        padding-bottom: 0px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 55px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1641px) and (max-device-width: 1840px) {
+    .inbookPageSmallHeading {
+        font-size: 45px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 85px !important;
+        line-height: 6vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 80%;
+        height: 90%;
+        padding-bottom: 0px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 55px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:1841px) and (max-device-width: 2040px) {
+    .inbookPageSmallHeading {
+        font-size: 45px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 85px !important;
+        line-height: 6vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 80%;
+        height: 90%;
+        padding-bottom: 0px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 55px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+@media screen and (min-device-width:2041px) and (max-device-width: 2560px) {
+    .inbookPageSmallHeading {
+        font-size: 60px !important;
+        font-weight: 900 !important;
+        word-spacing: 1px !important;
+    }
+
+    .inbookPageHeading {
+        font-size: 140px !important;
+        line-height: 7vw !important;
+    }
+
+    .inbookCardDiv {
+        margin-bottom: 45px;
+        display: flex;
+        border: none;
+    }
+
+    .inbookCardList {
+        height: 80px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: #d5fc39 !important;
+        color: black !important;
+    }
+
+    .inbookCardTextDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .innewBookBox {
+        width: 70%;
+        height: 90%;
+        padding-bottom: 0px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .innewBookBoxText {
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 55px;
+    }
+
+    .innewBookBoxTextSpan {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .inbookPageButtonOne {
+        padding-top: 10px !important;
+    }
+
+}
+
+
+/* @media screen and (min-device-width:321px) and (max-device-width: 425px) {
+
+
+.inbookPageCardCenter {
+    position: absolute;
+    top: 45vh;
+}
+
+.inbookPageHeading {
+    margin-bottom: 95vh !important;
+}
+}
+
+*/

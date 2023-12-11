@@ -2,11 +2,31 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Books from "./Books";
 import Experience from "./Experience";
+// import Awards from "./Awards";
 import Work from "./Work";
 import Contact from "./Contact";
+// import Magazine from "./Magazine";
 import Team from "./Team";
+// import Table from "./Table";
+// import Blog from "./Blog";
 
 const Home = () => {
+  // const reveal = () => {
+  //   const reveals = document.querySelectorAll(".homeReveals");
+  //   const revealpoint = 0; // You can adjust this value based on your requirements
+
+  //   for (let i = 0; i < reveals.length; i++) {
+  //     const windowheight = window.innerHeight;
+  //     const revealtop = reveals[i].getBoundingClientRect().top;
+
+  //     if (revealtop < windowheight - revealpoint) {
+  //       reveals[i].classList.add("active");
+  //     } else {
+  //       reveals[i].classList.remove("active");
+  //     }
+  //   }
+  // };
+
   const [tabTitle, setTabTitle] = useState(
     `${(document.title =
       "Home | Brands Out Loud: Forefront For Everything Business")}`
@@ -28,6 +48,7 @@ const Home = () => {
     const hiddenElements = document.querySelectorAll(".hidden");
     hiddenElements.forEach((el) => observer.observe(el));
 
+    // document.title = "Home | BOL";
     const handleBlur = () => {
       document.title = "😞 Missing you already";
     };
@@ -38,11 +59,14 @@ const Home = () => {
 
     window.addEventListener("blur", handleBlur);
     window.addEventListener("focus", handleFocus);
+    // window.addEventListener("scroll", reveal);
 
     return () => {
+      // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
       hiddenElements.forEach((el) => observer.unobserve(el));
+      // window.removeEventListener("scroll", reveal);
     };
   }, [tabTitle]);
 
@@ -59,6 +83,8 @@ const Home = () => {
             className="carousel-item active homeResMain"
             style={{
               width: "100%",
+              // background: "rgb(135,206,250)",
+              // background: "linear-Gradient(#72eca5, #54b8d8)",
               background: "#d5fc39",
               height: "656px",
               display: "flex",
@@ -66,6 +92,13 @@ const Home = () => {
             }}
           >
             <div className="homePageText">
+              {/* <div className="homePageImgDiv">
+                <img
+                  src="/assets/images/HomePage.gif"
+                  alt="Contact Us"
+                  className="homePageImg"
+                />
+              </div> */}
               <div
                 className="rotate-scroll"
                 style={{
@@ -106,9 +139,13 @@ const Home = () => {
       </div>
       <Experience />
       <Books />
+      {/* <Blog /> */}
+      {/* <Awards /> */}
       <Work />
       <Team />
+      {/* <Magazine /> */}
       <Contact />
+      {/* <Table /> */}
     </div>
   );
 };
