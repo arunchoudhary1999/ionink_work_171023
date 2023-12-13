@@ -91,8 +91,43 @@ const Contact = () => {
       })
       .catch((error) => {
         console.log(error);
-        alert("Its server error");
+        // alert("Its server error");
       });
+  };
+
+  const message = () => {
+    var name = document.getElementById("name");
+    var help = document.getElementById("help");
+    var email = document.getElementById("email");
+    var number = document.getElementById("number");
+    var description = document.getElementById("description");
+    const success = document.getElementById("success");
+    const danger = document.getElementById("danger");
+
+    if (
+      name.value === "" ||
+      help.value === "" ||
+      email.value === "" ||
+      number.value === "" ||
+      description.value === ""
+    ) {
+      danger.style.display = "block";
+    } else {
+      setTimeout(() => {
+        name.value = "";
+        help.value = "";
+        email.value = "";
+        number.value = "";
+        description.value = "";
+      }, 2000);
+
+      success.style.display = "block";
+    }
+
+    setTimeout(() => {
+      danger.style.display = "none";
+      success.style.display = "none";
+    }, 4000);
   };
 
   return (
@@ -108,7 +143,7 @@ const Contact = () => {
           alt=""
         />
       </div>
-      <div className="fluid-container mb-5 contactPage">
+      <div className="fluid-container mb-5 contactPage hidden">
         <div className="row contactPageDivHeading" style={{ width: "100%" }}>
           <div className="col-12 py-4 my-4 " style={{ textAlign: "center" }}>
             <h1
@@ -116,7 +151,7 @@ const Contact = () => {
                 fontSize: "3rem",
                 fontWeight: "700",
               }}
-              className="contactPageHeading hidden"
+              className="contactPageHeading"
             >
               LET'S CONNECT
             </h1>
@@ -125,7 +160,7 @@ const Contact = () => {
                 fontSize: "3.5rem",
                 fontWeight: "300",
               }}
-              className="contactPageHeading01 hidden"
+              className="contactPageHeading01"
             >
               Time to connect the pulse!
             </h2>
@@ -145,6 +180,18 @@ const Contact = () => {
                 borderRadius: "15px",
               }}
             >
+              <div className="message">
+                <div className="success" id="success">
+                  Your Message Successfully Send!
+                  <br />
+                  Thank You 👍
+                </div>
+                <div className="danger" id="danger">
+                  Feilds Can't be Empty!
+                  <br />
+                  Try Again 👎
+                </div>
+              </div>
               <form>
                 <div class="">
                   <div class="col">
@@ -161,6 +208,7 @@ const Contact = () => {
                       name="name"
                       placeholder="Enter Your Name"
                       value={name}
+                      id="name"
                       onChange={handleName}
                       required
                     />
@@ -174,6 +222,7 @@ const Contact = () => {
                       name="help"
                       class="form-control"
                       value={help}
+                      id="help"
                       required
                       style={{
                         cursor: "text",
@@ -211,6 +260,7 @@ const Contact = () => {
                       maxlength="14"
                       class="form-control "
                       name="number"
+                      id="number"
                       placeholder="Enter Your Number"
                       value={number}
                       onChange={handleNumber}
@@ -231,6 +281,7 @@ const Contact = () => {
                       type="text"
                       class="form-control"
                       name="email"
+                      id="email"
                       value={email}
                       placeholder="Enter Your E-mail"
                       onChange={handleEmail}
@@ -252,7 +303,7 @@ const Contact = () => {
                   onChange={handleDescription}
                   class="form-control"
                   placeholder="Describe in detail such that we can have the appropriate point of contact get in touch with you"
-                  id="exampleFormControlTextarea1"
+                  id="description"
                   rows="3"
                 ></textarea>
               </div>
@@ -268,7 +319,9 @@ const Contact = () => {
                   onClick={handleAPI}
                   class="btn btn-success sendContact"
                 >
-                  <h4 className="onSend">SEND</h4>
+                  <h4 className="onSend" onClick={message}>
+                    SEND
+                  </h4>
                 </button>
               </div>
             </div>
