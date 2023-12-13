@@ -316,12 +316,10 @@ const Contact = () => {
                     borderRadius: "15px",
                     width: "100%",
                   }}
-                  onClick={handleAPI}
+                  onClick={handleAPI && message}
                   class="btn btn-success sendContact"
                 >
-                  <h4 className="onSend" onClick={message}>
-                    SEND
-                  </h4>
+                  <h4 className="onSend">SEND</h4>
                 </button>
               </div>
             </div>
