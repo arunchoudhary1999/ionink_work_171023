@@ -293,7 +293,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Suhas M</h3>
                     <h6 className="secondteamImgH6">Chief Storyteller</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Rammona M</h3>
                     <h6 className="secondteamImgH6">Executive Editor</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -334,7 +334,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Namrata K</h3>
                     <h6 className="secondteamImgH6">Process Prodigy</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -354,7 +354,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Shreya R</h3>
                     <h6 className="secondteamImgH6">Content Architect</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Poulami G</h3>
                     <h6 className="secondteamImgH6">Content Architect</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -394,7 +394,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Harsh K</h3>
                     <h6 className="secondteamImgH6">Pixel Picasso</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -414,7 +414,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Suhas M</h3>
                     <h6 className="secondteamImgH6">Chief Storyteller</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -434,7 +434,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Rammona M</h3>
                     <h6 className="secondteamImgH6">Executive Editor</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -454,7 +454,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Namrata K</h3>
                     <h6 className="secondteamImgH6">Process Prodigy</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -474,7 +474,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Shreya R</h3>
                     <h6 className="secondteamImgH6">Content Architect</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -494,7 +494,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Poulami G</h3>
                     <h6 className="secondteamImgH6">Content Architect</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
@@ -514,7 +514,7 @@ const NewArrival = () => {
                     <h3 className="secondteamImgH3">Harsh K</h3>
                     <h6 className="secondteamImgH6">Pixel Picasso</h6>
                     <button className="btn btn-success secondteamImgButton">
-                      button
+                      BUY NOW
                     </button>
                   </div>
                 </div>
