@@ -1,9 +1,28 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(150px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 .write {
     padding-top: 50px;
 }
 
 .writeImg {
-    margin-left: 150px;
+    /* margin-left: 150px; */
     width: 70vw;
     height: 250px;
     border-radius: 10px;

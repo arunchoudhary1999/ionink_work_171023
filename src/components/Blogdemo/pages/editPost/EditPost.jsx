@@ -14,6 +14,22 @@ export default function SinglePost() {
     metaDescription: "Default Meta Description",
   });
   useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback);
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
     const fetchPost = async () => {
       try {
         const response = await axios.get(
@@ -26,6 +42,10 @@ export default function SinglePost() {
     };
 
     fetchPost();
+
+    return () => {
+      hiddenElements.forEach((el) => observer.unobserve(el));
+    };
   }, [path]);
 
   const handlePublish = () => {
@@ -102,7 +122,7 @@ export default function SinglePost() {
     //     </div>
     //   </div>
     // </div>
-    <div className="editPostPost">
+    <div className="editPostPost hidden">
       <div className="editPostPostWrapper">
         <img className="editPostPostImg" src={post.blogImage} alt="" />
         <div className="editPostMainDiv">

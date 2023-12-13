@@ -27,7 +27,7 @@ const Experience1 = () => {
 
   useEffect(() => {
     const handleBlur = () => {
-      document.title = "😞 Missing you already";
+      document.title = "Missing you already";
     };
 
     const handleFocus = () => {

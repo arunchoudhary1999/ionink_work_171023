@@ -50,7 +50,7 @@ const Home = () => {
 
     // document.title = "Home | BOL";
     const handleBlur = () => {
-      document.title = "😞 Missing you already";
+      document.title = "Missing you already";
     };
 
     const handleFocus = () => {

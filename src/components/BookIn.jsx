@@ -49,7 +49,7 @@ const BookIn = () => {
     hiddenElements.forEach((el) => observer.observe(el));
 
     const handleBlur = () => {
-      document.title = "😞 Missing you already";
+      document.title = "Missing you already";
     };
 
     const handleFocus = () => {

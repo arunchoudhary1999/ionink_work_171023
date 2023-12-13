@@ -26,7 +26,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-  <title> Brands Out Loud: Forefront For Everything Busines.</title>
+  <title>Brands Out Loud: Forefront For Everything Busines.</title>
 </head>
 
 <body>
@@ -46,6 +46,17 @@
   <!-- Bootstrap JS -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
 
+  <script>
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) {
+        // Code to execute when the page is hidden (e.g., switch to another tab)
+        document.querySelector("link[rel*='icon']").setAttribute("href", "/assets/images/sadImg.webp");
+      } else {
+        // Code to execute when the page is visible again
+        document.querySelector("link[rel*='icon']").setAttribute("href", "/assets/images/favbrowerLogo.png");
+      }
+    });
+  </script>
 </body>
 
 </html>

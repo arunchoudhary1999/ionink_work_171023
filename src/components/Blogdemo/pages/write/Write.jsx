@@ -88,7 +88,7 @@
 
 // export default BlogForm;
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import "./Write.css";
 
@@ -138,8 +138,31 @@ export default function Write() {
       console.error("Error:", error);
     }
   };
+
+  useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback);
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    return () => {
+      hiddenElements.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <div className="write">
+    <div className="write hidden">
       <img className="writeImg" src="/assets/images/add.png" alt="img" />
       <form className="writeForm" onSubmit={handleSubmit}>
         <div className="writeFormGroup">

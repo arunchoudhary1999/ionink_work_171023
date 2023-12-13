@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import "./Blog.css";
 // import Login from "./Blogdemo/Login";
 // import Register from "./Blogdemo/Register";
 import Homeblog from "./Blogdemo/pages/homePage/HomeBlog";
@@ -8,8 +9,51 @@ import Homeblog from "./Blogdemo/pages/homePage/HomeBlog";
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const Blog = () => {
+  const [tabTitle, setTabTitle] = useState(
+    `${(document.title =
+      "Blog | Brands Out Loud: Forefront For Everything Business")}`
+  );
+
+  useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback);
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
+    // document.title = "Home | BOL";
+    const handleBlur = () => {
+      document.title = "Missing you already";
+    };
+
+    const handleFocus = () => {
+      document.title = tabTitle;
+    };
+
+    window.addEventListener("blur", handleBlur);
+    window.addEventListener("focus", handleFocus);
+    // window.addEventListener("scroll", reveal);
+
+    return () => {
+      // Cleanup event listeners when the component unmounts
+      window.removeEventListener("blur", handleBlur);
+      window.removeEventListener("focus", handleFocus);
+      hiddenElements.forEach((el) => observer.unobserve(el));
+      // window.removeEventListener("scroll", reveal);
+    };
+  }, []);
   return (
-    <>
+    <div className="hidden">
       {/* <Homeblog /> */}
       {/* <Single /> */}
       {/* <Write /> */}
@@ -17,7 +61,7 @@ const Blog = () => {
       {/* <Login /> */}
       {/* <Register /> */}
       <Homeblog />
-    </>
+    </div>
   );
 };
 

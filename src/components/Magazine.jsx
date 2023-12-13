@@ -13,11 +13,27 @@ const Magazine = () => {
   );
 
   useEffect(() => {
+    const observerCallback = (entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback);
+
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((el) => observer.observe(el));
+
     setData(GalleryData);
     setCollection([...new Set(GalleryData.map((item) => item.titile))]);
 
     const handleBlur = () => {
-      document.title = "😞 Missing you already";
+      document.title = "Missing you already";
     };
 
     const handleFocus = () => {
@@ -31,6 +47,7 @@ const Magazine = () => {
       // Cleanup event listeners when the component unmounts
       window.removeEventListener("blur", handleBlur);
       window.removeEventListener("focus", handleFocus);
+      hiddenElements.forEach((el) => observer.unobserve(el));
     };
   }, [tabTitle]);
 
@@ -43,14 +60,17 @@ const Magazine = () => {
     <div
       style={{
         width: "100%",
-        border: "2px solid black",
+        borderTop: "2px solid white",
+        borderLeft: "2px solid black",
+        borderRight: "2px solid black",
+        borderBottom: "2px solid black",
         display: "flex",
         minHeight: "740px",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
       }}
-      className="magzinesTop"
+      className="magzinesTop hidden"
     >
       <div className="magzineHeadingDiv">
         <h1 className="magzineHeading">Magzines</h1>
